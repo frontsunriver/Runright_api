@@ -1,0 +1,13 @@
+#/etc/systemd/system/envoy.service
+
+[Unit]
+Description=Envoy
+[Service]
+ExecStart=/usr/bin/envoy -c /etc/envoy/envoy.yaml --bootstrap-version 2 --log-level debug
+Restart=always
+RestartSec=5
+KillMode=mixed
+SyslogIdentifier=envoy
+LimitNOFILE=640000
+[Install]
+WantedBy=multi-user.target

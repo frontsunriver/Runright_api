@@ -1,0 +1,3 @@
+[submodule "avaclone-proto"]
+	path = avaclone-proto
+	url = git@gitlab.com:thomas.antony.holmes/avaclone-proto.git

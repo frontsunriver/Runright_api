@@ -1,0 +1,7 @@
+{
+    "staging": true,
+    "private_key": null,
+    "certificate_chain": null,
+    "db-host": "127.0.0.1",
+    "jwt-key": "JvhOyWLxPCN9n7lRf1gA"
+}

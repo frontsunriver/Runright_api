@@ -1,0 +1,6814 @@
+{
+  "customer_id": "004",
+  "company_id": "a_company_id",
+  "technician_id": "a_technician_id",
+  "device_id": "a_device_id",
+  "date": 1608805297000,
+  "shoe_brand": "Asics",
+  "shoe_name": "Jelly gel",
+  "shoe_size": "9.5",
+  "age_days": 17532,
+  "macro_metric_results": {
+    "Performance": {
+      "score": 81.88584,
+      "grade": "A",
+      "component_scores": {
+        "Cadence": {
+          "micro_metric_score": {
+            "raw_value": 167.20207,
+            "normalised_value": -0.34915805,
+            "score": 9.941807
+          },
+          "weighted_score": 29.82542
+        },
+        "Energy Return": {
+          "micro_metric_score": {
+            "raw_value": 81.19559,
+            "normalised_value": 74.304054,
+            "score": 10.0
+          },
+          "weighted_score": 30.0
+        },
+        "Vertical Oscillation": {
+          "micro_metric_score": {
+            "raw_value": 94.18148,
+            "normalised_value": 17.72685,
+            "score": 6.45463
+          },
+          "weighted_score": 12.90926
+        },
+        "Left Overstride": {
+          "micro_metric_score": {
+            "raw_value": 134.03697,
+            "normalised_value": 35.607613,
+            "score": 2.8784776
+          },
+          "weighted_score": 2.8784776
+        },
+        "Right Overstride": {
+          "micro_metric_score": {
+            "raw_value": 117.2625,
+            "normalised_value": 18.636572,
+            "score": 6.2726855
+          },
+          "weighted_score": 6.2726855
+        }
+      }
+    },
+    "Rideability": {
+      "score": 68.2772,
+      "grade": "B",
+      "component_scores": {
+        "Running Economy": {
+          "micro_metric_score": {
+            "raw_value": 746.72815,
+            "normalised_value": 79.79113,
+            "score": 1.0
+          },
+          "weighted_score": 2.0
+        },
+        "Dynamic Balance": {
+          "micro_metric_score": {
+            "raw_value": 0.5034153,
+            "normalised_value": -16.097456,
+            "score": 10.0
+          },
+          "weighted_score": 40.0
+        },
+        "Left Hip Drop": {
+          "micro_metric_score": {
+            "raw_value": 5.768385,
+            "normalised_value": -6.0787797,
+            "score": 10.0
+          },
+          "weighted_score": 5.0
+        },
+        "Right Hip Drop": {
+          "micro_metric_score": {
+            "raw_value": 1.3788235,
+            "normalised_value": -77.549904,
+            "score": 10.0
+          },
+          "weighted_score": 5.0
+        },
+        "Left Knee Stability": {
+          "micro_metric_score": {
+            "raw_value": 1.8941654,
+            "normalised_value": -19.112461,
+            "score": 6.177508
+          },
+          "weighted_score": 9.266262
+        },
+        "Right Knee Stability": {
+          "micro_metric_score": {
+            "raw_value": 1.7181202,
+            "normalised_value": -26.63021,
+            "score": 4.673958
+          },
+          "weighted_score": 7.0109367
+        }
+      }
+    },
+    "Efficiency": {
+      "score": 55.400387,
+      "grade": "C",
+      "component_scores": {
+        "Running Economy": {
+          "micro_metric_score": {
+            "raw_value": 746.72815,
+            "normalised_value": 79.79113,
+            "score": 1.0
+          },
+          "weighted_score": 5.0
+        },
+        "Dynamic Balance": {
+          "micro_metric_score": {
+            "raw_value": 0.5034153,
+            "normalised_value": -16.097456,
+            "score": 10.0
+          },
+          "weighted_score": 20.0
+        },
+        "Energy Return": {
+          "micro_metric_score": {
+            "raw_value": 81.19559,
+            "normalised_value": 74.304054,
+            "score": 10.0
+          },
+          "weighted_score": 30.0
+        },
+        "Left Ground Contact": {
+          "micro_metric_score": {
+            "raw_value": 308.23148,
+            "normalised_value": 26.802944,
+            "score": 4.639411
+          },
+          "weighted_score": 2.3197055
+        },
+        "Right Ground Contact": {
+          "micro_metric_score": {
+            "raw_value": 277.1935,
+            "normalised_value": 14.034271,
+            "score": 7.241432
+          },
+          "weighted_score": 3.620716
+        }
+      }
+    },
+    "Protection": {
+      "score": 80.35732,
+      "grade": "A",
+      "component_scores": {
+        "Left Overstride": {
+          "micro_metric_score": {
+            "raw_value": 134.03697,
+            "normalised_value": 35.607613,
+            "score": 2.8784776
+          },
+          "weighted_score": 3.5980968
+        },
+        "Right Overstride": {
+          "micro_metric_score": {
+            "raw_value": 117.2625,
+            "normalised_value": 18.636572,
+            "score": 6.2726855
+          },
+          "weighted_score": 7.840857
+        },
+        "Left Knee Flexion": {
+          "micro_metric_score": {
+            "raw_value": 33.086624,
+            "normalised_value": -10.536689,
+            "score": 8.092662
+          },
+          "weighted_score": 10.115828
+        },
+        "Right Knee Flexion": {
+          "micro_metric_score": {
+            "raw_value": 34.947483,
+            "normalised_value": -5.5050907,
+            "score": 9.082485
+          },
+          "weighted_score": 11.3531065
+        },
+        "Left Hip Drop": {
+          "micro_metric_score": {
+            "raw_value": 5.768385,
+            "normalised_value": -6.0787797,
+            "score": 10.0
+          },
+          "weighted_score": 12.5
+        },
+        "Right Hip Drop": {
+          "micro_metric_score": {
+            "raw_value": 1.3788235,
+            "normalised_value": -77.549904,
+            "score": 10.0
+          },
+          "weighted_score": 12.5
+        },
+        "Dynamic Balance": {
+          "micro_metric_score": {
+            "raw_value": 0.5034153,
+            "normalised_value": -16.097456,
+            "score": 10.0
+          },
+          "weighted_score": 15.0
+        },
+        "Left Step Separation": {
+          "micro_metric_score": {
+            "raw_value": 36.970974,
+            "normalised_value": -24.415833,
+            "score": 5.1168337
+          },
+          "weighted_score": 2.5584168
+        },
+        "Right Step Separation": {
+          "micro_metric_score": {
+            "raw_value": 49.55332,
+            "normalised_value": 1.3077617,
+            "score": 9.78204
+          },
+          "weighted_score": 4.89102
+        }
+      }
+    }
+  },
+  "micro_metric_scores": {
+    "Body Mass Index": {
+      "raw_value": 24.148937,
+      "normalised_value": 11.029601,
+      "score": 3.3822393
+    },
+    "Right Hip Drop": {
+      "raw_value": 1.3788235,
+      "normalised_value": -77.549904,
+      "score": 10.0
+    },
+    "Left Step Separation": {
+      "raw_value": 36.970974,
+      "normalised_value": -24.415833,
+      "score": 5.1168337
+    },
+    "Left Knee Stability": {
+      "raw_value": 1.8941654,
+      "normalised_value": -19.112461,
+      "score": 6.177508
+    },
+    "Running Economy": {
+      "raw_value": 746.72815,
+      "normalised_value": 79.79113,
+      "score": 1.0
+    },
+    "Right Knee Flexion": {
+      "raw_value": 34.947483,
+      "normalised_value": -5.5050907,
+      "score": 9.082485
+    },
+    "Cadence": {
+      "raw_value": 167.20207,
+      "normalised_value": -0.34915805,
+      "score": 9.941807
+    },
+    "Left Hip Drop": {
+      "raw_value": 5.768385,
+      "normalised_value": -6.0787797,
+      "score": 10.0
+    },
+    "Dynamic Balance": {
+      "raw_value": 0.5034153,
+      "normalised_value": -16.097456,
+      "score": 10.0
+    },
+    "Energy Return": {
+      "raw_value": 81.19559,
+      "normalised_value": 74.304054,
+      "score": 10.0
+    },
+    "Right Ground Contact": {
+      "raw_value": 277.1935,
+      "normalised_value": 14.034271,
+      "score": 7.241432
+    },
+    "Right Knee Stability": {
+      "raw_value": 1.7181202,
+      "normalised_value": -26.63021,
+      "score": 4.673958
+    },
+    "Left Overstride": {
+      "raw_value": 134.03697,
+      "normalised_value": 35.607613,
+      "score": 2.8784776
+    },
+    "Vertical Oscillation": {
+      "raw_value": 94.18148,
+      "normalised_value": 17.72685,
+      "score": 6.45463
+    },
+    "Left Knee Flexion": {
+      "raw_value": 33.086624,
+      "normalised_value": -10.536689,
+      "score": 8.092662
+    },
+    "Right Overstride": {
+      "raw_value": 117.2625,
+      "normalised_value": 18.636572,
+      "score": 6.2726855
+    },
+    "Right Step Separation": {
+      "raw_value": 49.55332,
+      "normalised_value": 1.3077617,
+      "score": 9.78204
+    },
+    "Left Ground Contact": {
+      "raw_value": 308.23148,
+      "normalised_value": 26.802944,
+      "score": 4.639411
+    }
+  },
+  "raw_metrics": {
+    "Right Knee Flexion": {
+      "median": 34.947483,
+      "mean": 34.716366,
+      "min": 32.086704,
+      "max": 36.66453,
+      "variance": 1.6847771,
+      "sample_count": 14,
+      "frames": [{
+        "micros": 424881,
+        "values": [35.359104]
+      }, {
+        "micros": 1140455,
+        "values": [34.317787]
+      }, {
+        "micros": 1839970,
+        "values": [32.911224]
+      }, {
+        "micros": 2565452,
+        "values": [35.12755]
+      }, {
+        "micros": 3288783,
+        "values": [34.89871]
+      }, {
+        "micros": 4009683,
+        "values": [32.70813]
+      }, {
+        "micros": 4735861,
+        "values": [36.66453]
+      }, {
+        "micros": 5441340,
+        "values": [34.996258]
+      }, {
+        "micros": 6158581,
+        "values": [32.086704]
+      }, {
+        "micros": 6891070,
+        "values": [34.548363]
+      }, {
+        "micros": 7604720,
+        "values": [36.296223]
+      }, {
+        "micros": 8323241,
+        "values": [35.680637]
+      }, {
+        "micros": 9046394,
+        "values": [35.84027]
+      }, {
+        "micros": 9757544,
+        "values": [34.59364]
+      }]
+    },
+    "Avg Hip Drop": {
+      "median": 3.573604,
+      "mean": 3.5815916,
+      "min": 0.09913757,
+      "max": 8.466862,
+      "variance": 5.635458,
+      "sample_count": 27
+    },
+    "Body Mass Index": {
+      "median": 24.148937,
+      "mean": 24.148937,
+      "min": 24.148937,
+      "max": 24.148937,
+      "sample_count": 1,
+      "frames": [{
+        "values": [24.148937]
+      }]
+    },
+    "Left Ground Contact": {
+      "median": 308.23148,
+      "mean": 305.8532,
+      "min": 284.38785,
+      "max": 323.20056,
+      "variance": 116.60175,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 966667,
+        "values": [323.20056]
+      }, {
+        "micros": 1666667,
+        "values": [311.26645]
+      }, {
+        "micros": 2366656,
+        "values": [301.5949]
+      }, {
+        "micros": 3100000,
+        "values": [313.42258]
+      }, {
+        "micros": 3833322,
+        "values": [318.11725]
+      }, {
+        "micros": 4533333,
+        "values": [296.4874]
+      }, {
+        "micros": 5266667,
+        "values": [313.77487]
+      }, {
+        "micros": 5966656,
+        "values": [299.8563]
+      }, {
+        "micros": 6699989,
+        "values": [314.15555]
+      }, {
+        "micros": 7399989,
+        "values": [291.56918]
+      }, {
+        "micros": 8133333,
+        "values": [308.23148]
+      }, {
+        "micros": 8833333,
+        "values": [284.38785]
+      }, {
+        "micros": 9566667,
+        "values": [300.0274]
+      }]
+    },
+    "Right Hip Drop": {
+      "median": 1.3788235,
+      "mean": 1.63621,
+      "min": 0.09913757,
+      "max": 3.6454325,
+      "variance": 0.8705112,
+      "sample_count": 14,
+      "frames": [{
+        "micros": 424881,
+        "values": [1.950944]
+      }, {
+        "micros": 1140455,
+        "values": [2.525641]
+      }, {
+        "micros": 1839970,
+        "values": [3.6454325]
+      }, {
+        "micros": 2565452,
+        "values": [0.8482008]
+      }, {
+        "micros": 3288783,
+        "values": [0.7284261]
+      }, {
+        "micros": 4009683,
+        "values": [2.3749995]
+      }, {
+        "micros": 4735861,
+        "values": [1.2093701]
+      }, {
+        "micros": 5441340,
+        "values": [1.1878812]
+      }, {
+        "micros": 6158581,
+        "values": [2.1804452]
+      }, {
+        "micros": 6891070,
+        "values": [1.0749388]
+      }, {
+        "micros": 7604720,
+        "values": [1.548277]
+      }, {
+        "micros": 8323241,
+        "values": [0.09913757]
+      }, {
+        "micros": 9046394,
+        "values": [0.7995526]
+      }, {
+        "micros": 9757544,
+        "values": [2.733693]
+      }]
+    },
+    "Right Knee Angle": {
+      "median": 2.2178264,
+      "mean": 2.3151183,
+      "min": 0.15857312,
+      "max": 5.35155,
+      "variance": 1.4121778,
+      "sample_count": 14,
+      "frames": [{
+        "micros": 424881,
+        "values": [3.2751358]
+      }, {
+        "micros": 1140455,
+        "values": [1.7711879]
+      }, {
+        "micros": 1839970,
+        "values": [1.3178864]
+      }, {
+        "micros": 2565452,
+        "values": [1.3525894]
+      }, {
+        "micros": 3288783,
+        "values": [3.038184]
+      }, {
+        "micros": 4009683,
+        "values": [2.5957844]
+      }, {
+        "micros": 4735861,
+        "values": [1.2708764]
+      }, {
+        "micros": 5441340,
+        "values": [1.946342]
+      }, {
+        "micros": 6158581,
+        "values": [2.0148354]
+      }, {
+        "micros": 6891070,
+        "values": [0.15857312]
+      }, {
+        "micros": 7604720,
+        "values": [2.8293626]
+      }, {
+        "micros": 8323241,
+        "values": [5.35155]
+      }, {
+        "micros": 9046394,
+        "values": [2.4208174]
+      }, {
+        "micros": 9757544,
+        "values": [3.0685325]
+      }]
+    },
+    "Avg Knee Stability": {
+      "median": 1.8061428,
+      "mean": 1.8061428,
+      "min": 1.7181202,
+      "max": 1.8941654,
+      "variance": 0.007747976,
+      "sample_count": 2
+    },
+    "Left Overstride": {
+      "median": 134.03697,
+      "mean": 133.14058,
+      "min": 111.95471,
+      "max": 154.04791,
+      "variance": 115.520645,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 643466,
+        "values": [139.1656]
+      }, {
+        "micros": 1355400,
+        "values": [120.69206]
+      }, {
+        "micros": 2065061,
+        "values": [134.54263]
+      }, {
+        "micros": 2786577,
+        "values": [129.59952]
+      }, {
+        "micros": 3515204,
+        "values": [111.95471]
+      }, {
+        "micros": 4236845,
+        "values": [126.30585]
+      }, {
+        "micros": 4952892,
+        "values": [123.069885]
+      }, {
+        "micros": 5666799,
+        "values": [143.50507]
+      }, {
+        "micros": 6385833,
+        "values": [145.4185]
+      }, {
+        "micros": 7108419,
+        "values": [133.74655]
+      }, {
+        "micros": 7825101,
+        "values": [134.03697]
+      }, {
+        "micros": 8548945,
+        "values": [134.74237]
+      }, {
+        "micros": 9266639,
+        "values": [154.04791]
+      }]
+    },
+    "Right Step Separation": {
+      "median": 49.55332,
+      "mean": 47.050755,
+      "min": 18.236525,
+      "max": 70.10885,
+      "variance": 235.84436,
+      "sample_count": 14,
+      "frames": [{
+        "micros": 352775,
+        "values": [41.661716]
+      }, {
+        "micros": 1076891,
+        "values": [69.435196]
+      }, {
+        "micros": 1775620,
+        "values": [53.88371]
+      }, {
+        "micros": 2504125,
+        "values": [70.10885]
+      }, {
+        "micros": 3223098,
+        "values": [29.173626]
+      }, {
+        "micros": 3948626,
+        "values": [30.541687]
+      }, {
+        "micros": 4665146,
+        "values": [39.478134]
+      }, {
+        "micros": 5383679,
+        "values": [58.499474]
+      }, {
+        "micros": 6099212,
+        "values": [18.236525]
+      }, {
+        "micros": 6827112,
+        "values": [47.301483]
+      }, {
+        "micros": 7537996,
+        "values": [51.805164]
+      }, {
+        "micros": 8259599,
+        "values": [55.211357]
+      }, {
+        "micros": 8982518,
+        "values": [30.98644]
+      }, {
+        "micros": 9685917,
+        "values": [62.387226]
+      }]
+    },
+    "Avg Step Separation": {
+      "median": 43.262146,
+      "mean": 39.97337,
+      "min": 5.937885,
+      "max": 70.10885,
+      "variance": 324.3791,
+      "sample_count": 27
+    },
+    "Dynamic Balance": {
+      "median": 0.5034153,
+      "mean": 0.527111,
+      "min": 0.20733355,
+      "max": 0.8796214,
+      "variance": 0.024387328,
+      "sample_count": 48,
+      "frames": [{
+        "micros": 732458,
+        "values": [0.45878232]
+      }, {
+        "micros": 910441,
+        "values": [0.2817484]
+      }, {
+        "micros": 1088425,
+        "values": [0.36374643]
+      }, {
+        "micros": 1266408,
+        "values": [0.44861445]
+      }, {
+        "micros": 1444108,
+        "values": [0.30334267]
+      }, {
+        "micros": 1621523,
+        "values": [0.3126584]
+      }, {
+        "micros": 1798938,
+        "values": [0.4803271]
+      }, {
+        "micros": 1976353,
+        "values": [0.42091548]
+      }, {
+        "micros": 2155250,
+        "values": [0.20733355]
+      }, {
+        "micros": 2335629,
+        "values": [0.53442174]
+      }, {
+        "micros": 2516008,
+        "values": [0.59104294]
+      }, {
+        "micros": 2696387,
+        "values": [0.7336754]
+      }, {
+        "micros": 2877655,
+        "values": [0.41310424]
+      }, {
+        "micros": 3059812,
+        "values": [0.38069704]
+      }, {
+        "micros": 3241969,
+        "values": [0.55636954]
+      }, {
+        "micros": 3424126,
+        "values": [0.7062642]
+      }, {
+        "micros": 3605409,
+        "values": [0.6719054]
+      }, {
+        "micros": 3785820,
+        "values": [0.28305262]
+      }, {
+        "micros": 3966230,
+        "values": [0.67006457]
+      }, {
+        "micros": 4146640,
+        "values": [0.7339484]
+      }, {
+        "micros": 4326351,
+        "values": [0.63994694]
+      }, {
+        "micros": 4505363,
+        "values": [0.39800984]
+      }, {
+        "micros": 4684374,
+        "values": [0.3331491]
+      }, {
+        "micros": 4863386,
+        "values": [0.44096798]
+      }, {
+        "micros": 5042130,
+        "values": [0.6270473]
+      }, {
+        "micros": 5220607,
+        "values": [0.4026589]
+      }, {
+        "micros": 5399084,
+        "values": [0.47015607]
+      }, {
+        "micros": 5577561,
+        "values": [0.67592615]
+      }, {
+        "micros": 5756678,
+        "values": [0.52605116]
+      }, {
+        "micros": 5936437,
+        "values": [0.41791132]
+      }, {
+        "micros": 6116195,
+        "values": [0.76133865]
+      }, {
+        "micros": 6295954,
+        "values": [0.79816306]
+      }, {
+        "micros": 6476156,
+        "values": [0.72949195]
+      }, {
+        "micros": 6656803,
+        "values": [0.5924504]
+      }, {
+        "micros": 6837449,
+        "values": [0.42456982]
+      }, {
+        "micros": 7018096,
+        "values": [0.74297184]
+      }, {
+        "micros": 7198005,
+        "values": [0.8796214]
+      }, {
+        "micros": 7377175,
+        "values": [0.4686152]
+      }, {
+        "micros": 7556345,
+        "values": [0.40553185]
+      }, {
+        "micros": 7735516,
+        "values": [0.5034153]
+      }, {
+        "micros": 7915581,
+        "values": [0.5985554]
+      }, {
+        "micros": 8096542,
+        "values": [0.38891292]
+      }, {
+        "micros": 8277503,
+        "values": [0.480066]
+      }, {
+        "micros": 8458464,
+        "values": [0.49183106]
+      }, {
+        "micros": 8638656,
+        "values": [0.7332249]
+      }, {
+        "micros": 8818080,
+        "values": [0.6107376]
+      }, {
+        "micros": 8997504,
+        "values": [0.64431494]
+      }, {
+        "micros": 9176927,
+        "values": [0.56367517]
+      }]
+    },
+    "Forward Oscillation": {
+      "median": 28.61673,
+      "mean": 29.846529,
+      "min": 10.075554,
+      "max": 48.12584,
+      "variance": 92.91621,
+      "sample_count": 48,
+      "frames": [{
+        "micros": 732458,
+        "values": [24.695732]
+      }, {
+        "micros": 910441,
+        "values": [15.1925125]
+      }, {
+        "micros": 1088425,
+        "values": [28.36718]
+      }, {
+        "micros": 1266408,
+        "values": [31.310555]
+      }, {
+        "micros": 1444108,
+        "values": [19.073143]
+      }, {
+        "micros": 1621523,
+        "values": [21.822685]
+      }, {
+        "micros": 1798938,
+        "values": [36.914627]
+      }, {
+        "micros": 1976353,
+        "values": [27.083939]
+      }, {
+        "micros": 2155250,
+        "values": [10.075554]
+      }, {
+        "micros": 2335629,
+        "values": [29.572487]
+      }, {
+        "micros": 2516008,
+        "values": [39.540062]
+      }, {
+        "micros": 2696387,
+        "values": [46.116295]
+      }, {
+        "micros": 2877655,
+        "values": [14.98204]
+      }, {
+        "micros": 3059812,
+        "values": [27.168137]
+      }, {
+        "micros": 3241969,
+        "values": [40.988853]
+      }, {
+        "micros": 3424126,
+        "values": [38.998634]
+      }, {
+        "micros": 3605409,
+        "values": [27.418549]
+      }, {
+        "micros": 3785820,
+        "values": [17.865936]
+      }, {
+        "micros": 3966230,
+        "values": [46.34841]
+      }, {
+        "micros": 4146640,
+        "values": [35.508263]
+      }, {
+        "micros": 4326351,
+        "values": [21.313217]
+      }, {
+        "micros": 4505363,
+        "values": [25.703339]
+      }, {
+        "micros": 4684374,
+        "values": [19.03212]
+      }, {
+        "micros": 4863386,
+        "values": [28.218506]
+      }, {
+        "micros": 5042130,
+        "values": [29.068695]
+      }, {
+        "micros": 5220607,
+        "values": [25.44571]
+      }, {
+        "micros": 5399084,
+        "values": [34.77662]
+      }, {
+        "micros": 5577561,
+        "values": [44.87269]
+      }, {
+        "micros": 5756678,
+        "values": [17.642334]
+      }, {
+        "micros": 5936437,
+        "values": [26.99228]
+      }, {
+        "micros": 6116195,
+        "values": [46.361954]
+      }, {
+        "micros": 6295954,
+        "values": [48.12584]
+      }, {
+        "micros": 6476156,
+        "values": [21.74649]
+      }, {
+        "micros": 6656803,
+        "values": [38.36212]
+      }, {
+        "micros": 6837449,
+        "values": [28.61673]
+      }, {
+        "micros": 7018096,
+        "values": [42.076675]
+      }, {
+        "micros": 7198005,
+        "values": [24.903091]
+      }, {
+        "micros": 7377175,
+        "values": [30.109314]
+      }, {
+        "micros": 7556345,
+        "values": [27.1633]
+      }, {
+        "micros": 7735516,
+        "values": [31.217346]
+      }, {
+        "micros": 7915581,
+        "values": [14.995209]
+      }, {
+        "micros": 8096542,
+        "values": [25.812836]
+      }, {
+        "micros": 8277503,
+        "values": [31.456787]
+      }, {
+        "micros": 8458464,
+        "values": [34.09616]
+      }, {
+        "micros": 8638656,
+        "values": [15.896652]
+      }, {
+        "micros": 8818080,
+        "values": [41.354935]
+      }, {
+        "micros": 8997504,
+        "values": [41.77144]
+      }, {
+        "micros": 9176927,
+        "values": [36.457382]
+      }]
+    },
+    "Running Speed": {
+      "median": 11.41727,
+      "mean": 11.3272915,
+      "min": 10.753369,
+      "max": 11.675845,
+      "variance": 0.05711786,
+      "sample_count": 26,
+      "frames": [{
+        "micros": 416666,
+        "values": [10.872529]
+      }, {
+        "micros": 783328,
+        "values": [10.989083]
+      }, {
+        "micros": 1133322,
+        "values": [11.298258]
+      }, {
+        "micros": 1500000,
+        "values": [11.541754]
+      }, {
+        "micros": 1849994,
+        "values": [10.994084]
+      }, {
+        "micros": 2199994,
+        "values": [11.373181]
+      }, {
+        "micros": 2566661,
+        "values": [11.4709835]
+      }, {
+        "micros": 2933327,
+        "values": [11.519967]
+      }, {
+        "micros": 3300000,
+        "values": [11.403289]
+      }, {
+        "micros": 3633333,
+        "values": [10.986148]
+      }, {
+        "micros": 3999989,
+        "values": [11.295063]
+      }, {
+        "micros": 4366667,
+        "values": [11.364866]
+      }, {
+        "micros": 4733327,
+        "values": [11.468113]
+      }, {
+        "micros": 5100000,
+        "values": [11.555577]
+      }, {
+        "micros": 5433333,
+        "values": [11.288661]
+      }, {
+        "micros": 5799994,
+        "values": [11.431251]
+      }, {
+        "micros": 6166661,
+        "values": [11.46743]
+      }, {
+        "micros": 6533333,
+        "values": [11.524021]
+      }, {
+        "micros": 6899994,
+        "values": [11.537746]
+      }, {
+        "micros": 7250000,
+        "values": [10.753369]
+      }, {
+        "micros": 7600000,
+        "values": [11.463838]
+      }, {
+        "micros": 7966661,
+        "values": [11.455934]
+      }, {
+        "micros": 8333327,
+        "values": [11.553561]
+      }, {
+        "micros": 8699994,
+        "values": [11.675845]
+      }, {
+        "micros": 9033322,
+        "values": [11.163136]
+      }, {
+        "micros": 9416655,
+        "values": [11.061902]
+      }]
+    },
+    "Running Economy": {
+      "median": 746.72815,
+      "mean": 723.1251,
+      "min": 598.0597,
+      "max": 786.03577,
+      "variance": 3105.685,
+      "sample_count": 12,
+      "frames": [{
+        "micros": 999433,
+        "values": [598.0597]
+      }, {
+        "micros": 1710230,
+        "values": [670.6343]
+      }, {
+        "micros": 2425819,
+        "values": [724.6383]
+      }, {
+        "micros": 3150891,
+        "values": [748.70123]
+      }, {
+        "micros": 3876025,
+        "values": [777.4552]
+      }, {
+        "micros": 4594868,
+        "values": [670.8953]
+      }, {
+        "micros": 5309845,
+        "values": [746.72815]
+      }, {
+        "micros": 6026316,
+        "values": [786.03577]
+      }, {
+        "micros": 6747126,
+        "values": [784.604]
+      }, {
+        "micros": 7466760,
+        "values": [729.2182]
+      }, {
+        "micros": 8187023,
+        "values": [674.5083]
+      }, {
+        "micros": 8907792,
+        "values": [766.02277]
+      }]
+    },
+    "Cadence": {
+      "median": 167.20207,
+      "mean": 167.00049,
+      "min": 164.69325,
+      "max": 169.09492,
+      "variance": 1.4355503,
+      "sample_count": 12,
+      "frames": [{
+        "micros": 999433,
+        "values": [168.55493]
+      }, {
+        "micros": 1710230,
+        "values": [169.09492]
+      }, {
+        "micros": 2425819,
+        "values": [166.3164]
+      }, {
+        "micros": 3150891,
+        "values": [164.69325]
+      }, {
+        "micros": 3876025,
+        "values": [166.2877]
+      }, {
+        "micros": 4594868,
+        "values": [167.58687]
+      }, {
+        "micros": 5309845,
+        "values": [168.08899]
+      }, {
+        "micros": 6026316,
+        "values": [166.89064]
+      }, {
+        "micros": 6747126,
+        "values": [166.07011]
+      }, {
+        "micros": 7466760,
+        "values": [167.43834]
+      }, {
+        "micros": 8187023,
+        "values": [165.78166]
+      }, {
+        "micros": 8907792,
+        "values": [167.20207]
+      }]
+    },
+    "Right Overstride": {
+      "median": 117.2625,
+      "mean": 116.55608,
+      "min": 97.65008,
+      "max": 133.93742,
+      "variance": 95.53679,
+      "sample_count": 14,
+      "frames": [{
+        "micros": 280044,
+        "values": [126.68454]
+      }, {
+        "micros": 1007362,
+        "values": [108.38046]
+      }, {
+        "micros": 1702654,
+        "values": [124.87292]
+      }, {
+        "micros": 2432312,
+        "values": [97.65008]
+      }, {
+        "micros": 3150442,
+        "values": [115.605896]
+      }, {
+        "micros": 3877002,
+        "values": [104.66345]
+      }, {
+        "micros": 4593242,
+        "values": [133.93742]
+      }, {
+        "micros": 5312286,
+        "values": [120.82935]
+      }, {
+        "micros": 6026220,
+        "values": [126.20907]
+      }, {
+        "micros": 6756139,
+        "values": [117.09067]
+      }, {
+        "micros": 7465866,
+        "values": [117.43433]
+      }, {
+        "micros": 8187169,
+        "values": [103.61489]
+      }, {
+        "micros": 8911468,
+        "values": [114.611786]
+      }, {
+        "micros": 9621972,
+        "values": [120.20036]
+      }]
+    },
+    "Left Step Separation": {
+      "median": 36.970974,
+      "mean": 32.351574,
+      "min": 5.937885,
+      "max": 64.21879,
+      "variance": 307.69,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 714659,
+        "values": [37.646408]
+      }, {
+        "micros": 1426366,
+        "values": [46.04729]
+      }, {
+        "micros": 2137212,
+        "values": [64.21879]
+      }, {
+        "micros": 2859440,
+        "values": [48.05777]
+      }, {
+        "micros": 3587368,
+        "values": [17.572395]
+      }, {
+        "micros": 4308450,
+        "values": [5.937885]
+      }, {
+        "micros": 5024282,
+        "values": [55.301132]
+      }, {
+        "micros": 5738703,
+        "values": [22.787212]
+      }, {
+        "micros": 6458092,
+        "values": [13.266722]
+      }, {
+        "micros": 7180087,
+        "values": [21.128874]
+      }, {
+        "micros": 7897485,
+        "values": [39.799366]
+      }, {
+        "micros": 8620714,
+        "values": [11.835654]
+      }, {
+        "micros": 9331232,
+        "values": [36.970974]
+      }]
+    },
+    "Right Stride Angle": {
+      "median": 1.9254926,
+      "mean": 6.3957853,
+      "min": 0.01978234,
+      "max": 80.867195,
+      "variance": 132.36249,
+      "sample_count": 301,
+      "frames": [{
+        "values": [23.683266],
+        "stride_index": -0.9038287
+      }, {
+        "micros": 33333,
+        "values": [28.612112],
+        "stride_index": -0.85700834
+      }, {
+        "micros": 66667,
+        "values": [2.0127563],
+        "stride_index": -0.81018656
+      }, {
+        "micros": 100000,
+        "values": [0.8952556],
+        "stride_index": -0.7633662
+      }, {
+        "micros": 133333,
+        "values": [0.81325114],
+        "stride_index": -0.7165459
+      }, {
+        "micros": 166667,
+        "values": [0.6655847],
+        "stride_index": -0.6697241
+      }, {
+        "micros": 199989,
+        "values": [1.265168],
+        "stride_index": -0.62291926
+      }, {
+        "micros": 233333,
+        "values": [1.1479064],
+        "stride_index": -0.5760834
+      }, {
+        "micros": 266667,
+        "values": [0.7890712],
+        "stride_index": -0.5292617
+      }, {
+        "micros": 300000,
+        "values": [0.10279208],
+        "stride_index": -0.48244134
+      }, {
+        "micros": 333333,
+        "values": [0.01978234],
+        "stride_index": -0.435621
+      }, {
+        "micros": 366667,
+        "values": [3.83543],
+        "stride_index": -0.38879925
+      }, {
+        "micros": 400000,
+        "values": [1.5048021],
+        "stride_index": -0.3419789
+      }, {
+        "micros": 433333,
+        "values": [3.8467984],
+        "stride_index": -0.29515857
+      }, {
+        "micros": 466656,
+        "values": [2.820639],
+        "stride_index": -0.24835226
+      }, {
+        "micros": 500000,
+        "values": [0.59676087],
+        "stride_index": -0.20151646
+      }, {
+        "micros": 533333,
+        "values": [1.1494397],
+        "stride_index": -0.15469612
+      }, {
+        "micros": 566667,
+        "values": [0.50280005],
+        "stride_index": -0.10787437
+      }, {
+        "micros": 600000,
+        "values": [0.5496522],
+        "stride_index": -0.06105403
+      }, {
+        "micros": 633322,
+        "values": [2.8471634],
+        "stride_index": -0.014249135
+      }, {
+        "micros": 666667,
+        "values": [8.761118],
+        "stride_index": 0.032588065
+      }, {
+        "micros": 700000,
+        "values": [12.915443],
+        "stride_index": 0.079408415
+      }, {
+        "micros": 733322,
+        "values": [20.84296],
+        "stride_index": 0.12621331
+      }, {
+        "micros": 766667,
+        "values": [13.9925585],
+        "stride_index": 0.17305051
+      }, {
+        "micros": 800000,
+        "values": [2.6090205],
+        "stride_index": 0.21987085
+      }, {
+        "micros": 833322,
+        "values": [1.3638664],
+        "stride_index": 0.26667574
+      }, {
+        "micros": 866667,
+        "values": [1.3380831],
+        "stride_index": 0.31351295
+      }, {
+        "micros": 899989,
+        "values": [1.4948859],
+        "stride_index": 0.36031783
+      }, {
+        "micros": 933333,
+        "values": [3.8278153],
+        "stride_index": 0.40715364
+      }, {
+        "micros": 966667,
+        "values": [1.1614641],
+        "stride_index": 0.45397538
+      }, {
+        "micros": 1000000,
+        "values": [0.1619255],
+        "stride_index": 0.5007957
+      }, {
+        "micros": 1033322,
+        "values": [0.51737714],
+        "stride_index": 0.5476006
+      }, {
+        "micros": 1066667,
+        "values": [1.0296463],
+        "stride_index": 0.59443784
+      }, {
+        "micros": 1100000,
+        "values": [1.5950776],
+        "stride_index": 0.6412582
+      }, {
+        "micros": 1133333,
+        "values": [1.7670218],
+        "stride_index": 0.6880785
+      }, {
+        "micros": 1166656,
+        "values": [1.8866818],
+        "stride_index": 0.7348848
+      }, {
+        "micros": 1200000,
+        "values": [3.0441399],
+        "stride_index": 0.78172064
+      }, {
+        "micros": 1233322,
+        "values": [2.7618709],
+        "stride_index": 0.8285255
+      }, {
+        "micros": 1266667,
+        "values": [2.3545134],
+        "stride_index": 0.8753627
+      }, {
+        "micros": 1300000,
+        "values": [0.111905836],
+        "stride_index": 0.92218304
+      }, {
+        "micros": 1333333,
+        "values": [3.3460314],
+        "stride_index": 0.9690034
+      }, {
+        "micros": 1366667,
+        "values": [9.340119],
+        "stride_index": 1.0158758
+      }, {
+        "micros": 1400000,
+        "values": [19.864645],
+        "stride_index": 1.0628462
+      }, {
+        "micros": 1433333,
+        "values": [27.235777],
+        "stride_index": 1.1098166
+      }, {
+        "micros": 1466667,
+        "values": [23.945427],
+        "stride_index": 1.1567883
+      }, {
+        "micros": 1500000,
+        "values": [8.019345],
+        "stride_index": 1.2037586
+      }, {
+        "micros": 1533333,
+        "values": [3.1894825],
+        "stride_index": 1.250729
+      }, {
+        "micros": 1566667,
+        "values": [0.11014343],
+        "stride_index": 1.2977008
+      }, {
+        "micros": 1600000,
+        "values": [2.785653],
+        "stride_index": 1.3446711
+      }, {
+        "micros": 1633333,
+        "values": [3.3242528],
+        "stride_index": 1.3916414
+      }, {
+        "micros": 1666667,
+        "values": [2.035286],
+        "stride_index": 1.4386132
+      }, {
+        "micros": 1700000,
+        "values": [0.68356913],
+        "stride_index": 1.4855835
+      }, {
+        "micros": 1733333,
+        "values": [0.94273823],
+        "stride_index": 1.5325539
+      }, {
+        "micros": 1766667,
+        "values": [1.0075538],
+        "stride_index": 1.5795256
+      }, {
+        "micros": 1800000,
+        "values": [4.528959],
+        "stride_index": 1.626496
+      }, {
+        "micros": 1833322,
+        "values": [1.531485],
+        "stride_index": 1.6734508
+      }, {
+        "micros": 1866667,
+        "values": [1.5849853],
+        "stride_index": 1.720438
+      }, {
+        "micros": 1900000,
+        "values": [2.0772595],
+        "stride_index": 1.7674084
+      }, {
+        "micros": 1933333,
+        "values": [0.01978234],
+        "stride_index": 1.8143787
+      }, {
+        "micros": 1966656,
+        "values": [0.29208308],
+        "stride_index": 1.861335
+      }, {
+        "micros": 2000000,
+        "values": [1.74574],
+        "stride_index": 1.9083209
+      }, {
+        "micros": 2033333,
+        "values": [3.4844763],
+        "stride_index": 1.9552912
+      }, {
+        "micros": 2066667,
+        "values": [11.641022],
+        "stride_index": 2.0022259
+      }, {
+        "micros": 2099989,
+        "values": [21.510096],
+        "stride_index": 2.048409
+      }, {
+        "micros": 2133333,
+        "values": [43.24423],
+        "stride_index": 2.0946229
+      }, {
+        "micros": 2166656,
+        "values": [61.968456],
+        "stride_index": 2.1408076
+      }, {
+        "micros": 2200000,
+        "values": [45.460785],
+        "stride_index": 2.1870213
+      }, {
+        "micros": 2233322,
+        "values": [8.822363],
+        "stride_index": 2.2332046
+      }, {
+        "micros": 2266667,
+        "values": [6.9748797],
+        "stride_index": 2.2794197
+      }, {
+        "micros": 2300000,
+        "values": [3.683392],
+        "stride_index": 2.3256183
+      }, {
+        "micros": 2333333,
+        "values": [2.6559386],
+        "stride_index": 2.3718169
+      }, {
+        "micros": 2366656,
+        "values": [4.8078275],
+        "stride_index": 2.4180014
+      }, {
+        "micros": 2400000,
+        "values": [1.8949622],
+        "stride_index": 2.4642153
+      }, {
+        "micros": 2433333,
+        "values": [0.57945967],
+        "stride_index": 2.510414
+      }, {
+        "micros": 2466656,
+        "values": [1.1117076],
+        "stride_index": 2.5565984
+      }, {
+        "micros": 2500000,
+        "values": [1.9623407],
+        "stride_index": 2.6028123
+      }, {
+        "micros": 2533333,
+        "values": [1.2046353],
+        "stride_index": 2.649011
+      }, {
+        "micros": 2566656,
+        "values": [1.4460449],
+        "stride_index": 2.6951954
+      }, {
+        "micros": 2600000,
+        "values": [4.6755424],
+        "stride_index": 2.7414093
+      }, {
+        "micros": 2633333,
+        "values": [0.9659084],
+        "stride_index": 2.787608
+      }, {
+        "micros": 2666667,
+        "values": [1.3847976],
+        "stride_index": 2.8338077
+      }, {
+        "micros": 2699989,
+        "values": [0.01978234],
+        "stride_index": 2.879991
+      }, {
+        "micros": 2733333,
+        "values": [1.6032765],
+        "stride_index": 2.926205
+      }, {
+        "micros": 2766667,
+        "values": [3.6149259],
+        "stride_index": 2.9724047
+      }, {
+        "micros": 2800000,
+        "values": [5.5828977],
+        "stride_index": 3.0184216
+      }, {
+        "micros": 2833333,
+        "values": [15.054743],
+        "stride_index": 3.0641694
+      }, {
+        "micros": 2866656,
+        "values": [32.209667],
+        "stride_index": 3.1099033
+      }, {
+        "micros": 2900000,
+        "values": [34.223522],
+        "stride_index": 3.155666
+      }, {
+        "micros": 2933333,
+        "values": [14.623229],
+        "stride_index": 3.2014139
+      }, {
+        "micros": 2966656,
+        "values": [3.0485096],
+        "stride_index": 3.2471478
+      }, {
+        "micros": 3000000,
+        "values": [2.1352422],
+        "stride_index": 3.2929106
+      }, {
+        "micros": 3033322,
+        "values": [5.8488154],
+        "stride_index": 3.338643
+      }, {
+        "micros": 3066667,
+        "values": [2.6821206],
+        "stride_index": 3.3844073
+      }, {
+        "micros": 3100000,
+        "values": [5.3911066],
+        "stride_index": 3.4301548
+      }, {
+        "micros": 3133322,
+        "values": [0.80624324],
+        "stride_index": 3.4758875
+      }, {
+        "micros": 3166667,
+        "values": [0.04423466],
+        "stride_index": 3.5216515
+      }, {
+        "micros": 3200000,
+        "values": [0.6946434],
+        "stride_index": 3.5673993
+      }, {
+        "micros": 3233322,
+        "values": [3.235493],
+        "stride_index": 3.6131318
+      }, {
+        "micros": 3266667,
+        "values": [1.345521],
+        "stride_index": 3.658896
+      }, {
+        "micros": 3300000,
+        "values": [4.0371113],
+        "stride_index": 3.7046435
+      }, {
+        "micros": 3333333,
+        "values": [3.776987],
+        "stride_index": 3.7503912
+      }, {
+        "micros": 3366667,
+        "values": [0.5619739],
+        "stride_index": 3.7961402
+      }, {
+        "micros": 3400000,
+        "values": [3.4399142],
+        "stride_index": 3.841888
+      }, {
+        "micros": 3433333,
+        "values": [0.9259842],
+        "stride_index": 3.8876357
+      }, {
+        "micros": 3466667,
+        "values": [1.9326957],
+        "stride_index": 3.9333847
+      }, {
+        "micros": 3499989,
+        "values": [6.5516434],
+        "stride_index": 3.9791172
+      }, {
+        "micros": 3533333,
+        "values": [12.110269],
+        "stride_index": 4.0251207
+      }, {
+        "micros": 3566667,
+        "values": [24.624048],
+        "stride_index": 4.071313
+      }, {
+        "micros": 3600000,
+        "values": [44.36029],
+        "stride_index": 4.117503
+      }, {
+        "micros": 3633322,
+        "values": [54.12369],
+        "stride_index": 4.1636786
+      }, {
+        "micros": 3666667,
+        "values": [5.4213724],
+        "stride_index": 4.209886
+      }, {
+        "micros": 3699989,
+        "values": [2.6834338],
+        "stride_index": 4.256061
+      }, {
+        "micros": 3733333,
+        "values": [1.3111964],
+        "stride_index": 4.302267
+      }, {
+        "micros": 3766667,
+        "values": [3.4565506],
+        "stride_index": 4.3484592
+      }, {
+        "micros": 3800000,
+        "values": [4.829212],
+        "stride_index": 4.3946495
+      }, {
+        "micros": 3833322,
+        "values": [1.2630006],
+        "stride_index": 4.440825
+      }, {
+        "micros": 3866667,
+        "values": [0.38154867],
+        "stride_index": 4.487032
+      }, {
+        "micros": 3899989,
+        "values": [1.221733],
+        "stride_index": 4.5332074
+      }, {
+        "micros": 3933333,
+        "values": [1.0366541],
+        "stride_index": 4.5794134
+      }, {
+        "micros": 3966667,
+        "values": [3.048638],
+        "stride_index": 4.625605
+      }, {
+        "micros": 3999989,
+        "values": [1.8830477],
+        "stride_index": 4.6717806
+      }, {
+        "micros": 4033333,
+        "values": [4.8088865],
+        "stride_index": 4.717986
+      }, {
+        "micros": 4066667,
+        "values": [2.1057067],
+        "stride_index": 4.7641783
+      }, {
+        "micros": 4099989,
+        "values": [2.4408798],
+        "stride_index": 4.8103538
+      }, {
+        "micros": 4133333,
+        "values": [2.4785979],
+        "stride_index": 4.8565593
+      }, {
+        "micros": 4166667,
+        "values": [0.5605795],
+        "stride_index": 4.9027514
+      }, {
+        "micros": 4200000,
+        "values": [2.5761786],
+        "stride_index": 4.9489417
+      }, {
+        "micros": 4233322,
+        "values": [8.628373],
+        "stride_index": 4.995117
+      }, {
+        "micros": 4266667,
+        "values": [15.782006],
+        "stride_index": 5.0416474
+      }, {
+        "micros": 4299989,
+        "values": [28.399218],
+        "stride_index": 5.0881834
+      }, {
+        "micros": 4333333,
+        "values": [46.92792],
+        "stride_index": 5.1347504
+      }, {
+        "micros": 4366656,
+        "values": [25.620321],
+        "stride_index": 5.181288
+      }, {
+        "micros": 4400000,
+        "values": [6.8308153],
+        "stride_index": 5.2278543
+      }, {
+        "micros": 4433333,
+        "values": [2.406884],
+        "stride_index": 5.274406
+      }, {
+        "micros": 4466667,
+        "values": [7.2036138],
+        "stride_index": 5.3209586
+      }, {
+        "micros": 4500000,
+        "values": [2.0194542],
+        "stride_index": 5.3675103
+      }, {
+        "micros": 4533333,
+        "values": [2.1280808],
+        "stride_index": 5.4140615
+      }, {
+        "micros": 4566667,
+        "values": [0.03426402],
+        "stride_index": 5.4606147
+      }, {
+        "micros": 4600000,
+        "values": [1.2033349],
+        "stride_index": 5.507166
+      }, {
+        "micros": 4633322,
+        "values": [0.1153499],
+        "stride_index": 5.553702
+      }, {
+        "micros": 4666667,
+        "values": [1.153688],
+        "stride_index": 5.6002703
+      }, {
+        "micros": 4700000,
+        "values": [0.052339155],
+        "stride_index": 5.6468215
+      }, {
+        "micros": 4733333,
+        "values": [1.14978],
+        "stride_index": 5.693373
+      }, {
+        "micros": 4766656,
+        "values": [2.8078406],
+        "stride_index": 5.7399106
+      }, {
+        "micros": 4800000,
+        "values": [0.37009436],
+        "stride_index": 5.7864776
+      }, {
+        "micros": 4833333,
+        "values": [2.4268868],
+        "stride_index": 5.833029
+      }, {
+        "micros": 4866667,
+        "values": [0.806971],
+        "stride_index": 5.8795815
+      }, {
+        "micros": 4900000,
+        "values": [0.37272853],
+        "stride_index": 5.926133
+      }, {
+        "micros": 4933333,
+        "values": [4.2700796],
+        "stride_index": 5.9726844
+      }, {
+        "micros": 4966667,
+        "values": [13.582032],
+        "stride_index": 6.019295
+      }, {
+        "micros": 5000000,
+        "values": [27.934944],
+        "stride_index": 6.065986
+      }, {
+        "micros": 5033333,
+        "values": [75.587616],
+        "stride_index": 6.1126766
+      }, {
+        "micros": 5066667,
+        "values": [80.867195],
+        "stride_index": 6.159369
+      }, {
+        "micros": 5100000,
+        "values": [11.677945],
+        "stride_index": 6.20606
+      }, {
+        "micros": 5133322,
+        "values": [1.0501571],
+        "stride_index": 6.2527356
+      }, {
+        "micros": 5166656,
+        "values": [2.0556657],
+        "stride_index": 6.299428
+      }, {
+        "micros": 5200000,
+        "values": [1.2191675],
+        "stride_index": 6.346134
+      }, {
+        "micros": 5233322,
+        "values": [0.24147443],
+        "stride_index": 6.39281
+      }, {
+        "micros": 5266667,
+        "values": [2.5446057],
+        "stride_index": 6.4395175
+      }, {
+        "micros": 5300000,
+        "values": [0.53412515],
+        "stride_index": 6.4862084
+      }, {
+        "micros": 5333333,
+        "values": [0.14935344],
+        "stride_index": 6.5328994
+      }, {
+        "micros": 5366656,
+        "values": [1.6600075],
+        "stride_index": 6.579576
+      }, {
+        "micros": 5400000,
+        "values": [1.6437773],
+        "stride_index": 6.6262827
+      }, {
+        "micros": 5433333,
+        "values": [1.5857259],
+        "stride_index": 6.6729736
+      }, {
+        "micros": 5466667,
+        "values": [3.4404836],
+        "stride_index": 6.719666
+      }, {
+        "micros": 5500000,
+        "values": [2.349604],
+        "stride_index": 6.766357
+      }, {
+        "micros": 5533333,
+        "values": [0.083929375],
+        "stride_index": 6.8130474
+      }, {
+        "micros": 5566667,
+        "values": [1.576567],
+        "stride_index": 6.85974
+      }, {
+        "micros": 5600000,
+        "values": [1.2475675],
+        "stride_index": 6.9064307
+      }, {
+        "micros": 5633322,
+        "values": [1.7524532],
+        "stride_index": 6.9531064
+      }, {
+        "micros": 5666667,
+        "values": [5.116803],
+        "stride_index": 6.999814
+      }, {
+        "micros": 5699989,
+        "values": [11.861193],
+        "stride_index": 7.0461583
+      }, {
+        "micros": 5733333,
+        "values": [18.429857],
+        "stride_index": 7.0925317
+      }, {
+        "micros": 5766667,
+        "values": [26.167135],
+        "stride_index": 7.1388907
+      }, {
+        "micros": 5800000,
+        "values": [16.385416],
+        "stride_index": 7.185249
+      }, {
+        "micros": 5833322,
+        "values": [1.1303848],
+        "stride_index": 7.2315917
+      }, {
+        "micros": 5866667,
+        "values": [0.44057474],
+        "stride_index": 7.2779665
+      }, {
+        "micros": 5900000,
+        "values": [1.4893776],
+        "stride_index": 7.3243246
+      }, {
+        "micros": 5933333,
+        "values": [0.42932796],
+        "stride_index": 7.3706827
+      }, {
+        "micros": 5966656,
+        "values": [3.9484363],
+        "stride_index": 7.4170265
+      }, {
+        "micros": 6000000,
+        "values": [2.291918],
+        "stride_index": 7.4634
+      }, {
+        "micros": 6033333,
+        "values": [0.5355885],
+        "stride_index": 7.509758
+      }, {
+        "micros": 6066667,
+        "values": [0.75381386],
+        "stride_index": 7.5561175
+      }, {
+        "micros": 6099989,
+        "values": [1.0964653],
+        "stride_index": 7.6024604
+      }, {
+        "micros": 6133333,
+        "values": [1.8855404],
+        "stride_index": 7.6488338
+      }, {
+        "micros": 6166667,
+        "values": [2.4672792],
+        "stride_index": 7.6951933
+      }, {
+        "micros": 6200000,
+        "values": [5.5978317],
+        "stride_index": 7.741551
+      }, {
+        "micros": 6233333,
+        "values": [0.5549665],
+        "stride_index": 7.787909
+      }, {
+        "micros": 6266656,
+        "values": [0.7530347],
+        "stride_index": 7.8342533
+      }, {
+        "micros": 6300000,
+        "values": [0.60522604],
+        "stride_index": 7.8806267
+      }, {
+        "micros": 6333322,
+        "values": [1.3869157],
+        "stride_index": 7.9269695
+      }, {
+        "micros": 6366667,
+        "values": [4.7942395],
+        "stride_index": 7.9733443
+      }, {
+        "micros": 6400000,
+        "values": [13.162778],
+        "stride_index": 8.019606
+      }, {
+        "micros": 6433333,
+        "values": [24.511675],
+        "stride_index": 8.065736
+      }, {
+        "micros": 6466667,
+        "values": [37.011173],
+        "stride_index": 8.111867
+      }, {
+        "micros": 6500000,
+        "values": [49.017277],
+        "stride_index": 8.157997
+      }, {
+        "micros": 6533333,
+        "values": [22.37314],
+        "stride_index": 8.204127
+      }, {
+        "micros": 6566656,
+        "values": [1.3897347],
+        "stride_index": 8.250243
+      }, {
+        "micros": 6600000,
+        "values": [1.3929696],
+        "stride_index": 8.296389
+      }, {
+        "micros": 6633333,
+        "values": [4.607342],
+        "stride_index": 8.342519
+      }, {
+        "micros": 6666667,
+        "values": [0.36423215],
+        "stride_index": 8.388651
+      }, {
+        "micros": 6699989,
+        "values": [1.7524532],
+        "stride_index": 8.434766
+      }, {
+        "micros": 6733333,
+        "values": [1.7691249],
+        "stride_index": 8.48091
+      }, {
+        "micros": 6766656,
+        "values": [0.07401875],
+        "stride_index": 8.527027
+      }, {
+        "micros": 6800000,
+        "values": [0.052339155],
+        "stride_index": 8.573173
+      }, {
+        "micros": 6833333,
+        "values": [2.1589425],
+        "stride_index": 8.619303
+      }, {
+        "micros": 6866667,
+        "values": [0.35553277],
+        "stride_index": 8.665434
+      }, {
+        "micros": 6899989,
+        "values": [0.2289973],
+        "stride_index": 8.711549
+      }, {
+        "micros": 6933333,
+        "values": [0.61516696],
+        "stride_index": 8.757694
+      }, {
+        "micros": 6966667,
+        "values": [1.3710217],
+        "stride_index": 8.803825
+      }, {
+        "micros": 6999989,
+        "values": [0.41543007],
+        "stride_index": 8.84994
+      }, {
+        "micros": 7033333,
+        "values": [0.76795816],
+        "stride_index": 8.896086
+      }, {
+        "micros": 7066667,
+        "values": [1.3890305],
+        "stride_index": 8.942218
+      }, {
+        "micros": 7100000,
+        "values": [4.551178],
+        "stride_index": 8.988348
+      }, {
+        "micros": 7133333,
+        "values": [11.838625],
+        "stride_index": 9.034761
+      }, {
+        "micros": 7166667,
+        "values": [19.547363],
+        "stride_index": 9.081273
+      }, {
+        "micros": 7199989,
+        "values": [32.748184],
+        "stride_index": 9.1277685
+      }, {
+        "micros": 7233333,
+        "values": [29.995691],
+        "stride_index": 9.1742935
+      }, {
+        "micros": 7266656,
+        "values": [1.0415504],
+        "stride_index": 9.22079
+      }, {
+        "micros": 7300000,
+        "values": [1.9013543],
+        "stride_index": 9.267316
+      }, {
+        "micros": 7333333,
+        "values": [0.8862489],
+        "stride_index": 9.313826
+      }, {
+        "micros": 7366667,
+        "values": [4.424964],
+        "stride_index": 9.360337
+      }, {
+        "micros": 7399989,
+        "values": [2.3513527],
+        "stride_index": 9.406832
+      }, {
+        "micros": 7433333,
+        "values": [0.4265846],
+        "stride_index": 9.453358
+      }, {
+        "micros": 7466656,
+        "values": [0.24944603],
+        "stride_index": 9.499854
+      }, {
+        "micros": 7500000,
+        "values": [0.68070054],
+        "stride_index": 9.546379
+      }, {
+        "micros": 7533333,
+        "values": [0.28254864],
+        "stride_index": 9.59289
+      }, {
+        "micros": 7566667,
+        "values": [2.3198435],
+        "stride_index": 9.639401
+      }, {
+        "micros": 7600000,
+        "values": [2.5885336],
+        "stride_index": 9.685911
+      }, {
+        "micros": 7633333,
+        "values": [4.510106],
+        "stride_index": 9.732422
+      }, {
+        "micros": 7666667,
+        "values": [0.65282077],
+        "stride_index": 9.778934
+      }, {
+        "micros": 7700000,
+        "values": [0.88004494],
+        "stride_index": 9.825443
+      }, {
+        "micros": 7733322,
+        "values": [0.8030819],
+        "stride_index": 9.871938
+      }, {
+        "micros": 7766667,
+        "values": [1.5433229],
+        "stride_index": 9.918466
+      }, {
+        "micros": 7800000,
+        "values": [1.9913479],
+        "stride_index": 9.964975
+      }, {
+        "micros": 7833333,
+        "values": [5.9186096],
+        "stride_index": 10.011372
+      }, {
+        "micros": 7866667,
+        "values": [13.080792],
+        "stride_index": 10.057424
+      }, {
+        "micros": 7900000,
+        "values": [15.508386],
+        "stride_index": 10.103474
+      }, {
+        "micros": 7933333,
+        "values": [12.065373],
+        "stride_index": 10.149524
+      }, {
+        "micros": 7966667,
+        "values": [3.122802],
+        "stride_index": 10.195575
+      }, {
+        "micros": 8000000,
+        "values": [1.1002067],
+        "stride_index": 10.241625
+      }, {
+        "micros": 8033333,
+        "values": [1.4372216],
+        "stride_index": 10.287675
+      }, {
+        "micros": 8066656,
+        "values": [3.3888228],
+        "stride_index": 10.333711
+      }, {
+        "micros": 8100000,
+        "values": [0.12972152],
+        "stride_index": 10.379776
+      }, {
+        "micros": 8133333,
+        "values": [1.4094492],
+        "stride_index": 10.425826
+      }, {
+        "micros": 8166656,
+        "values": [0.36530498],
+        "stride_index": 10.471862
+      }, {
+        "micros": 8199989,
+        "values": [0.24708156],
+        "stride_index": 10.517912
+      }, {
+        "micros": 8233333,
+        "values": [0.47806326],
+        "stride_index": 10.563977
+      }, {
+        "micros": 8266656,
+        "values": [1.3704507],
+        "stride_index": 10.610014
+      }, {
+        "micros": 8300000,
+        "values": [1.602544],
+        "stride_index": 10.656079
+      }, {
+        "micros": 8333333,
+        "values": [6.170918],
+        "stride_index": 10.702128
+      }, {
+        "micros": 8366667,
+        "values": [1.4789612],
+        "stride_index": 10.74818
+      }, {
+        "micros": 8400000,
+        "values": [2.265636],
+        "stride_index": 10.79423
+      }, {
+        "micros": 8433322,
+        "values": [0.40830377],
+        "stride_index": 10.840265
+      }, {
+        "micros": 8466667,
+        "values": [0.92004824],
+        "stride_index": 10.886332
+      }, {
+        "micros": 8500000,
+        "values": [1.5810294],
+        "stride_index": 10.932382
+      }, {
+        "micros": 8533322,
+        "values": [3.490259],
+        "stride_index": 10.978416
+      }, {
+        "micros": 8566667,
+        "values": [8.144759],
+        "stride_index": 11.024693
+      }, {
+        "micros": 8600000,
+        "values": [19.040976],
+        "stride_index": 11.071137
+      }, {
+        "micros": 8633333,
+        "values": [30.466135],
+        "stride_index": 11.117582
+      }, {
+        "micros": 8666667,
+        "values": [25.765764],
+        "stride_index": 11.164028
+      }, {
+        "micros": 8699989,
+        "values": [5.3637757],
+        "stride_index": 11.210457
+      }, {
+        "micros": 8733333,
+        "values": [5.9723506],
+        "stride_index": 11.256917
+      }, {
+        "micros": 8766667,
+        "values": [1.2693372],
+        "stride_index": 11.303363
+      }, {
+        "micros": 8799989,
+        "values": [1.2382785],
+        "stride_index": 11.3497925
+      }, {
+        "micros": 8833333,
+        "values": [0.14536996],
+        "stride_index": 11.396252
+      }, {
+        "micros": 8866656,
+        "values": [0.5898349],
+        "stride_index": 11.442682
+      }, {
+        "micros": 8900000,
+        "values": [0.35936466],
+        "stride_index": 11.489142
+      }, {
+        "micros": 8933322,
+        "values": [0.70192915],
+        "stride_index": 11.535572
+      }, {
+        "micros": 8966667,
+        "values": [0.6676395],
+        "stride_index": 11.582033
+      }, {
+        "micros": 8999989,
+        "values": [1.3023612],
+        "stride_index": 11.628462
+      }, {
+        "micros": 9033333,
+        "values": [0.8021067],
+        "stride_index": 11.674922
+      }, {
+        "micros": 9066656,
+        "values": [5.2115054],
+        "stride_index": 11.721353
+      }, {
+        "micros": 9100000,
+        "values": [3.027503],
+        "stride_index": 11.767813
+      }, {
+        "micros": 9133322,
+        "values": [0.5120549],
+        "stride_index": 11.814241
+      }, {
+        "micros": 9166667,
+        "values": [3.663457],
+        "stride_index": 11.860703
+      }, {
+        "micros": 9200000,
+        "values": [0.45585436],
+        "stride_index": 11.907147
+      }, {
+        "micros": 9233333,
+        "values": [1.9254926],
+        "stride_index": 11.953592
+      }, {
+        "micros": 9266656,
+        "values": [5.5112844],
+        "stride_index": 12.000023
+      }, {
+        "micros": 9299989,
+        "values": [10.793207],
+        "stride_index": 12.046468
+      }, {
+        "micros": 9333333,
+        "values": [15.672811],
+        "stride_index": 12.092927
+      }, {
+        "micros": 9366667,
+        "values": [14.742696],
+        "stride_index": 12.139373
+      }, {
+        "micros": 9400000,
+        "values": [14.417469],
+        "stride_index": 12.185818
+      }, {
+        "micros": 9433333,
+        "values": [5.2033777],
+        "stride_index": 12.232263
+      }, {
+        "micros": 9466656,
+        "values": [1.8429189],
+        "stride_index": 12.278693
+      }, {
+        "micros": 9500000,
+        "values": [4.2508645],
+        "stride_index": 12.325152
+      }, {
+        "micros": 9533322,
+        "values": [0.49653438],
+        "stride_index": 12.371582
+      }, {
+        "micros": 9566667,
+        "values": [0.45585436],
+        "stride_index": 12.418043
+      }, {
+        "micros": 9600000,
+        "values": [0.7535542],
+        "stride_index": 12.464488
+      }, {
+        "micros": 9633333,
+        "values": [0.92640686],
+        "stride_index": 12.510933
+      }, {
+        "micros": 9666667,
+        "values": [0.4463111],
+        "stride_index": 12.557379
+      }, {
+        "micros": 9700000,
+        "values": [0.76207525],
+        "stride_index": 12.603823
+      }, {
+        "micros": 9733333,
+        "values": [1.6687086],
+        "stride_index": 12.650268
+      }, {
+        "micros": 9766667,
+        "values": [3.3182402],
+        "stride_index": 12.696713
+      }, {
+        "micros": 9800000,
+        "values": [1.8673931],
+        "stride_index": 12.743158
+      }, {
+        "micros": 9833322,
+        "values": [1.0494115],
+        "stride_index": 12.789587
+      }, {
+        "micros": 9866667,
+        "values": [1.7513362],
+        "stride_index": 12.836048
+      }, {
+        "micros": 9900000,
+        "values": [0.93083197],
+        "stride_index": 12.882493
+      }, {
+        "micros": 9933333,
+        "values": [1.4883262],
+        "stride_index": 12.928938
+      }, {
+        "micros": 9966667,
+        "values": [3.317945],
+        "stride_index": 12.975384
+      }, {
+        "micros": 10000000,
+        "values": [8.284227],
+        "stride_index": 13.021828
+      }]
+    },
+    "Left Stride Angle": {
+      "median": 1.909571,
+      "mean": 2.9558015,
+      "max": 23.780613,
+      "variance": 11.662716,
+      "sample_count": 301,
+      "frames": [{
+        "values": [4.2564816],
+        "stride_index": -0.9038287
+      }, {
+        "micros": 33333,
+        "values": [2.2972064],
+        "stride_index": -0.85700834
+      }, {
+        "micros": 66667,
+        "values": [2.62607],
+        "stride_index": -0.81018656
+      }, {
+        "micros": 100000,
+        "values": [2.096392],
+        "stride_index": -0.7633662
+      }, {
+        "micros": 133333,
+        "values": [2.933582],
+        "stride_index": -0.7165459
+      }, {
+        "micros": 166667,
+        "values": [1.8400496],
+        "stride_index": -0.6697241
+      }, {
+        "micros": 199989,
+        "values": [0.76617247],
+        "stride_index": -0.62291926
+      }, {
+        "micros": 233333,
+        "values": [0.5944612],
+        "stride_index": -0.5760834
+      }, {
+        "micros": 266667,
+        "values": [1.5042819],
+        "stride_index": -0.5292617
+      }, {
+        "micros": 300000,
+        "values": [2.1134071],
+        "stride_index": -0.48244134
+      }, {
+        "micros": 333333,
+        "values": [4.085332],
+        "stride_index": -0.435621
+      }, {
+        "micros": 366667,
+        "values": [7.06122],
+        "stride_index": -0.38879925
+      }, {
+        "micros": 400000,
+        "values": [8.568252],
+        "stride_index": -0.3419789
+      }, {
+        "micros": 433333,
+        "values": [1.3938123],
+        "stride_index": -0.29515857
+      }, {
+        "micros": 466656,
+        "values": [7.4229884],
+        "stride_index": -0.24835226
+      }, {
+        "micros": 500000,
+        "values": [0.07912937],
+        "stride_index": -0.20151646
+      }, {
+        "micros": 533333,
+        "values": [2.5441444],
+        "stride_index": -0.15469612
+      }, {
+        "micros": 566667,
+        "values": [1.9016632],
+        "stride_index": -0.10787437
+      }, {
+        "micros": 600000,
+        "values": [0.052339155],
+        "stride_index": -0.06105403
+      }, {
+        "micros": 633322,
+        "values": [2.6634455],
+        "stride_index": -0.014249135
+      }, {
+        "micros": 666667,
+        "values": [2.668145],
+        "stride_index": 0.032588065
+      }, {
+        "micros": 700000,
+        "values": [2.1970434],
+        "stride_index": 0.079408415
+      }, {
+        "micros": 733322,
+        "values": [4.89913],
+        "stride_index": 0.12621331
+      }, {
+        "micros": 766667,
+        "values": [2.5038965],
+        "stride_index": 0.17305051
+      }, {
+        "micros": 800000,
+        "values": [0.34434965],
+        "stride_index": 0.21987085
+      }, {
+        "micros": 833322,
+        "values": [1.6819085],
+        "stride_index": 0.26667574
+      }, {
+        "micros": 866667,
+        "values": [3.6932664],
+        "stride_index": 0.31351295
+      }, {
+        "micros": 899989,
+        "values": [0.35990873],
+        "stride_index": 0.36031783
+      }, {
+        "micros": 933333,
+        "values": [0.3871488],
+        "stride_index": 0.40715364
+      }, {
+        "micros": 966667,
+        "values": [0.13122123],
+        "stride_index": 0.45397538
+      }, {
+        "micros": 1000000,
+        "values": [0.23984832],
+        "stride_index": 0.5007957
+      }, {
+        "micros": 1033322,
+        "values": [0.41730985],
+        "stride_index": 0.5476006
+      }, {
+        "micros": 1066667,
+        "values": [1.2400157],
+        "stride_index": 0.59443784
+      }, {
+        "micros": 1100000,
+        "values": [0.5951191],
+        "stride_index": 0.6412582
+      }, {
+        "micros": 1133333,
+        "values": [1.2450553],
+        "stride_index": 0.6880785
+      }, {
+        "micros": 1166656,
+        "values": [2.7229705],
+        "stride_index": 0.7348848
+      }, {
+        "micros": 1200000,
+        "values": [1.7850928],
+        "stride_index": 0.78172064
+      }, {
+        "micros": 1233322,
+        "values": [2.2511632],
+        "stride_index": 0.8285255
+      }, {
+        "micros": 1266667,
+        "values": [2.6607249],
+        "stride_index": 0.8753627
+      }, {
+        "micros": 1300000,
+        "values": [0.42428493],
+        "stride_index": 0.92218304
+      }, {
+        "micros": 1333333,
+        "values": [2.2477698],
+        "stride_index": 0.9690034
+      }, {
+        "micros": 1366667,
+        "values": [1.0586939],
+        "stride_index": 1.0158758
+      }, {
+        "micros": 1400000,
+        "values": [1.7290694],
+        "stride_index": 1.0628462
+      }, {
+        "micros": 1433333,
+        "values": [2.3276765],
+        "stride_index": 1.1098166
+      }, {
+        "micros": 1466667,
+        "values": [2.5999267],
+        "stride_index": 1.1567883
+      }, {
+        "micros": 1500000,
+        "values": [0.052339155],
+        "stride_index": 1.2037586
+      }, {
+        "micros": 1533333,
+        "values": [1.0955727],
+        "stride_index": 1.250729
+      }, {
+        "micros": 1566667,
+        "values": [2.751077],
+        "stride_index": 1.2977008
+      }, {
+        "micros": 1600000,
+        "values": [1.4793582],
+        "stride_index": 1.3446711
+      }, {
+        "micros": 1633333,
+        "values": [1.0975356],
+        "stride_index": 1.3916414
+      }, {
+        "micros": 1666667,
+        "values": [0.30582795],
+        "stride_index": 1.4386132
+      }, {
+        "micros": 1700000,
+        "values": [0.17132017],
+        "stride_index": 1.4855835
+      }, {
+        "micros": 1733333,
+        "values": [0.38000706],
+        "stride_index": 1.5325539
+      }, {
+        "micros": 1766667,
+        "values": [0.8720036],
+        "stride_index": 1.5795256
+      }, {
+        "micros": 1800000,
+        "values": [8.056152],
+        "stride_index": 1.626496
+      }, {
+        "micros": 1833322,
+        "values": [5.456358],
+        "stride_index": 1.6734508
+      }, {
+        "micros": 1866667,
+        "values": [8.977172],
+        "stride_index": 1.720438
+      }, {
+        "micros": 1900000,
+        "values": [0.5924829],
+        "stride_index": 1.7674084
+      }, {
+        "micros": 1933333,
+        "values": [2.8145254],
+        "stride_index": 1.8143787
+      }, {
+        "micros": 1966656,
+        "values": [1.6866722],
+        "stride_index": 1.861335
+      }, {
+        "micros": 2000000,
+        "values": [1.5931133],
+        "stride_index": 1.9083209
+      }, {
+        "micros": 2033333,
+        "values": [1.909571],
+        "stride_index": 1.9552912
+      }, {
+        "micros": 2066667,
+        "values": [1.8685455],
+        "stride_index": 2.0022259
+      }, {
+        "micros": 2099989,
+        "values": [2.1953502],
+        "stride_index": 2.048409
+      }, {
+        "micros": 2133333,
+        "values": [0.8980926],
+        "stride_index": 2.0946229
+      }, {
+        "micros": 2166656,
+        "values": [1.1796855],
+        "stride_index": 2.1408076
+      }, {
+        "micros": 2200000,
+        "values": [0.708588],
+        "stride_index": 2.1870213
+      }, {
+        "micros": 2233322,
+        "values": [0.20463024],
+        "stride_index": 2.2332046
+      }, {
+        "micros": 2266667,
+        "values": [3.0368643],
+        "stride_index": 2.2794197
+      }, {
+        "micros": 2300000,
+        "values": [1.2569435],
+        "stride_index": 2.3256183
+      }, {
+        "micros": 2333333,
+        "values": [0.84557265],
+        "stride_index": 2.3718169
+      }, {
+        "micros": 2366656,
+        "values": [0.44411358],
+        "stride_index": 2.4180014
+      }, {
+        "micros": 2400000,
+        "values": [0.34548426],
+        "stride_index": 2.4642153
+      }, {
+        "micros": 2433333,
+        "values": [1.4065305],
+        "stride_index": 2.510414
+      }, {
+        "micros": 2466656,
+        "values": [0.0],
+        "stride_index": 2.5565984
+      }, {
+        "micros": 2500000,
+        "values": [3.4121408],
+        "stride_index": 2.6028123
+      }, {
+        "micros": 2533333,
+        "values": [13.744852],
+        "stride_index": 2.649011
+      }, {
+        "micros": 2566656,
+        "values": [23.780613],
+        "stride_index": 2.6951954
+      }, {
+        "micros": 2600000,
+        "values": [7.9254084],
+        "stride_index": 2.7414093
+      }, {
+        "micros": 2633333,
+        "values": [3.8693845],
+        "stride_index": 2.787608
+      }, {
+        "micros": 2666667,
+        "values": [2.107565],
+        "stride_index": 2.8338077
+      }, {
+        "micros": 2699989,
+        "values": [1.1168005],
+        "stride_index": 2.879991
+      }, {
+        "micros": 2733333,
+        "values": [2.0564275],
+        "stride_index": 2.926205
+      }, {
+        "micros": 2766667,
+        "values": [3.954879],
+        "stride_index": 2.9724047
+      }, {
+        "micros": 2800000,
+        "values": [2.3519354],
+        "stride_index": 3.0184216
+      }, {
+        "micros": 2833333,
+        "values": [1.0562882],
+        "stride_index": 3.0641694
+      }, {
+        "micros": 2866656,
+        "values": [3.2376704],
+        "stride_index": 3.1099033
+      }, {
+        "micros": 2900000,
+        "values": [2.6381917],
+        "stride_index": 3.155666
+      }, {
+        "micros": 2933333,
+        "values": [0.37897584],
+        "stride_index": 3.2014139
+      }, {
+        "micros": 2966656,
+        "values": [0.39811274],
+        "stride_index": 3.2471478
+      }, {
+        "micros": 3000000,
+        "values": [1.5232852],
+        "stride_index": 3.2929106
+      }, {
+        "micros": 3033322,
+        "values": [1.6765475],
+        "stride_index": 3.338643
+      }, {
+        "micros": 3066667,
+        "values": [1.2065829],
+        "stride_index": 3.3844073
+      }, {
+        "micros": 3100000,
+        "values": [0.6039315],
+        "stride_index": 3.4301548
+      }, {
+        "micros": 3133322,
+        "values": [1.4026295],
+        "stride_index": 3.4758875
+      }, {
+        "micros": 3166667,
+        "values": [0.87133014],
+        "stride_index": 3.5216515
+      }, {
+        "micros": 3200000,
+        "values": [2.8876464],
+        "stride_index": 3.5673993
+      }, {
+        "micros": 3233322,
+        "values": [4.3044786],
+        "stride_index": 3.6131318
+      }, {
+        "micros": 3266667,
+        "values": [12.922027],
+        "stride_index": 3.658896
+      }, {
+        "micros": 3300000,
+        "values": [14.297667],
+        "stride_index": 3.7046435
+      }, {
+        "micros": 3333333,
+        "values": [5.9011965],
+        "stride_index": 3.7503912
+      }, {
+        "micros": 3366667,
+        "values": [3.3810723],
+        "stride_index": 3.7961402
+      }, {
+        "micros": 3400000,
+        "values": [5.547118],
+        "stride_index": 3.841888
+      }, {
+        "micros": 3433333,
+        "values": [1.125875],
+        "stride_index": 3.8876357
+      }, {
+        "micros": 3466667,
+        "values": [0.8666012],
+        "stride_index": 3.9333847
+      }, {
+        "micros": 3499989,
+        "values": [3.1000886],
+        "stride_index": 3.9791172
+      }, {
+        "micros": 3533333,
+        "values": [2.5235188],
+        "stride_index": 4.0251207
+      }, {
+        "micros": 3566667,
+        "values": [2.657707],
+        "stride_index": 4.071313
+      }, {
+        "micros": 3600000,
+        "values": [2.457821],
+        "stride_index": 4.117503
+      }, {
+        "micros": 3633322,
+        "values": [4.3268523],
+        "stride_index": 4.1636786
+      }, {
+        "micros": 3666667,
+        "values": [3.4159257],
+        "stride_index": 4.209886
+      }, {
+        "micros": 3699989,
+        "values": [2.5629241],
+        "stride_index": 4.256061
+      }, {
+        "micros": 3733333,
+        "values": [2.7485142],
+        "stride_index": 4.302267
+      }, {
+        "micros": 3766667,
+        "values": [1.0642244],
+        "stride_index": 4.3484592
+      }, {
+        "micros": 3800000,
+        "values": [0.09065409],
+        "stride_index": 4.3946495
+      }, {
+        "micros": 3833322,
+        "values": [0.07401875],
+        "stride_index": 4.440825
+      }, {
+        "micros": 3866667,
+        "values": [0.6982958],
+        "stride_index": 4.487032
+      }, {
+        "micros": 3899989,
+        "values": [0.23738827],
+        "stride_index": 4.5332074
+      }, {
+        "micros": 3933333,
+        "values": [0.40396768],
+        "stride_index": 4.5794134
+      }, {
+        "micros": 3966667,
+        "values": [2.8783443],
+        "stride_index": 4.625605
+      }, {
+        "micros": 3999989,
+        "values": [6.725608],
+        "stride_index": 4.6717806
+      }, {
+        "micros": 4033333,
+        "values": [11.960376],
+        "stride_index": 4.717986
+      }, {
+        "micros": 4066667,
+        "values": [8.273269],
+        "stride_index": 4.7641783
+      }, {
+        "micros": 4099989,
+        "values": [4.3761826],
+        "stride_index": 4.8103538
+      }, {
+        "micros": 4133333,
+        "values": [3.3393545],
+        "stride_index": 4.8565593
+      }, {
+        "micros": 4166667,
+        "values": [1.1298654],
+        "stride_index": 4.9027514
+      }, {
+        "micros": 4200000,
+        "values": [3.1425495],
+        "stride_index": 4.9489417
+      }, {
+        "micros": 4233322,
+        "values": [1.6761974],
+        "stride_index": 4.995117
+      }, {
+        "micros": 4266667,
+        "values": [2.0271926],
+        "stride_index": 5.0416474
+      }, {
+        "micros": 4299989,
+        "values": [1.4037452],
+        "stride_index": 5.0881834
+      }, {
+        "micros": 4333333,
+        "values": [4.157605],
+        "stride_index": 5.1347504
+      }, {
+        "micros": 4366656,
+        "values": [0.37794176],
+        "stride_index": 5.181288
+      }, {
+        "micros": 4400000,
+        "values": [0.95244384],
+        "stride_index": 5.2278543
+      }, {
+        "micros": 4433333,
+        "values": [1.4519873],
+        "stride_index": 5.274406
+      }, {
+        "micros": 4466667,
+        "values": [2.2426267],
+        "stride_index": 5.3209586
+      }, {
+        "micros": 4500000,
+        "values": [2.0190668],
+        "stride_index": 5.3675103
+      }, {
+        "micros": 4533333,
+        "values": [0.67085564],
+        "stride_index": 5.4140615
+      }, {
+        "micros": 4566667,
+        "values": [1.3085073],
+        "stride_index": 5.4606147
+      }, {
+        "micros": 4600000,
+        "values": [0.6844273],
+        "stride_index": 5.507166
+      }, {
+        "micros": 4633322,
+        "values": [0.97437984],
+        "stride_index": 5.553702
+      }, {
+        "micros": 4666667,
+        "values": [8.95912],
+        "stride_index": 5.6002703
+      }, {
+        "micros": 4700000,
+        "values": [10.505358],
+        "stride_index": 5.6468215
+      }, {
+        "micros": 4733333,
+        "values": [6.297935],
+        "stride_index": 5.693373
+      }, {
+        "micros": 4766656,
+        "values": [4.473083],
+        "stride_index": 5.7399106
+      }, {
+        "micros": 4800000,
+        "values": [1.4785643],
+        "stride_index": 5.7864776
+      }, {
+        "micros": 4833333,
+        "values": [3.6827543],
+        "stride_index": 5.833029
+      }, {
+        "micros": 4866667,
+        "values": [2.227653],
+        "stride_index": 5.8795815
+      }, {
+        "micros": 4900000,
+        "values": [0.84255886],
+        "stride_index": 5.926133
+      }, {
+        "micros": 4933333,
+        "values": [1.8877188],
+        "stride_index": 5.9726844
+      }, {
+        "micros": 4966667,
+        "values": [1.0494115],
+        "stride_index": 6.019295
+      }, {
+        "micros": 5000000,
+        "values": [1.7804823],
+        "stride_index": 6.065986
+      }, {
+        "micros": 5033333,
+        "values": [3.111938],
+        "stride_index": 6.1126766
+      }, {
+        "micros": 5066667,
+        "values": [0.71408963],
+        "stride_index": 6.159369
+      }, {
+        "micros": 5100000,
+        "values": [0.9097822],
+        "stride_index": 6.20606
+      }, {
+        "micros": 5133322,
+        "values": [2.4002063],
+        "stride_index": 6.2527356
+      }, {
+        "micros": 5166656,
+        "values": [0.6638185],
+        "stride_index": 6.299428
+      }, {
+        "micros": 5200000,
+        "values": [0.30325788],
+        "stride_index": 6.346134
+      }, {
+        "micros": 5233322,
+        "values": [0.99955934],
+        "stride_index": 6.39281
+      }, {
+        "micros": 5266667,
+        "values": [1.4496943],
+        "stride_index": 6.4395175
+      }, {
+        "micros": 5300000,
+        "values": [1.4690039],
+        "stride_index": 6.4862084
+      }, {
+        "micros": 5333333,
+        "values": [4.3097534],
+        "stride_index": 6.5328994
+      }, {
+        "micros": 5366656,
+        "values": [4.8412046],
+        "stride_index": 6.579576
+      }, {
+        "micros": 5400000,
+        "values": [3.0409229],
+        "stride_index": 6.6262827
+      }, {
+        "micros": 5433333,
+        "values": [10.752316],
+        "stride_index": 6.6729736
+      }, {
+        "micros": 5466667,
+        "values": [14.706338],
+        "stride_index": 6.719666
+      }, {
+        "micros": 5500000,
+        "values": [2.3227944],
+        "stride_index": 6.766357
+      }, {
+        "micros": 5533333,
+        "values": [0.84995806],
+        "stride_index": 6.8130474
+      }, {
+        "micros": 5566667,
+        "values": [0.5074486],
+        "stride_index": 6.85974
+      }, {
+        "micros": 5600000,
+        "values": [4.1540236],
+        "stride_index": 6.9064307
+      }, {
+        "micros": 5633322,
+        "values": [4.533584],
+        "stride_index": 6.9531064
+      }, {
+        "micros": 5666667,
+        "values": [2.8090255],
+        "stride_index": 6.999814
+      }, {
+        "micros": 5699989,
+        "values": [2.6045902],
+        "stride_index": 7.0461583
+      }, {
+        "micros": 5733333,
+        "values": [2.8908308],
+        "stride_index": 7.0925317
+      }, {
+        "micros": 5766667,
+        "values": [3.9263043],
+        "stride_index": 7.1388907
+      }, {
+        "micros": 5800000,
+        "values": [1.930264],
+        "stride_index": 7.185249
+      }, {
+        "micros": 5833322,
+        "values": [3.0876868],
+        "stride_index": 7.2315917
+      }, {
+        "micros": 5866667,
+        "values": [1.8596216],
+        "stride_index": 7.2779665
+      }, {
+        "micros": 5900000,
+        "values": [2.9842594],
+        "stride_index": 7.3243246
+      }, {
+        "micros": 5933333,
+        "values": [2.6064684],
+        "stride_index": 7.3706827
+      }, {
+        "micros": 5966656,
+        "values": [0.26466992],
+        "stride_index": 7.4170265
+      }, {
+        "micros": 6000000,
+        "values": [0.104678325],
+        "stride_index": 7.4634
+      }, {
+        "micros": 6033333,
+        "values": [0.95981157],
+        "stride_index": 7.509758
+      }, {
+        "micros": 6066667,
+        "values": [1.37145],
+        "stride_index": 7.5561175
+      }, {
+        "micros": 6099989,
+        "values": [4.114089],
+        "stride_index": 7.6024604
+      }, {
+        "micros": 6133333,
+        "values": [8.282378],
+        "stride_index": 7.6488338
+      }, {
+        "micros": 6166667,
+        "values": [17.908442],
+        "stride_index": 7.6951933
+      }, {
+        "micros": 6200000,
+        "values": [2.6751783],
+        "stride_index": 7.741551
+      }, {
+        "micros": 6233333,
+        "values": [12.190827],
+        "stride_index": 7.787909
+      }, {
+        "micros": 6266656,
+        "values": [8.892294],
+        "stride_index": 7.8342533
+      }, {
+        "micros": 6300000,
+        "values": [7.5483947],
+        "stride_index": 7.8806267
+      }, {
+        "micros": 6333322,
+        "values": [0.4168407],
+        "stride_index": 7.9269695
+      }, {
+        "micros": 6366667,
+        "values": [0.95347065],
+        "stride_index": 7.9733443
+      }, {
+        "micros": 6400000,
+        "values": [1.5339109],
+        "stride_index": 8.019606
+      }, {
+        "micros": 6433333,
+        "values": [1.7271442],
+        "stride_index": 8.065736
+      }, {
+        "micros": 6466667,
+        "values": [1.0775634],
+        "stride_index": 8.111867
+      }, {
+        "micros": 6500000,
+        "values": [0.13847642],
+        "stride_index": 8.157997
+      }, {
+        "micros": 6533333,
+        "values": [0.69576925],
+        "stride_index": 8.204127
+      }, {
+        "micros": 6566656,
+        "values": [1.9578475],
+        "stride_index": 8.250243
+      }, {
+        "micros": 6600000,
+        "values": [0.33571795],
+        "stride_index": 8.296389
+      }, {
+        "micros": 6633333,
+        "values": [2.9446383],
+        "stride_index": 8.342519
+      }, {
+        "micros": 6666667,
+        "values": [1.4967176],
+        "stride_index": 8.388651
+      }, {
+        "micros": 6699989,
+        "values": [1.6751463],
+        "stride_index": 8.434766
+      }, {
+        "micros": 6733333,
+        "values": [0.15195109],
+        "stride_index": 8.48091
+      }, {
+        "micros": 6766656,
+        "values": [0.44587246],
+        "stride_index": 8.527027
+      }, {
+        "micros": 6800000,
+        "values": [1.2805417],
+        "stride_index": 8.573173
+      }, {
+        "micros": 6833333,
+        "values": [2.2429757],
+        "stride_index": 8.619303
+      }, {
+        "micros": 6866667,
+        "values": [0.19483356],
+        "stride_index": 8.665434
+      }, {
+        "micros": 6899989,
+        "values": [3.2360373],
+        "stride_index": 8.711549
+      }, {
+        "micros": 6933333,
+        "values": [3.5122359],
+        "stride_index": 8.757694
+      }, {
+        "micros": 6966667,
+        "values": [0.19483356],
+        "stride_index": 8.803825
+      }, {
+        "micros": 6999989,
+        "values": [1.0885845],
+        "stride_index": 8.84994
+      }, {
+        "micros": 7033333,
+        "values": [2.1851635],
+        "stride_index": 8.896086
+      }, {
+        "micros": 7066667,
+        "values": [3.4408247],
+        "stride_index": 8.942218
+      }, {
+        "micros": 7100000,
+        "values": [2.6040642],
+        "stride_index": 8.988348
+      }, {
+        "micros": 7133333,
+        "values": [2.3265834],
+        "stride_index": 9.034761
+      }, {
+        "micros": 7166667,
+        "values": [1.9129502],
+        "stride_index": 9.081273
+      }, {
+        "micros": 7199989,
+        "values": [4.0563235],
+        "stride_index": 9.1277685
+      }, {
+        "micros": 7233333,
+        "values": [2.304607],
+        "stride_index": 9.1742935
+      }, {
+        "micros": 7266656,
+        "values": [2.8640954],
+        "stride_index": 9.22079
+      }, {
+        "micros": 7300000,
+        "values": [2.4411204],
+        "stride_index": 9.267316
+      }, {
+        "micros": 7333333,
+        "values": [0.0],
+        "stride_index": 9.313826
+      }, {
+        "micros": 7366667,
+        "values": [0.24628836],
+        "stride_index": 9.360337
+      }, {
+        "micros": 7399989,
+        "values": [0.99543977],
+        "stride_index": 9.406832
+      }, {
+        "micros": 7433333,
+        "values": [1.9047481],
+        "stride_index": 9.453358
+      }, {
+        "micros": 7466656,
+        "values": [3.50755],
+        "stride_index": 9.499854
+      }, {
+        "micros": 7500000,
+        "values": [5.942012],
+        "stride_index": 9.546379
+      }, {
+        "micros": 7533333,
+        "values": [9.69844],
+        "stride_index": 9.59289
+      }, {
+        "micros": 7566667,
+        "values": [15.141343],
+        "stride_index": 9.639401
+      }, {
+        "micros": 7600000,
+        "values": [9.795167],
+        "stride_index": 9.685911
+      }, {
+        "micros": 7633333,
+        "values": [16.79279],
+        "stride_index": 9.732422
+      }, {
+        "micros": 7666667,
+        "values": [4.61851],
+        "stride_index": 9.778934
+      }, {
+        "micros": 7700000,
+        "values": [6.988759],
+        "stride_index": 9.825443
+      }, {
+        "micros": 7733322,
+        "values": [1.6161631],
+        "stride_index": 9.871938
+      }, {
+        "micros": 7766667,
+        "values": [2.4633892],
+        "stride_index": 9.918466
+      }, {
+        "micros": 7800000,
+        "values": [2.6366332],
+        "stride_index": 9.964975
+      }, {
+        "micros": 7833333,
+        "values": [1.9799145],
+        "stride_index": 10.011372
+      }, {
+        "micros": 7866667,
+        "values": [1.8441927],
+        "stride_index": 10.057424
+      }, {
+        "micros": 7900000,
+        "values": [1.647345],
+        "stride_index": 10.103474
+      }, {
+        "micros": 7933333,
+        "values": [2.53165],
+        "stride_index": 10.149524
+      }, {
+        "micros": 7966667,
+        "values": [2.5252247],
+        "stride_index": 10.195575
+      }, {
+        "micros": 8000000,
+        "values": [1.7271442],
+        "stride_index": 10.241625
+      }, {
+        "micros": 8033333,
+        "values": [3.529031],
+        "stride_index": 10.287675
+      }, {
+        "micros": 8066656,
+        "values": [1.9839631],
+        "stride_index": 10.333711
+      }, {
+        "micros": 8100000,
+        "values": [0.3769049],
+        "stride_index": 10.379776
+      }, {
+        "micros": 8133333,
+        "values": [0.03426402],
+        "stride_index": 10.425826
+      }, {
+        "micros": 8166656,
+        "values": [1.4247774],
+        "stride_index": 10.471862
+      }, {
+        "micros": 8199989,
+        "values": [3.5027463],
+        "stride_index": 10.517912
+      }, {
+        "micros": 8233333,
+        "values": [4.7453246],
+        "stride_index": 10.563977
+      }, {
+        "micros": 8266656,
+        "values": [4.276359],
+        "stride_index": 10.610014
+      }, {
+        "micros": 8300000,
+        "values": [6.542778],
+        "stride_index": 10.656079
+      }, {
+        "micros": 8333333,
+        "values": [11.288072],
+        "stride_index": 10.702128
+      }, {
+        "micros": 8366667,
+        "values": [1.4452329],
+        "stride_index": 10.74818
+      }, {
+        "micros": 8400000,
+        "values": [3.2242794],
+        "stride_index": 10.79423
+      }, {
+        "micros": 8433322,
+        "values": [0.4957456],
+        "stride_index": 10.840265
+      }, {
+        "micros": 8466667,
+        "values": [0.18345396],
+        "stride_index": 10.886332
+      }, {
+        "micros": 8500000,
+        "values": [3.1758268],
+        "stride_index": 10.932382
+      }, {
+        "micros": 8533322,
+        "values": [2.6690984],
+        "stride_index": 10.978416
+      }, {
+        "micros": 8566667,
+        "values": [3.0772712],
+        "stride_index": 11.024693
+      }, {
+        "micros": 8600000,
+        "values": [1.8074275],
+        "stride_index": 11.071137
+      }, {
+        "micros": 8633333,
+        "values": [5.3898706],
+        "stride_index": 11.117582
+      }, {
+        "micros": 8666667,
+        "values": [1.9770459],
+        "stride_index": 11.164028
+      }, {
+        "micros": 8699989,
+        "values": [1.4131931],
+        "stride_index": 11.210457
+      }, {
+        "micros": 8733333,
+        "values": [4.5791965],
+        "stride_index": 11.256917
+      }, {
+        "micros": 8766667,
+        "values": [0.68156236],
+        "stride_index": 11.303363
+      }, {
+        "micros": 8799989,
+        "values": [0.8035691],
+        "stride_index": 11.3497925
+      }, {
+        "micros": 8833333,
+        "values": [1.2165966],
+        "stride_index": 11.396252
+      }, {
+        "micros": 8866656,
+        "values": [1.4118075],
+        "stride_index": 11.442682
+      }, {
+        "micros": 8900000,
+        "values": [1.8894805],
+        "stride_index": 11.489142
+      }, {
+        "micros": 8933322,
+        "values": [0.6795497],
+        "stride_index": 11.535572
+      }, {
+        "micros": 8966667,
+        "values": [0.91407377],
+        "stride_index": 11.582033
+      }, {
+        "micros": 8999989,
+        "values": [1.6431818],
+        "stride_index": 11.628462
+      }, {
+        "micros": 9033333,
+        "values": [7.1791973],
+        "stride_index": 11.674922
+      }, {
+        "micros": 9066656,
+        "values": [13.538642],
+        "stride_index": 11.721353
+      }, {
+        "micros": 9100000,
+        "values": [1.9206078],
+        "stride_index": 11.767813
+      }, {
+        "micros": 9133322,
+        "values": [0.10653118],
+        "stride_index": 11.814241
+      }, {
+        "micros": 9166667,
+        "values": [0.9962258],
+        "stride_index": 11.860703
+      }, {
+        "micros": 9200000,
+        "values": [1.3275118],
+        "stride_index": 11.907147
+      }, {
+        "micros": 9233333,
+        "values": [3.2478132],
+        "stride_index": 11.953592
+      }, {
+        "micros": 9266656,
+        "values": [1.6962751],
+        "stride_index": 12.000023
+      }, {
+        "micros": 9299989,
+        "values": [4.5583167],
+        "stride_index": 12.046468
+      }, {
+        "micros": 9333333,
+        "values": [1.5828849],
+        "stride_index": 12.092927
+      }, {
+        "micros": 9366667,
+        "values": [0.32142544],
+        "stride_index": 12.139373
+      }, {
+        "micros": 9400000,
+        "values": [1.854669],
+        "stride_index": 12.185818
+      }, {
+        "micros": 9433333,
+        "values": [1.4679378],
+        "stride_index": 12.232263
+      }, {
+        "micros": 9466656,
+        "values": [0.24866037],
+        "stride_index": 12.278693
+      }, {
+        "micros": 9500000,
+        "values": [1.0304061],
+        "stride_index": 12.325152
+      }, {
+        "micros": 9533322,
+        "values": [0.14670981],
+        "stride_index": 12.371582
+      }, {
+        "micros": 9566667,
+        "values": [1.5244409],
+        "stride_index": 12.418043
+      }, {
+        "micros": 9600000,
+        "values": [1.2608297],
+        "stride_index": 12.464488
+      }, {
+        "micros": 9633333,
+        "values": [0.4020255],
+        "stride_index": 12.510933
+      }, {
+        "micros": 9666667,
+        "values": [1.6795797],
+        "stride_index": 12.557379
+      }, {
+        "micros": 9700000,
+        "values": [1.571843],
+        "stride_index": 12.603823
+      }, {
+        "micros": 9733333,
+        "values": [9.908597],
+        "stride_index": 12.650268
+      }, {
+        "micros": 9766667,
+        "values": [12.52563],
+        "stride_index": 12.696713
+      }, {
+        "micros": 9800000,
+        "values": [17.109055],
+        "stride_index": 12.743158
+      }, {
+        "micros": 9833322,
+        "values": [2.6505532],
+        "stride_index": 12.789587
+      }, {
+        "micros": 9866667,
+        "values": [1.3959166],
+        "stride_index": 12.836048
+      }, {
+        "micros": 9900000,
+        "values": [0.7737964],
+        "stride_index": 12.882493
+      }, {
+        "micros": 9933333,
+        "values": [1.7155478],
+        "stride_index": 12.928938
+      }, {
+        "micros": 9966667,
+        "values": [4.4729514],
+        "stride_index": 12.975384
+      }, {
+        "micros": 10000000,
+        "values": [3.2505245],
+        "stride_index": 13.021828
+      }]
+    },
+    "Left Knee Flexion": {
+      "median": 33.086624,
+      "mean": 32.952507,
+      "min": 30.76089,
+      "max": 35.051685,
+      "variance": 1.2784284,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 788642,
+        "values": [31.913462]
+      }, {
+        "micros": 1485588,
+        "values": [33.086624]
+      }, {
+        "micros": 2205896,
+        "values": [31.633297]
+      }, {
+        "micros": 2931743,
+        "values": [33.581306]
+      }, {
+        "micros": 3655427,
+        "values": [32.25222]
+      }, {
+        "micros": 4365352,
+        "values": [30.76089]
+      }, {
+        "micros": 5090541,
+        "values": [35.051685]
+      }, {
+        "micros": 5802102,
+        "values": [33.121166]
+      }, {
+        "micros": 6535206,
+        "values": [34.581432]
+      }, {
+        "micros": 7252902,
+        "values": [32.901016]
+      }, {
+        "micros": 7969885,
+        "values": [33.45171]
+      }, {
+        "micros": 8695416,
+        "values": [33.633076]
+      }, {
+        "micros": 9410599,
+        "values": [32.414684]
+      }]
+    },
+    "Avg Knee Angle": {
+      "median": 1.6654565,
+      "mean": 1.890943,
+      "min": 0.15857312,
+      "max": 5.35155,
+      "variance": 1.4125456,
+      "sample_count": 27
+    },
+    "Left Hip Drop": {
+      "median": 5.768385,
+      "mean": 5.6766176,
+      "min": 2.428688,
+      "max": 8.466862,
+      "variance": 2.30218,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 788642,
+        "values": [8.215117]
+      }, {
+        "micros": 1485588,
+        "values": [8.466862]
+      }, {
+        "micros": 2205896,
+        "values": [5.768385]
+      }, {
+        "micros": 2931743,
+        "values": [2.428688]
+      }, {
+        "micros": 3655427,
+        "values": [5.048387]
+      }, {
+        "micros": 4365352,
+        "values": [6.3886633]
+      }, {
+        "micros": 5090541,
+        "values": [5.8575935]
+      }, {
+        "micros": 5802102,
+        "values": [6.5336127]
+      }, {
+        "micros": 6535206,
+        "values": [4.456592]
+      }, {
+        "micros": 7252902,
+        "values": [5.0486035]
+      }, {
+        "micros": 7969885,
+        "values": [4.971377]
+      }, {
+        "micros": 8695416,
+        "values": [5.9454966]
+      }, {
+        "micros": 9410599,
+        "values": [4.666653]
+      }]
+    },
+    "Energy Return": {
+      "median": 81.19559,
+      "mean": 81.026215,
+      "min": 78.89933,
+      "max": 84.22222,
+      "variance": 2.2085838,
+      "sample_count": 12,
+      "frames": [{
+        "micros": 999433,
+        "values": [81.820114]
+      }, {
+        "micros": 1710230,
+        "values": [81.06244]
+      }, {
+        "micros": 2425819,
+        "values": [78.89933]
+      }, {
+        "micros": 3150891,
+        "values": [81.840675]
+      }, {
+        "micros": 3876025,
+        "values": [84.22222]
+      }, {
+        "micros": 4594868,
+        "values": [79.591515]
+      }, {
+        "micros": 5309845,
+        "values": [79.58391]
+      }, {
+        "micros": 6026316,
+        "values": [79.778656]
+      }, {
+        "micros": 6747126,
+        "values": [81.83784]
+      }, {
+        "micros": 7466760,
+        "values": [82.6545]
+      }, {
+        "micros": 8187023,
+        "values": [81.19559]
+      }, {
+        "micros": 8907792,
+        "values": [79.82779]
+      }]
+    },
+    "Avg Knee Flexion": {
+      "median": 34.01705,
+      "mean": 33.8671,
+      "min": 30.76089,
+      "max": 36.66453,
+      "variance": 2.26586,
+      "sample_count": 27
+    },
+    "Left Knee Stability": {
+      "median": 1.8941654,
+      "mean": 1.8941654,
+      "min": 1.8941654,
+      "max": 1.8941654,
+      "sample_count": 1,
+      "frames": [{
+        "micros": 9410599,
+        "values": [1.8941654]
+      }]
+    },
+    "Right Knee Stability": {
+      "median": 1.7181202,
+      "mean": 1.7181202,
+      "min": 1.7181202,
+      "max": 1.7181202,
+      "sample_count": 1,
+      "frames": [{
+        "micros": 9757544,
+        "values": [1.7181202]
+      }]
+    },
+    "Flight Time": {
+      "median": 136.11452,
+      "mean": 136.33017,
+      "min": 113.8589,
+      "max": 152.24477,
+      "variance": 111.21684,
+      "sample_count": 12,
+      "frames": [{
+        "micros": 999433,
+        "values": [129.42882]
+      }, {
+        "micros": 1710230,
+        "values": [134.39241]
+      }, {
+        "micros": 2425819,
+        "values": [152.24477]
+      }, {
+        "micros": 3150891,
+        "values": [132.31383]
+      }, {
+        "micros": 3876025,
+        "values": [113.8589]
+      }, {
+        "micros": 4594868,
+        "values": [146.13425]
+      }, {
+        "micros": 5309845,
+        "values": [145.75204]
+      }, {
+        "micros": 6026316,
+        "values": [145.3983]
+      }, {
+        "micros": 6747126,
+        "values": [131.2373]
+      }, {
+        "micros": 7466760,
+        "values": [124.31203]
+      }, {
+        "micros": 8187023,
+        "values": [136.11452]
+      }, {
+        "micros": 8907792,
+        "values": [144.77486]
+      }]
+    },
+    "Avg Stride Angle": {
+      "median": 1.9175318,
+      "mean": 4.6757936,
+      "max": 80.867195,
+      "variance": 74.97098,
+      "sample_count": 602
+    },
+    "Avg Overstride": {
+      "median": 125.649734,
+      "mean": 124.541214,
+      "min": 97.65008,
+      "max": 154.04791,
+      "variance": 173.8257,
+      "sample_count": 27
+    },
+    "Right Ground Contact": {
+      "median": 277.1935,
+      "mean": 279.31558,
+      "min": 254.38065,
+      "max": 319.956,
+      "variance": 290.77887,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 600000,
+        "values": [319.956]
+      }, {
+        "micros": 1266667,
+        "values": [259.30472]
+      }, {
+        "micros": 1966656,
+        "values": [264.00168]
+      }, {
+        "micros": 2699989,
+        "values": [267.67667]
+      }, {
+        "micros": 3433333,
+        "values": [282.89093]
+      }, {
+        "micros": 4166667,
+        "values": [289.6647]
+      }, {
+        "micros": 4866667,
+        "values": [273.4249]
+      }, {
+        "micros": 5566667,
+        "values": [254.38065]
+      }, {
+        "micros": 6300000,
+        "values": [273.77914]
+      }, {
+        "micros": 7033333,
+        "values": [277.1935]
+      }, {
+        "micros": 7766667,
+        "values": [300.8005]
+      }, {
+        "micros": 8466667,
+        "values": [279.49762]
+      }, {
+        "micros": 9200000,
+        "values": [288.53174]
+      }]
+    },
+    "Sideways Oscillation": {
+      "median": 6.9890137,
+      "mean": 10.203191,
+      "min": 0.025455475,
+      "max": 51.95595,
+      "variance": 134.18565,
+      "sample_count": 48,
+      "frames": [{
+        "micros": 732458,
+        "values": [2.6140451]
+      }, {
+        "micros": 910441,
+        "values": [13.213709]
+      }, {
+        "micros": 1088425,
+        "values": [5.0111427]
+      }, {
+        "micros": 1266408,
+        "values": [6.2491913]
+      }, {
+        "micros": 1444108,
+        "values": [3.8892584]
+      }, {
+        "micros": 1621523,
+        "values": [8.29768]
+      }, {
+        "micros": 1798938,
+        "values": [2.272955]
+      }, {
+        "micros": 1976353,
+        "values": [4.2626286]
+      }, {
+        "micros": 2155250,
+        "values": [8.220237]
+      }, {
+        "micros": 2335629,
+        "values": [8.38732]
+      }, {
+        "micros": 2516008,
+        "values": [2.3998165]
+      }, {
+        "micros": 2696387,
+        "values": [1.9184055]
+      }, {
+        "micros": 2877655,
+        "values": [16.000546]
+      }, {
+        "micros": 3059812,
+        "values": [0.37267113]
+      }, {
+        "micros": 3241969,
+        "values": [7.3650913]
+      }, {
+        "micros": 3424126,
+        "values": [0.025455475]
+      }, {
+        "micros": 3605409,
+        "values": [16.120018]
+      }, {
+        "micros": 3785820,
+        "values": [5.2810154]
+      }, {
+        "micros": 3966230,
+        "values": [2.061016]
+      }, {
+        "micros": 4146640,
+        "values": [2.233698]
+      }, {
+        "micros": 4326351,
+        "values": [27.920876]
+      }, {
+        "micros": 4505363,
+        "values": [2.3135605]
+      }, {
+        "micros": 4684374,
+        "values": [9.760532]
+      }, {
+        "micros": 4863386,
+        "values": [1.9134617]
+      }, {
+        "micros": 5042130,
+        "values": [16.600838]
+      }, {
+        "micros": 5220607,
+        "values": [10.927912]
+      }, {
+        "micros": 5399084,
+        "values": [4.1135674]
+      }, {
+        "micros": 5577561,
+        "values": [4.407116]
+      }, {
+        "micros": 5756678,
+        "values": [33.084114]
+      }, {
+        "micros": 5936437,
+        "values": [3.1879425]
+      }, {
+        "micros": 6116195,
+        "values": [13.058521]
+      }, {
+        "micros": 6295954,
+        "values": [6.257717]
+      }, {
+        "micros": 6476156,
+        "values": [36.472378]
+      }, {
+        "micros": 6656803,
+        "values": [10.897968]
+      }, {
+        "micros": 6837449,
+        "values": [0.8760376]
+      }, {
+        "micros": 7018096,
+        "values": [11.943119]
+      }, {
+        "micros": 7198005,
+        "values": [45.32873]
+      }, {
+        "micros": 7377175,
+        "values": [6.9890137]
+      }, {
+        "micros": 7556345,
+        "values": [7.4859886]
+      }, {
+        "micros": 7735516,
+        "values": [7.933197]
+      }, {
+        "micros": 7915581,
+        "values": [31.493126]
+      }, {
+        "micros": 8096542,
+        "values": [9.178429]
+      }, {
+        "micros": 8277503,
+        "values": [7.13142]
+      }, {
+        "micros": 8458464,
+        "values": [0.51462173]
+      }, {
+        "micros": 8638656,
+        "values": [51.95595]
+      }, {
+        "micros": 8818080,
+        "values": [6.0255203]
+      }, {
+        "micros": 8997504,
+        "values": [1.1436005]
+      }, {
+        "micros": 9176927,
+        "values": [4.6420135]
+      }]
+    },
+    "Left Knee Angle": {
+      "median": 1.1130867,
+      "mean": 1.4341389,
+      "min": 0.45435804,
+      "max": 3.8937564,
+      "variance": 1.0105064,
+      "sample_count": 13,
+      "frames": [{
+        "micros": 788642,
+        "values": [0.8204316]
+      }, {
+        "micros": 1485588,
+        "values": [1.1130867]
+      }, {
+        "micros": 2205896,
+        "values": [0.56373256]
+      }, {
+        "micros": 2931743,
+        "values": [0.45435804]
+      }, {
+        "micros": 3655427,
+        "values": [3.8937564]
+      }, {
+        "micros": 4365352,
+        "values": [0.4822134]
+      }, {
+        "micros": 5090541,
+        "values": [0.5793646]
+      }, {
+        "micros": 5802102,
+        "values": [1.9200404]
+      }, {
+        "micros": 6535206,
+        "values": [0.7546652]
+      }, {
+        "micros": 7252902,
+        "values": [2.5102637]
+      }, {
+        "micros": 7969885,
+        "values": [2.465714]
+      }, {
+        "micros": 8695416,
+        "values": [1.1499884]
+      }, {
+        "micros": 9410599,
+        "values": [1.9361913]
+      }]
+    },
+    "Avg Ground Contact": {
+      "median": 292.7125,
+      "mean": 292.5844,
+      "min": 254.38065,
+      "max": 323.20056,
+      "variance": 379.75174,
+      "sample_count": 26
+    },
+    "Vertical Oscillation": {
+      "median": 94.18148,
+      "mean": 94.80291,
+      "min": 80.80638,
+      "max": 112.66274,
+      "variance": 47.760002,
+      "sample_count": 53,
+      "frames": [{
+        "micros": 435734,
+        "values": [105.870415]
+      }, {
+        "micros": 611851,
+        "values": [88.53586]
+      }, {
+        "micros": 781002,
+        "values": [80.80638]
+      }, {
+        "micros": 949179,
+        "values": [88.829544]
+      }, {
+        "micros": 1141106,
+        "values": [95.82954]
+      }, {
+        "micros": 1317350,
+        "values": [85.32754]
+      }, {
+        "micros": 1481230,
+        "values": [83.00135]
+      }, {
+        "micros": 1648695,
+        "values": [94.86263]
+      }, {
+        "micros": 1839702,
+        "values": [97.28258]
+      }, {
+        "micros": 2007716,
+        "values": [102.48197]
+      }, {
+        "micros": 2198249,
+        "values": [92.978096]
+      }, {
+        "micros": 2369588,
+        "values": [97.0891]
+      }, {
+        "micros": 2564137,
+        "values": [106.938736]
+      }, {
+        "micros": 2727622,
+        "values": [88.6291]
+      }, {
+        "micros": 2906208,
+        "values": [85.14813]
+      }, {
+        "micros": 3099530,
+        "values": [104.78179]
+      }, {
+        "micros": 3295878,
+        "values": [112.66274]
+      }, {
+        "micros": 3441069,
+        "values": [94.18148]
+      }, {
+        "micros": 3633809,
+        "values": [90.76157]
+      }, {
+        "micros": 3810601,
+        "values": [111.52459]
+      }, {
+        "micros": 4006441,
+        "values": [105.11124]
+      }, {
+        "micros": 4179027,
+        "values": [95.15926]
+      }, {
+        "micros": 4363564,
+        "values": [95.7975]
+      }, {
+        "micros": 4535930,
+        "values": [95.86086]
+      }, {
+        "micros": 4740719,
+        "values": [106.614845]
+      }, {
+        "micros": 4922239,
+        "values": [91.22462]
+      }, {
+        "micros": 5089985,
+        "values": [85.51609]
+      }, {
+        "micros": 5247816,
+        "values": [93.29362]
+      }, {
+        "micros": 5446443,
+        "values": [88.725296]
+      }, {
+        "micros": 5607349,
+        "values": [94.962555]
+      }, {
+        "micros": 5794352,
+        "values": [96.73523]
+      }, {
+        "micros": 5973267,
+        "values": [99.19667]
+      }, {
+        "micros": 6171155,
+        "values": [101.79038]
+      }, {
+        "micros": 6361317,
+        "values": [92.686264]
+      }, {
+        "micros": 6534085,
+        "values": [92.56672]
+      }, {
+        "micros": 6721501,
+        "values": [101.129906]
+      }, {
+        "micros": 6900761,
+        "values": [101.20308]
+      }, {
+        "micros": 7069593,
+        "values": [94.04008]
+      }, {
+        "micros": 7245227,
+        "values": [90.520966]
+      }, {
+        "micros": 7430848,
+        "values": [96.01783]
+      }, {
+        "micros": 7612422,
+        "values": [101.72495]
+      }, {
+        "micros": 7792376,
+        "values": [89.55725]
+      }, {
+        "micros": 7967289,
+        "values": [92.81127]
+      }, {
+        "micros": 8124264,
+        "values": [90.66716]
+      }, {
+        "micros": 8336321,
+        "values": [85.897964]
+      }, {
+        "micros": 8502693,
+        "values": [91.57193]
+      }, {
+        "micros": 8696444,
+        "values": [95.14493]
+      }, {
+        "micros": 8843292,
+        "values": [94.79982]
+      }, {
+        "micros": 9034095,
+        "values": [90.55846]
+      }, {
+        "micros": 9227070,
+        "values": [92.542206]
+      }, {
+        "micros": 9412580,
+        "values": [90.13028]
+      }, {
+        "micros": 9584436,
+        "values": [88.458916]
+      }, {
+        "micros": 9768614,
+        "values": [95.01279]
+      }]
+    }
+  },
+  "body_frames": {
+    "avg_stride_frames": [{
+      "lower_spine": {
+        "x_pos": 44.361595,
+        "y_pos": -200.83362,
+        "z_pos": 2.4252777,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -44.406097,
+        "y_pos": -210.61877,
+        "z_pos": 99.26592,
+        "quaternion": [0.986378, -0.1639753, 0.0, 0.013058481]
+      },
+      "left_knee": {
+        "x_pos": -30.705278,
+        "y_pos": 292.4392,
+        "z_pos": 271.30707,
+        "quaternion": [0.9974155, 0.068984516, -0.008156736, 0.018357046]
+      },
+      "left_ankle": {
+        "x_pos": -1.0450232,
+        "y_pos": 736.77435,
+        "z_pos": 357.28094,
+        "quaternion": [0.6469381, -0.7592243, 0.058488555, -0.040358014]
+      },
+      "left_heel": {
+        "x_pos": -0.2145462,
+        "y_pos": 872.2036,
+        "z_pos": 291.82724,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -14.067199,
+        "y_pos": 809.91846,
+        "z_pos": 462.16022,
+        "quaternion": [0.99996233, 0.008590947, -0.001237588, 2.461299E-4]
+      },
+      "left_toe": {
+        "x_pos": -19.799309,
+        "y_pos": 784.64606,
+        "z_pos": 535.16003,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 151.91263,
+        "y_pos": -189.21692,
+        "z_pos": 82.629105,
+        "quaternion": [0.99045646, 0.12549919, 0.0, -0.056973256]
+      },
+      "right_knee": {
+        "x_pos": 92.49223,
+        "y_pos": 317.28113,
+        "z_pos": -48.260574,
+        "quaternion": [0.91519624, 0.39982715, 0.038422044, -0.032830685]
+      },
+      "right_ankle": {
+        "x_pos": 38.290176,
+        "y_pos": 531.62244,
+        "z_pos": -457.5126,
+        "quaternion": [0.6967118, -0.7009648, 0.07555677, 0.13240904]
+      },
+      "right_heel": {
+        "x_pos": 36.680706,
+        "y_pos": 521.2938,
+        "z_pos": -576.69727,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 70.393234,
+        "y_pos": 682.81134,
+        "z_pos": -490.39233,
+        "quaternion": [0.9998714, 0.015634477, -0.0035367613, 5.118015E-4]
+      },
+      "right_toe": {
+        "x_pos": 84.93414,
+        "y_pos": 752.03314,
+        "z_pos": -456.2357,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 44.361595,
+        "y_pos": -979.23364,
+        "z_pos": 209.99863,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 32.892075,
+        "y_pos": -201.42535,
+        "z_pos": 158.344,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 28724,
+      "stride_index": 0.04,
+      "lower_spine": {
+        "x_pos": 54.60971,
+        "y_pos": -188.84747,
+        "z_pos": 57.09757,
+        "quaternion": [0.9915228, 0.12993282, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -38.975216,
+        "y_pos": -200.4836,
+        "z_pos": 152.04544,
+        "quaternion": [0.98973614, -0.1412568, 0.0, 0.021652652]
+      },
+      "left_knee": {
+        "x_pos": -16.252098,
+        "y_pos": 308.0227,
+        "z_pos": 300.2857,
+        "quaternion": [0.9984894, 0.050236944, -0.008268048, 0.020661155]
+      },
+      "left_ankle": {
+        "x_pos": 23.37215,
+        "y_pos": 755.26605,
+        "z_pos": 382.9156,
+        "quaternion": [0.6809998, -0.72622997, 0.07483906, -0.0568191]
+      },
+      "left_heel": {
+        "x_pos": 30.129087,
+        "y_pos": 878.8546,
+        "z_pos": 312.6464,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": 12.141764,
+        "y_pos": 835.3296,
+        "z_pos": 485.2215,
+        "quaternion": [0.9999751, -0.0062134173, -0.0030414697, -0.001414705]
+      },
+      "left_toe": {
+        "x_pos": 4.9175634,
+        "y_pos": 815.6859,
+        "z_pos": 559.18225,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 160.4717,
+        "y_pos": -185.16278,
+        "z_pos": 135.12637,
+        "quaternion": [0.99040407, 0.13132374, 0.0, -0.04305648]
+      },
+      "right_knee": {
+        "x_pos": 115.16734,
+        "y_pos": 325.7467,
+        "z_pos": -3.0534668,
+        "quaternion": [0.8966006, 0.44008097, 0.028037472, -0.04062079]
+      },
+      "right_ankle": {
+        "x_pos": 66.145065,
+        "y_pos": 493.81897,
+        "z_pos": -418.14758,
+        "quaternion": [0.7316263, -0.6637955, 0.09988264, 0.11883634]
+      },
+      "right_heel": {
+        "x_pos": 64.416435,
+        "y_pos": 475.18997,
+        "z_pos": -533.2102,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 98.902985,
+        "y_pos": 644.188,
+        "z_pos": -482.61923,
+        "quaternion": [0.99968517, 1.9944033E-4, 0.0071583074, -0.024048122]
+      },
+      "right_toe": {
+        "x_pos": 109.793564,
+        "y_pos": 716.724,
+        "z_pos": -460.9374,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 54.60971,
+        "y_pos": -967.24744,
+        "z_pos": 264.67093,
+        "quaternion": [0.9915228, 0.12993282, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 44.299835,
+        "y_pos": -188.99744,
+        "z_pos": 214.14398,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 57448,
+      "stride_index": 0.08,
+      "lower_spine": {
+        "x_pos": 37.15677,
+        "y_pos": -167.97318,
+        "z_pos": 12.181778,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -56.41503,
+        "y_pos": -190.29709,
+        "z_pos": 100.67879,
+        "quaternion": [0.9904481, -0.1368257, 0.0, 0.017067937]
+      },
+      "left_knee": {
+        "x_pos": -38.44467,
+        "y_pos": 321.00522,
+        "z_pos": 244.73878,
+        "quaternion": [0.99528414, 0.09334182, -0.010146896, 0.024370024]
+      },
+      "left_ankle": {
+        "x_pos": 0.29432034,
+        "y_pos": 771.7186,
+        "z_pos": 284.0237,
+        "quaternion": [0.7016857, -0.70637137, 0.066406384, -0.06532111]
+      },
+      "left_heel": {
+        "x_pos": 15.325856,
+        "y_pos": 883.0501,
+        "z_pos": 210.26753,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -2.92072,
+        "y_pos": 866.1222,
+        "z_pos": 390.37372,
+        "quaternion": [0.9999979, -0.0020223788, -2.9802386E-8, -2.0489E-4]
+      },
+      "left_toe": {
+        "x_pos": -10.740682,
+        "y_pos": 858.5491,
+        "z_pos": 467.56213,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 145.96544,
+        "y_pos": -182.22742,
+        "z_pos": 92.58884,
+        "quaternion": [0.99642056, 0.06937936, 0.0, -0.048297066]
+      },
+      "right_knee": {
+        "x_pos": 94.6703,
+        "y_pos": 343.101,
+        "z_pos": 18.90271,
+        "quaternion": [0.8255524, 0.56023765, 0.047985006, -0.047900148]
+      },
+      "right_ankle": {
+        "x_pos": 47.765934,
+        "y_pos": 445.41232,
+        "z_pos": -427.19574,
+        "quaternion": [0.7101078, -0.6837013, 0.13340442, 0.10248266]
+      },
+      "right_heel": {
+        "x_pos": 56.055946,
+        "y_pos": 416.6157,
+        "z_pos": -537.08655,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 94.431915,
+        "y_pos": 587.4894,
+        "z_pos": -503.49655,
+        "quaternion": [0.99966985, -2.9797257E-5, -0.0049497844, 0.025213785]
+      },
+      "right_toe": {
+        "x_pos": 114.94398,
+        "y_pos": 660.69653,
+        "z_pos": -489.10083,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 37.15677,
+        "y_pos": -946.37317,
+        "z_pos": 219.75513,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 29.21121,
+        "y_pos": -168.13017,
+        "z_pos": 168.85757,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 86172,
+      "stride_index": 0.12,
+      "lower_spine": {
+        "x_pos": 40.553017,
+        "y_pos": -137.53949,
+        "z_pos": 14.078484,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -58.84824,
+        "y_pos": -185.28918,
+        "z_pos": 98.246735,
+        "quaternion": [0.9897274, -0.13992244, 0.0, 0.02935003]
+      },
+      "left_knee": {
+        "x_pos": -27.918518,
+        "y_pos": 325.3276,
+        "z_pos": 245.70015,
+        "quaternion": [0.9845432, 0.17117108, -0.019480288, 0.031553607]
+      },
+      "left_ankle": {
+        "x_pos": 28.8567,
+        "y_pos": 775.90295,
+        "z_pos": 215.87979,
+        "quaternion": [0.66515416, -0.7406373, 0.09167371, -0.024947153]
+      },
+      "left_heel": {
+        "x_pos": 17.015915,
+        "y_pos": 882.70386,
+        "z_pos": 121.45831,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": 9.896849,
+        "y_pos": 874.4843,
+        "z_pos": 302.60645,
+        "quaternion": [1.0, -2.7939677E-7, 3.7252903E-9, -1.0826625E-8]
+      },
+      "left_toe": {
+        "x_pos": 6.8458195,
+        "y_pos": 870.9616,
+        "z_pos": 380.24136,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 150.4721,
+        "y_pos": -164.78384,
+        "z_pos": 95.68223,
+        "quaternion": [0.9996034, -4.4871666E-4, 0.0, -0.02815819]
+      },
+      "right_knee": {
+        "x_pos": 120.56125,
+        "y_pos": 365.7059,
+        "z_pos": 96.158875,
+        "quaternion": [0.75255823, 0.6529927, 0.036886994, -0.07678521]
+      },
+      "right_ankle": {
+        "x_pos": 65.55535,
+        "y_pos": 422.47797,
+        "z_pos": -344.34656,
+        "quaternion": [0.6815739, -0.7066199, 0.15621059, 0.10836792]
+      },
+      "right_heel": {
+        "x_pos": 88.270515,
+        "y_pos": 391.4513,
+        "z_pos": -457.55713,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 131.16339,
+        "y_pos": 564.66284,
+        "z_pos": -427.55304,
+        "quaternion": [0.99980944, 0.018348893, -0.0035688013, -0.0056285486]
+      },
+      "right_toe": {
+        "x_pos": 148.64183,
+        "y_pos": 638.89636,
+        "z_pos": -417.64188,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 40.553017,
+        "y_pos": -915.9395,
+        "z_pos": 221.65182,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 31.867327,
+        "y_pos": -138.34088,
+        "z_pos": 174.31573,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 114896,
+      "stride_index": 0.16,
+      "lower_spine": {
+        "x_pos": 29.007132,
+        "y_pos": -123.1426,
+        "z_pos": 5.9397736,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -70.59454,
+        "y_pos": -171.78839,
+        "z_pos": 81.81268,
+        "quaternion": [0.9883269, -0.15048614, 0.0, 0.023746425]
+      },
+      "left_knee": {
+        "x_pos": -45.52092,
+        "y_pos": 337.59576,
+        "z_pos": 240.70955,
+        "quaternion": [0.96690094, 0.25224608, -0.022191625, 0.031336922]
+      },
+      "left_ankle": {
+        "x_pos": 4.84134,
+        "y_pos": 776.9597,
+        "z_pos": 146.46024,
+        "quaternion": [0.6199043, -0.779795, 0.0853105, -0.018990908]
+      },
+      "left_heel": {
+        "x_pos": -6.9148912,
+        "y_pos": 881.35315,
+        "z_pos": 40.24877,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -11.742575,
+        "y_pos": 877.5897,
+        "z_pos": 221.57468,
+        "quaternion": [0.99997455, 0.0032296223, 0.0063629528, 2.1804997E-4]
+      },
+      "left_toe": {
+        "x_pos": -14.801932,
+        "y_pos": 876.4795,
+        "z_pos": 299.2858,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 128.93314,
+        "y_pos": -151.20868,
+        "z_pos": 84.014885,
+        "quaternion": [0.99840474, -0.05239407, 0.0, -0.021042448]
+      },
+      "right_knee": {
+        "x_pos": 106.60637,
+        "y_pos": 376.76837,
+        "z_pos": 139.60681,
+        "quaternion": [0.7093109, 0.70320064, 0.03348267, -0.035578642]
+      },
+      "right_ankle": {
+        "x_pos": 81.522705,
+        "y_pos": 425.8874,
+        "z_pos": -309.93854,
+        "quaternion": [0.6753738, -0.6910933, 0.24887085, 0.065754086]
+      },
+      "right_heel": {
+        "x_pos": 85.57875,
+        "y_pos": 401.0014,
+        "z_pos": -419.88638,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 148.441,
+        "y_pos": 567.4685,
+        "z_pos": -389.24393,
+        "quaternion": [0.9998351, -0.004166851, -0.0016656918, 0.017597165]
+      },
+      "right_toe": {
+        "x_pos": 178.50414,
+        "y_pos": 639.1028,
+        "z_pos": -375.34457,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 29.007132,
+        "y_pos": -901.5426,
+        "z_pos": 213.51312,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 22.721413,
+        "y_pos": -123.90022,
+        "z_pos": 160.70627,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 143620,
+      "stride_index": 0.2,
+      "lower_spine": {
+        "x_pos": 27.013786,
+        "y_pos": -122.440445,
+        "z_pos": -15.520416,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -70.49251,
+        "y_pos": -165.96939,
+        "z_pos": 61.424316,
+        "quaternion": [0.99328613, -0.11338497, 0.0, 0.022946361]
+      },
+      "left_knee": {
+        "x_pos": -46.35958,
+        "y_pos": 349.27036,
+        "z_pos": 180.67247,
+        "quaternion": [0.9663231, 0.25545144, -0.017846225, 0.025411654]
+      },
+      "left_ankle": {
+        "x_pos": -3.762254,
+        "y_pos": 776.2155,
+        "z_pos": 52.298653,
+        "quaternion": [0.5971687, -0.7982119, 0.07901333, -0.0020824522]
+      },
+      "left_heel": {
+        "x_pos": -19.622086,
+        "y_pos": 880.4096,
+        "z_pos": -66.53946,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -20.093874,
+        "y_pos": 880.42993,
+        "z_pos": 115.06999,
+        "quaternion": [0.9999426, -0.00312369, -0.010247285, -6.9679613E-6]
+      },
+      "left_toe": {
+        "x_pos": -18.700724,
+        "y_pos": 879.95233,
+        "z_pos": 192.90262,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 127.14247,
+        "y_pos": -145.96487,
+        "z_pos": 55.985733,
+        "quaternion": [0.98972446, -0.1420787, 0.0, -0.016099185]
+      },
+      "right_knee": {
+        "x_pos": 110.04636,
+        "y_pos": 368.57278,
+        "z_pos": 206.86255,
+        "quaternion": [0.66643167, 0.74479336, 0.029609192, -0.016582878]
+      },
+      "right_ankle": {
+        "x_pos": 97.17648,
+        "y_pos": 445.2953,
+        "z_pos": -234.17697,
+        "quaternion": [0.6473701, -0.71661985, 0.25137523, 0.064640336]
+      },
+      "right_heel": {
+        "x_pos": 100.0537,
+        "y_pos": 434.44022,
+        "z_pos": -350.72842,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 161.80759,
+        "y_pos": 596.03687,
+        "z_pos": -294.53024,
+        "quaternion": [0.9998894, 0.002421632, -0.0056376583, 0.013549932]
+      },
+      "right_toe": {
+        "x_pos": 189.86955,
+        "y_pos": 663.3648,
+        "z_pos": -271.53262,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 27.013786,
+        "y_pos": -900.84045,
+        "z_pos": 192.05293,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 23.958889,
+        "y_pos": -122.6431,
+        "z_pos": 135.63617,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 172344,
+      "stride_index": 0.24,
+      "lower_spine": {
+        "x_pos": 34.359947,
+        "y_pos": -134.8,
+        "z_pos": -18.692375,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -63.194866,
+        "y_pos": -172.03033,
+        "z_pos": 70.52359,
+        "quaternion": [0.99850386, -0.0507883, 0.0, 0.020262076]
+      },
+      "left_knee": {
+        "x_pos": -41.65751,
+        "y_pos": 357.05264,
+        "z_pos": 124.50847,
+        "quaternion": [0.9712585, 0.23750864, -0.010828196, 0.01136811]
+      },
+      "left_ankle": {
+        "x_pos": -14.59797,
+        "y_pos": 775.51215,
+        "z_pos": -42.248608,
+        "quaternion": [0.5747891, -0.8143718, 0.021964388, -0.07703012]
+      },
+      "left_heel": {
+        "x_pos": -7.5431924,
+        "y_pos": 874.8062,
+        "z_pos": -167.39626,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -24.490597,
+        "y_pos": 881.4826,
+        "z_pos": 13.677475,
+        "quaternion": [0.99924517, 0.005969148, -0.038335346, 0.0019721433]
+      },
+      "left_toe": {
+        "x_pos": -25.770433,
+        "y_pos": 885.2756,
+        "z_pos": 91.2805,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 136.68715,
+        "y_pos": -147.94968,
+        "z_pos": 55.60669,
+        "quaternion": [0.9783714, -0.20631196, 0.0, -0.014995996]
+      },
+      "right_knee": {
+        "x_pos": 121.15368,
+        "y_pos": 336.1175,
+        "z_pos": 269.3131,
+        "quaternion": [0.69587797, 0.7176736, 0.0257187, -0.0060906783]
+      },
+      "right_ankle": {
+        "x_pos": 111.58618,
+        "y_pos": 504.36746,
+        "z_pos": -147.58124,
+        "quaternion": [0.6495473, -0.7189314, 0.22329201, 0.10661514]
+      },
+      "right_heel": {
+        "x_pos": 106.98928,
+        "y_pos": 493.763,
+        "z_pos": -270.06177,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 164.62643,
+        "y_pos": 637.89087,
+        "z_pos": -183.25838,
+        "quaternion": [0.9998515, 0.014706009, -0.008153681, 0.003773594]
+      },
+      "right_toe": {
+        "x_pos": 191.35365,
+        "y_pos": 702.8837,
+        "z_pos": -146.9851,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 34.359947,
+        "y_pos": -913.2,
+        "z_pos": 188.88098,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 33.61749,
+        "y_pos": -134.76471,
+        "z_pos": 135.4933,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 201068,
+      "stride_index": 0.28,
+      "lower_spine": {
+        "x_pos": 42.666862,
+        "y_pos": -148.975,
+        "z_pos": -12.034203,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -55.205658,
+        "y_pos": -169.54794,
+        "z_pos": 81.293655,
+        "quaternion": [0.99933165, 0.03585587, -0.0, 0.00710774]
+      },
+      "left_knee": {
+        "x_pos": -47.66012,
+        "y_pos": 360.18503,
+        "z_pos": 43.229248,
+        "quaternion": [0.9833458, 0.17960504, -5.609134E-4, 0.027797163]
+      },
+      "left_ankle": {
+        "x_pos": -16.719885,
+        "y_pos": 773.8827,
+        "z_pos": -148.33607,
+        "quaternion": [0.5806421, -0.8112757, 0.032868087, -0.060050596]
+      },
+      "left_heel": {
+        "x_pos": -19.302343,
+        "y_pos": 864.71875,
+        "z_pos": -274.4442,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -31.842863,
+        "y_pos": 883.71497,
+        "z_pos": -94.62604,
+        "quaternion": [0.9990925, -0.037264567, -0.020623894, -4.2009674E-4]
+      },
+      "left_toe": {
+        "x_pos": -34.033188,
+        "y_pos": 886.0885,
+        "z_pos": -16.858345,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 145.39511,
+        "y_pos": -161.66623,
+        "z_pos": 62.825455,
+        "quaternion": [0.9691352, -0.24519965, 0.0, -0.025575196]
+      },
+      "right_knee": {
+        "x_pos": 118.979095,
+        "y_pos": 306.445,
+        "z_pos": 316.08636,
+        "quaternion": [0.7490345, 0.6617154, 0.029441547, 0.014601408]
+      },
+      "right_ankle": {
+        "x_pos": 115.522514,
+        "y_pos": 563.25226,
+        "z_pos": -45.07943,
+        "quaternion": [0.6694657, -0.6938098, 0.21312448, 0.15818253]
+      },
+      "right_heel": {
+        "x_pos": 98.22749,
+        "y_pos": 570.42566,
+        "z_pos": -173.3161,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 163.95311,
+        "y_pos": 699.381,
+        "z_pos": -58.78045,
+        "quaternion": [0.9996324, 0.02397936, -0.0010222751, -0.012609431]
+      },
+      "right_toe": {
+        "x_pos": 191.12971,
+        "y_pos": 758.37384,
+        "z_pos": -11.881409,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 42.666862,
+        "y_pos": -927.375,
+        "z_pos": 195.53915,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 40.60255,
+        "y_pos": -148.92743,
+        "z_pos": 145.88168,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 229792,
+      "stride_index": 0.32,
+      "lower_spine": {
+        "x_pos": 40.583393,
+        "y_pos": -167.4931,
+        "z_pos": 2.3115501,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -65.120544,
+        "y_pos": -164.41841,
+        "z_pos": 82.42861,
+        "quaternion": [0.9936432, 0.10992031, -0.0, 0.024304856]
+      },
+      "left_knee": {
+        "x_pos": -39.448097,
+        "y_pos": 353.6225,
+        "z_pos": -33.676712,
+        "quaternion": [0.9922531, 0.12278683, -0.0018702635, 0.018805038]
+      },
+      "left_ankle": {
+        "x_pos": -2.003879,
+        "y_pos": 757.9845,
+        "z_pos": -237.95139,
+        "quaternion": [0.6342709, -0.7698658, 0.0428391, -0.05631888]
+      },
+      "left_heel": {
+        "x_pos": -16.192158,
+        "y_pos": 833.72034,
+        "z_pos": -348.32986,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -26.31584,
+        "y_pos": 883.3855,
+        "z_pos": -172.16357,
+        "quaternion": [0.99204665, -0.12540035, 0.0061762836, -0.008947564]
+      },
+      "left_toe": {
+        "x_pos": -31.765991,
+        "y_pos": 885.11707,
+        "z_pos": -94.584305,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 139.39761,
+        "y_pos": -187.25192,
+        "z_pos": 81.51057,
+        "quaternion": [0.9697961, -0.24331452, 0.0, -0.01713217]
+      },
+      "right_knee": {
+        "x_pos": 121.61884,
+        "y_pos": 284.11523,
+        "z_pos": 334.00824,
+        "quaternion": [0.8127178, 0.5823334, 0.016276287, 0.010618178]
+      },
+      "right_ankle": {
+        "x_pos": 118.08671,
+        "y_pos": 608.6052,
+        "z_pos": 30.320385,
+        "quaternion": [0.6585205, -0.7033235, 0.17883284, 0.19926281]
+      },
+      "right_heel": {
+        "x_pos": 101.70723,
+        "y_pos": 647.15393,
+        "z_pos": -86.386734,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 166.95148,
+        "y_pos": 746.4495,
+        "z_pos": 54.78611,
+        "quaternion": [0.9998012, -0.0010859891, 0.016517697, -0.011116018]
+      },
+      "right_toe": {
+        "x_pos": 191.55328,
+        "y_pos": 788.7839,
+        "z_pos": 115.288765,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 40.583393,
+        "y_pos": -945.8931,
+        "z_pos": 209.88489,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 46.146664,
+        "y_pos": -167.82344,
+        "z_pos": 163.80612,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 258516,
+      "stride_index": 0.36,
+      "lower_spine": {
+        "x_pos": 33.190212,
+        "y_pos": -198.32027,
+        "z_pos": -0.5889816,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -69.43003,
+        "y_pos": -167.93591,
+        "z_pos": 74.25296,
+        "quaternion": [0.9869024, 0.15952066, -0.0, 0.024016233]
+      },
+      "left_knee": {
+        "x_pos": -44.27382,
+        "y_pos": 335.12766,
+        "z_pos": -92.839676,
+        "quaternion": [0.99601763, 0.089030616, -0.0033318775, 0.0033725435]
+      },
+      "left_ankle": {
+        "x_pos": -21.03963,
+        "y_pos": 735.0989,
+        "z_pos": -311.0427,
+        "quaternion": [0.72873026, -0.6787256, -0.009929654, -0.09047177]
+      },
+      "left_heel": {
+        "x_pos": -23.361725,
+        "y_pos": 779.5068,
+        "z_pos": -427.63364,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -44.879974,
+        "y_pos": 875.8263,
+        "z_pos": -276.77368,
+        "quaternion": [0.9735721, -0.22629613, -0.0025068487, -0.030677712]
+      },
+      "left_toe": {
+        "x_pos": -55.433487,
+        "y_pos": 883.86957,
+        "z_pos": -199.58228,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 131.28128,
+        "y_pos": -200.20795,
+        "z_pos": 79.574646,
+        "quaternion": [0.96814406, -0.25011194, 0.0, -0.011875722]
+      },
+      "right_knee": {
+        "x_pos": 118.99086,
+        "y_pos": 267.25714,
+        "z_pos": 338.42047,
+        "quaternion": [0.87711966, 0.4800046, 0.01528252, -0.004808215]
+      },
+      "right_ankle": {
+        "x_pos": 104.49758,
+        "y_pos": 656.16455,
+        "z_pos": 127.66557,
+        "quaternion": [0.68049026, -0.7072471, 0.07027463, 0.17831449]
+      },
+      "right_heel": {
+        "x_pos": 89.71637,
+        "y_pos": 714.8634,
+        "z_pos": 12.38683,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 135.79431,
+        "y_pos": 785.6699,
+        "z_pos": 167.24013,
+        "quaternion": [0.9981554, -0.0069964835, -0.05402973, 0.026786903]
+      },
+      "right_toe": {
+        "x_pos": 164.90799,
+        "y_pos": 814.53326,
+        "z_pos": 233.06229,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 33.190212,
+        "y_pos": -976.7203,
+        "z_pos": 206.98438,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 39.33465,
+        "y_pos": -198.70874,
+        "z_pos": 156.12386,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 287240,
+      "stride_index": 0.4,
+      "lower_spine": {
+        "x_pos": 34.897095,
+        "y_pos": -212.25232,
+        "z_pos": -4.116379,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -66.02232,
+        "y_pos": -180.06216,
+        "z_pos": 71.79671,
+        "quaternion": [0.98249066, 0.18455085, -0.0, 0.02555661]
+      },
+      "left_knee": {
+        "x_pos": -39.37925,
+        "y_pos": 313.65067,
+        "z_pos": -120.59976,
+        "quaternion": [0.9958012, 0.090901434, -0.007817209, -0.007471876]
+      },
+      "left_ankle": {
+        "x_pos": -25.67913,
+        "y_pos": 703.3766,
+        "z_pos": -361.66483,
+        "quaternion": [0.7824536, -0.6207104, 0.040120628, 0.029586378]
+      },
+      "left_heel": {
+        "x_pos": -32.533,
+        "y_pos": 719.34393,
+        "z_pos": -490.37973,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -17.963743,
+        "y_pos": 848.3425,
+        "z_pos": -359.6512,
+        "quaternion": [0.9853553, -0.15065761, 0.06459671, -0.046951625]
+      },
+      "left_toe": {
+        "x_pos": -24.058882,
+        "y_pos": 882.8195,
+        "z_pos": -292.6593,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 131.06485,
+        "y_pos": -223.05865,
+        "z_pos": 74.97768,
+        "quaternion": [0.9697521, -0.24400409, 0.0, -0.0065482147]
+      },
+      "right_knee": {
+        "x_pos": 124.28324,
+        "y_pos": 247.28491,
+        "z_pos": 327.67865,
+        "quaternion": [0.9300289, 0.36692807, 0.013431402, -0.015152341]
+      },
+      "right_ankle": {
+        "x_pos": 103.27495,
+        "y_pos": 689.03925,
+        "z_pos": 210.52492,
+        "quaternion": [0.6715503, -0.6996361, 0.030911839, 0.24202047]
+      },
+      "right_heel": {
+        "x_pos": 82.43165,
+        "y_pos": 776.6831,
+        "z_pos": 113.587685,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 142.02289,
+        "y_pos": 805.82416,
+        "z_pos": 282.13284,
+        "quaternion": [0.99992037, -0.0075605125, 0.010057103, 9.342673E-4]
+      },
+      "right_toe": {
+        "x_pos": 165.89978,
+        "y_pos": 817.0636,
+        "z_pos": 354.3665,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 34.897095,
+        "y_pos": -990.65234,
+        "z_pos": 203.45697,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 43.668476,
+        "y_pos": -213.2675,
+        "z_pos": 150.80219,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 315964,
+      "stride_index": 0.44,
+      "lower_spine": {
+        "x_pos": 41.30066,
+        "y_pos": -213.85645,
+        "z_pos": 14.366583,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -59.168655,
+        "y_pos": -187.07071,
+        "z_pos": 87.57817,
+        "quaternion": [0.98204416, 0.18837991, -0.0, 0.010112175]
+      },
+      "left_knee": {
+        "x_pos": -48.61281,
+        "y_pos": 306.58005,
+        "z_pos": -109.066925,
+        "quaternion": [0.9914974, 0.12999117, -4.203329E-4, 0.0059226966]
+      },
+      "left_ankle": {
+        "x_pos": -35.3557,
+        "y_pos": 663.39087,
+        "z_pos": -374.7107,
+        "quaternion": [0.8100061, -0.5861301, 0.010402751, -0.015278264]
+      },
+      "left_heel": {
+        "x_pos": -32.327347,
+        "y_pos": 681.85254,
+        "z_pos": -496.03174,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -32.41625,
+        "y_pos": 832.00195,
+        "z_pos": -390.38657,
+        "quaternion": [0.99297, -0.088269785, -0.045414165, 0.06447112]
+      },
+      "left_toe": {
+        "x_pos": -21.167063,
+        "y_pos": 882.0096,
+        "z_pos": -339.75897,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 137.9581,
+        "y_pos": -217.06204,
+        "z_pos": 94.82298,
+        "quaternion": [0.9772108, -0.2121581, 0.0, -0.0069228676]
+      },
+      "right_knee": {
+        "x_pos": 130.73553,
+        "y_pos": 268.64258,
+        "z_pos": 316.1656,
+        "quaternion": [0.97155833, 0.23598503, 0.010938541, -0.016302701]
+      },
+      "right_ankle": {
+        "x_pos": 108.16023,
+        "y_pos": 722.22156,
+        "z_pos": 293.7189,
+        "quaternion": [0.64948124, -0.7252927, -0.024867626, 0.22694983]
+      },
+      "right_heel": {
+        "x_pos": 82.50309,
+        "y_pos": 833.4942,
+        "z_pos": 212.2873,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 137.56433,
+        "y_pos": 816.1056,
+        "z_pos": 386.34827,
+        "quaternion": [0.99948025, 0.030735554, 1.7890692E-7, -0.009722654]
+      },
+      "right_toe": {
+        "x_pos": 161.16199,
+        "y_pos": 813.72034,
+        "z_pos": 460.94586,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 41.30066,
+        "y_pos": -992.2565,
+        "z_pos": 221.93994,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 45.350166,
+        "y_pos": -213.88399,
+        "z_pos": 166.90906,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 344688,
+      "stride_index": 0.48,
+      "lower_spine": {
+        "x_pos": 46.463707,
+        "y_pos": -213.8485,
+        "z_pos": 9.222343,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -50.985607,
+        "y_pos": -192.565,
+        "z_pos": 87.422745,
+        "quaternion": [0.98438406, 0.17585841, -0.0, 0.007865756]
+      },
+      "left_knee": {
+        "x_pos": -42.769505,
+        "y_pos": 305.10873,
+        "z_pos": -96.268524,
+        "quaternion": [0.97090894, 0.23941465, -0.004055856, -2.8002105E-4]
+      },
+      "left_ankle": {
+        "x_pos": -38.11486,
+        "y_pos": 602.65955,
+        "z_pos": -426.36218,
+        "quaternion": [0.79022115, -0.6024271, 0.08757533, 0.07044677]
+      },
+      "left_heel": {
+        "x_pos": -49.081688,
+        "y_pos": 600.2797,
+        "z_pos": -548.7914,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -16.467892,
+        "y_pos": 758.4355,
+        "z_pos": -466.50385,
+        "quaternion": [0.9958316, -5.985414E-8, 0.042099006, -0.08091382]
+      },
+      "left_toe": {
+        "x_pos": -16.600986,
+        "y_pos": 826.21655,
+        "z_pos": -431.23773,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 147.22336,
+        "y_pos": -215.74365,
+        "z_pos": 92.32152,
+        "quaternion": [0.9817997, -0.18836503, 0.0, -0.024246207]
+      },
+      "right_knee": {
+        "x_pos": 121.85159,
+        "y_pos": 278.7231,
+        "z_pos": 289.43082,
+        "quaternion": [0.9917707, 0.12784858, 0.0067435475, -4.602323E-4]
+      },
+      "right_ankle": {
+        "x_pos": 98.39596,
+        "y_pos": 727.17163,
+        "z_pos": 344.54245,
+        "quaternion": [0.64695615, -0.73848695, -0.060744964, 0.17998576]
+      },
+      "right_heel": {
+        "x_pos": 80.95798,
+        "y_pos": 856.04926,
+        "z_pos": 276.1104,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 126.327484,
+        "y_pos": 807.5934,
+        "z_pos": 445.90906,
+        "quaternion": [0.9998963, -0.013903614, 1.5164995E-4, 0.0037582652]
+      },
+      "right_toe": {
+        "x_pos": 145.74591,
+        "y_pos": 784.47455,
+        "z_pos": 518.67993,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 46.463707,
+        "y_pos": -992.24854,
+        "z_pos": 216.79568,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 43.71841,
+        "y_pos": -213.86226,
+        "z_pos": 161.42924,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 373411,
+      "stride_index": 0.52,
+      "lower_spine": {
+        "x_pos": 46.141098,
+        "y_pos": -197.52716,
+        "z_pos": 12.730705,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -49.059803,
+        "y_pos": -190.03552,
+        "z_pos": 98.91864,
+        "quaternion": [0.98849034, 0.15126003, -0.0, 0.0027080532]
+      },
+      "left_knee": {
+        "x_pos": -46.232544,
+        "y_pos": 313.87955,
+        "z_pos": -58.999725,
+        "quaternion": [0.9325188, 0.3610917, -5.8143033E-4, 0.0046093967]
+      },
+      "left_ankle": {
+        "x_pos": -40.87101,
+        "y_pos": 542.1388,
+        "z_pos": -450.21982,
+        "quaternion": [0.7804726, -0.6226398, 0.052021727, 0.021819267]
+      },
+      "left_heel": {
+        "x_pos": -63.728294,
+        "y_pos": 537.27124,
+        "z_pos": -566.5336,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -47.82947,
+        "y_pos": 705.1406,
+        "z_pos": -513.077,
+        "quaternion": [0.9980927, -0.018771062, -0.016222948, 0.056527603]
+      },
+      "left_toe": {
+        "x_pos": -31.948196,
+        "y_pos": 776.0674,
+        "z_pos": -487.44797,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 146.06374,
+        "y_pos": -205.14578,
+        "z_pos": 87.54143,
+        "quaternion": [0.9850609, -0.17018738, 0.0, -0.026294284]
+      },
+      "right_knee": {
+        "x_pos": 118.67786,
+        "y_pos": 292.15448,
+        "z_pos": 264.79407,
+        "quaternion": [0.9969674, 0.07770102, 0.004314833, -1.007412E-4]
+      },
+      "right_ankle": {
+        "x_pos": 93.87426,
+        "y_pos": 740.79016,
+        "z_pos": 349.39804,
+        "quaternion": [0.6677995, -0.71771526, -0.074159466, 0.18283607]
+      },
+      "right_heel": {
+        "x_pos": 72.44347,
+        "y_pos": 869.2217,
+        "z_pos": 280.18768,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 120.723145,
+        "y_pos": 819.77356,
+        "z_pos": 449.65106,
+        "quaternion": [0.9999988, 1.7881415E-7, -0.0014731007, -4.2988785E-4]
+      },
+      "right_toe": {
+        "x_pos": 141.6642,
+        "y_pos": 798.58154,
+        "z_pos": 522.2782,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 46.141098,
+        "y_pos": -975.9272,
+        "z_pos": 220.30405,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 37.063694,
+        "y_pos": -197.70084,
+        "z_pos": 168.9089,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 402135,
+      "stride_index": 0.56,
+      "lower_spine": {
+        "x_pos": 44.227882,
+        "y_pos": -174.896,
+        "z_pos": 13.529282,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -51.20458,
+        "y_pos": -188.80383,
+        "z_pos": 104.727356,
+        "quaternion": [0.99538964, 0.09589655, -0.0, 0.0018304796]
+      },
+      "left_knee": {
+        "x_pos": -49.280174,
+        "y_pos": 329.57025,
+        "z_pos": 3.9102173,
+        "quaternion": [0.86923945, 0.49438637, -0.0015283682, 0.0015784292]
+      },
+      "left_ankle": {
+        "x_pos": -47.438,
+        "y_pos": 483.19376,
+        "z_pos": -424.33374,
+        "quaternion": [0.7714509, -0.63626534, 0.005406088, -7.97699E-4]
+      },
+      "left_heel": {
+        "x_pos": -57.093163,
+        "y_pos": 460.6382,
+        "z_pos": -532.6442,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -55.65372,
+        "y_pos": 633.9972,
+        "z_pos": -505.90863,
+        "quaternion": [0.9972168, -0.0075970655, 0.011366163, -0.07329146]
+      },
+      "left_toe": {
+        "x_pos": -66.60649,
+        "y_pos": 710.4761,
+        "z_pos": -492.91284,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 150.09296,
+        "y_pos": -189.35565,
+        "z_pos": 89.495514,
+        "quaternion": [0.98764956, -0.15266193, 0.0, -0.035251163]
+      },
+      "right_knee": {
+        "x_pos": 113.014565,
+        "y_pos": 316.99457,
+        "z_pos": 250.07063,
+        "quaternion": [0.9945335, 0.104056485, 0.0054872124, 0.006724554]
+      },
+      "right_ankle": {
+        "x_pos": 86.41894,
+        "y_pos": 767.2433,
+        "z_pos": 294.2129,
+        "quaternion": [0.69048303, -0.68886817, -0.06146841, 0.21193287]
+      },
+      "right_heel": {
+        "x_pos": 62.9637,
+        "y_pos": 880.95514,
+        "z_pos": 221.5749,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 117.49161,
+        "y_pos": 858.9737,
+        "z_pos": 392.43738,
+        "quaternion": [0.9999676, 0.0057215607, 0.005554171, -0.0011113982]
+      },
+      "right_toe": {
+        "x_pos": 140.0502,
+        "y_pos": 850.4498,
+        "z_pos": 465.97308,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 44.227882,
+        "y_pos": -953.296,
+        "z_pos": 221.10263,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 39.660606,
+        "y_pos": -174.94493,
+        "z_pos": 170.11783,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 430859,
+      "stride_index": 0.6,
+      "lower_spine": {
+        "x_pos": 49.74363,
+        "y_pos": -148.1199,
+        "z_pos": 35.086792,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -42.989433,
+        "y_pos": -171.54552,
+        "z_pos": 133.69832,
+        "quaternion": [0.9987643, 0.0495447, 0.0, -0.003912292]
+      },
+      "left_knee": {
+        "x_pos": -47.14958,
+        "y_pos": 358.15875,
+        "z_pos": 81.01485,
+        "quaternion": [0.8071941, 0.59009975, 0.0059842276, 0.013571063]
+      },
+      "left_ankle": {
+        "x_pos": -37.866264,
+        "y_pos": 452.64844,
+        "z_pos": -364.3098,
+        "quaternion": [0.74691564, -0.6528437, -0.119943656, -0.039059125]
+      },
+      "left_heel": {
+        "x_pos": -42.122284,
+        "y_pos": 426.9431,
+        "z_pos": -470.19684,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -75.02281,
+        "y_pos": 601.0658,
+        "z_pos": -454.98938,
+        "quaternion": [0.9998835, -0.013679672, -0.0020201083, -0.006465362]
+      },
+      "left_toe": {
+        "x_pos": -90.453094,
+        "y_pos": 677.2604,
+        "z_pos": -446.14844,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 164.45938,
+        "y_pos": -192.52628,
+        "z_pos": 99.38002,
+        "quaternion": [0.9887599, -0.14408086, 0.0, -0.039931893]
+      },
+      "right_knee": {
+        "x_pos": 122.4789,
+        "y_pos": 315.33255,
+        "z_pos": 250.85254,
+        "quaternion": [0.98849714, 0.15073793, 0.012294039, 5.572953E-4]
+      },
+      "right_ankle": {
+        "x_pos": 85.79997,
+        "y_pos": 765.3562,
+        "z_pos": 244.20749,
+        "quaternion": [0.64617825, -0.7392473, -0.057583775, 0.18069623]
+      },
+      "right_heel": {
+        "x_pos": 67.98851,
+        "y_pos": 881.401,
+        "z_pos": 162.50589,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 112.07776,
+        "y_pos": 857.7722,
+        "z_pos": 335.3497,
+        "quaternion": [0.99999905, 0.0013274079, 7.450588E-9, -3.3859568E-4]
+      },
+      "right_toe": {
+        "x_pos": 130.97316,
+        "y_pos": 847.85864,
+        "z_pos": 409.42566,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 49.74363,
+        "y_pos": -926.5199,
+        "z_pos": 242.66016,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 44.40716,
+        "y_pos": -148.15677,
+        "z_pos": 194.95457,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 459583,
+      "stride_index": 0.64,
+      "lower_spine": {
+        "x_pos": 51.596092,
+        "y_pos": -133.43933,
+        "z_pos": -3.3324585,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -36.644802,
+        "y_pos": -148.02936,
+        "z_pos": 95.15756,
+        "quaternion": [0.99889, -0.04407067, 0.0, -0.016631702]
+      },
+      "left_knee": {
+        "x_pos": -54.35735,
+        "y_pos": 382.69028,
+        "z_pos": 142.09225,
+        "quaternion": [0.7152955, 0.69842136, 0.023531208, -0.0025067267]
+      },
+      "left_ankle": {
+        "x_pos": -57.670547,
+        "y_pos": 433.03244,
+        "z_pos": -308.45404,
+        "quaternion": [0.7096931, -0.67256045, -0.20894891, -0.01840125]
+      },
+      "left_heel": {
+        "x_pos": -46.29967,
+        "y_pos": 413.82507,
+        "z_pos": -415.31784,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -100.0773,
+        "y_pos": 585.31836,
+        "z_pos": -397.0926,
+        "quaternion": [0.9993898, 0.024485312, 0.005086945, 0.024382934]
+      },
+      "left_toe": {
+        "x_pos": -119.2944,
+        "y_pos": 659.09863,
+        "z_pos": -393.18738,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 166.35037,
+        "y_pos": -171.41968,
+        "z_pos": 59.327362,
+        "quaternion": [0.98556775, -0.16014375, 0.0, -0.05486514]
+      },
+      "right_knee": {
+        "x_pos": 108.64749,
+        "y_pos": 331.56216,
+        "z_pos": 227.75407,
+        "quaternion": [0.9729722, 0.22951299, 0.025278358, 0.003140858]
+      },
+      "right_ankle": {
+        "x_pos": 60.84763,
+        "y_pos": 773.6162,
+        "z_pos": 162.89546,
+        "quaternion": [0.626152, -0.7604729, -0.058484644, 0.16184635]
+      },
+      "right_heel": {
+        "x_pos": 56.27368,
+        "y_pos": 881.90015,
+        "z_pos": 52.17235,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 93.9397,
+        "y_pos": 872.4131,
+        "z_pos": 225.7267,
+        "quaternion": [0.9999278, 8.688321E-4, 0.011974611, 4.6601208E-4]
+      },
+      "right_toe": {
+        "x_pos": 108.221146,
+        "y_pos": 868.48224,
+        "z_pos": 300.10715,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 51.596092,
+        "y_pos": -911.83936,
+        "z_pos": 204.24089,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 46.207466,
+        "y_pos": -133.12492,
+        "z_pos": 150.93927,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 488307,
+      "stride_index": 0.68,
+      "lower_spine": {
+        "x_pos": 56.208572,
+        "y_pos": -118.92461,
+        "z_pos": -11.171776,
+        "quaternion": [0.9915228, 0.12993282, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -30.175774,
+        "y_pos": -132.51259,
+        "z_pos": 81.424774,
+        "quaternion": [0.9954063, -0.094463035, 0.0, -0.01558894]
+      },
+      "left_knee": {
+        "x_pos": -46.660526,
+        "y_pos": 388.922,
+        "z_pos": 181.31609,
+        "quaternion": [0.68822116, 0.72491693, 0.025577955, -0.013886619]
+      },
+      "left_ankle": {
+        "x_pos": -57.438976,
+        "y_pos": 450.33478,
+        "z_pos": -268.22946,
+        "quaternion": [0.6570422, -0.7171129, -0.23202232, -0.0145030245]
+      },
+      "left_heel": {
+        "x_pos": -49.803833,
+        "y_pos": 443.1563,
+        "z_pos": -377.65814,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -104.153336,
+        "y_pos": 608.0902,
+        "z_pos": -328.95203,
+        "quaternion": [0.9999889, -0.0044557797, -0.0011832883, -9.650844E-4]
+      },
+      "left_toe": {
+        "x_pos": -128.24915,
+        "y_pos": 680.70325,
+        "z_pos": -306.73254,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 171.23338,
+        "y_pos": -163.09584,
+        "z_pos": 48.580276,
+        "quaternion": [0.98776686, -0.14589235, 0.0, -0.055064138]
+      },
+      "right_knee": {
+        "x_pos": 113.495544,
+        "y_pos": 341.86212,
+        "z_pos": 201.5566,
+        "quaternion": [0.95858264, 0.28267282, 0.03426646, -0.006420623]
+      },
+      "right_ankle": {
+        "x_pos": 58.245354,
+        "y_pos": 773.7245,
+        "z_pos": 73.94707,
+        "quaternion": [0.59451795, -0.78474957, -0.050835792, 0.16772647]
+      },
+      "right_heel": {
+        "x_pos": 53.425537,
+        "y_pos": 875.11633,
+        "z_pos": -45.163437,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 91.09868,
+        "y_pos": 876.51526,
+        "z_pos": 131.52362,
+        "quaternion": [0.9998077, 0.002245244, -0.019476157, -3.2452692E-4]
+      },
+      "right_toe": {
+        "x_pos": 110.35593,
+        "y_pos": 877.4735,
+        "z_pos": 207.24664,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 56.208572,
+        "y_pos": -897.3246,
+        "z_pos": 196.40158,
+        "quaternion": [0.9915228, 0.12993282, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 46.96812,
+        "y_pos": -118.87349,
+        "z_pos": 140.83347,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 517031,
+      "stride_index": 0.72,
+      "lower_spine": {
+        "x_pos": 49.56888,
+        "y_pos": -119.0619,
+        "z_pos": -22.098812,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -39.325096,
+        "y_pos": -111.65622,
+        "z_pos": 65.81288,
+        "quaternion": [0.9839721, -0.17807022, 0.0, -0.009484306]
+      },
+      "left_knee": {
+        "x_pos": -49.22598,
+        "y_pos": 385.07095,
+        "z_pos": 251.70442,
+        "quaternion": [0.6611521, 0.7496618, 0.022308478, -0.019683061]
+      },
+      "left_ankle": {
+        "x_pos": -63.886093,
+        "y_pos": 488.86978,
+        "z_pos": -189.00612,
+        "quaternion": [0.64436185, -0.75221646, -0.13752754, -0.0073690494]
+      },
+      "left_heel": {
+        "x_pos": -72.31515,
+        "y_pos": 486.49194,
+        "z_pos": -302.83127,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -102.47592,
+        "y_pos": 647.7042,
+        "z_pos": -232.76733,
+        "quaternion": [0.9999491, 0.0022880556, -0.0035530052, 0.009160173]
+      },
+      "left_toe": {
+        "x_pos": -113.94469,
+        "y_pos": 717.3035,
+        "z_pos": -202.90677,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 153.9949,
+        "y_pos": -158.65388,
+        "z_pos": 40.914383,
+        "quaternion": [0.99107593, -0.12680635, 0.0, -0.041092996]
+      },
+      "right_knee": {
+        "x_pos": 110.429886,
+        "y_pos": 357.19055,
+        "z_pos": 175.34898,
+        "quaternion": [0.9509839, 0.30662557, 0.03215345, -0.024011884]
+      },
+      "right_ankle": {
+        "x_pos": 53.6015,
+        "y_pos": 775.7721,
+        "z_pos": 10.172562,
+        "quaternion": [0.5727244, -0.7902552, -0.021728698, 0.21682087]
+      },
+      "right_heel": {
+        "x_pos": 39.345978,
+        "y_pos": 872.62634,
+        "z_pos": -118.45054,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 87.20901,
+        "y_pos": 880.50366,
+        "z_pos": 56.787064,
+        "quaternion": [0.99999994, -1.8581378E-4, -1.4901163E-8, 5.0751965E-5]
+      },
+      "right_toe": {
+        "x_pos": 107.72174,
+        "y_pos": 883.8496,
+        "z_pos": 131.88892,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 49.56888,
+        "y_pos": -897.4619,
+        "z_pos": 185.47453,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 42.903687,
+        "y_pos": -119.21765,
+        "z_pos": 129.72401,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 545755,
+      "stride_index": 0.76,
+      "lower_spine": {
+        "x_pos": 52.581234,
+        "y_pos": -127.24378,
+        "z_pos": -25.6987,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -33.196663,
+        "y_pos": -130.24149,
+        "z_pos": 75.15292,
+        "quaternion": [0.9732689, -0.22963905, 0.0, -0.0036623783]
+      },
+      "left_knee": {
+        "x_pos": -37.027184,
+        "y_pos": 350.3925,
+        "z_pos": 315.33487,
+        "quaternion": [0.69745576, 0.7162328, 0.01495346, -0.01850096]
+      },
+      "left_ankle": {
+        "x_pos": -51.82463,
+        "y_pos": 544.3013,
+        "z_pos": -100.795456,
+        "quaternion": [0.63498217, -0.76185817, -0.124187365, -0.030777534]
+      },
+      "left_heel": {
+        "x_pos": -63.082317,
+        "y_pos": 541.0393,
+        "z_pos": -219.39922,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -91.346306,
+        "y_pos": 687.4951,
+        "z_pos": -110.70986,
+        "quaternion": [0.99786127, 0.06459085, 0.008578901, 0.0052366233]
+      },
+      "left_toe": {
+        "x_pos": -103.546135,
+        "y_pos": 756.1304,
+        "z_pos": -72.67346,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 156.87692,
+        "y_pos": -161.13232,
+        "z_pos": 55.860863,
+        "quaternion": [0.99835086, -0.040613193, 0.0, -0.040572505]
+      },
+      "right_knee": {
+        "x_pos": 113.94093,
+        "y_pos": 365.3751,
+        "z_pos": 98.83991,
+        "quaternion": [0.97023493, 0.24026877, 0.021343615, -0.021438222]
+      },
+      "right_ankle": {
+        "x_pos": 61.669952,
+        "y_pos": 775.3458,
+        "z_pos": -78.82531,
+        "quaternion": [0.57336783, -0.78784925, -0.003031981, 0.22479713]
+      },
+      "right_heel": {
+        "x_pos": 44.402042,
+        "y_pos": 868.4773,
+        "z_pos": -209.56853,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 94.722305,
+        "y_pos": 882.21564,
+        "z_pos": -33.025177,
+        "quaternion": [0.9999777, -0.0064176857, 1.3096923E-4, 0.0018190457]
+      },
+      "right_toe": {
+        "x_pos": 116.28813,
+        "y_pos": 887.05347,
+        "z_pos": 42.711857,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 52.581234,
+        "y_pos": -905.6438,
+        "z_pos": 181.87465,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 43.323063,
+        "y_pos": -128.12717,
+        "z_pos": 126.255104,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 574479,
+      "stride_index": 0.8,
+      "lower_spine": {
+        "x_pos": 49.88469,
+        "y_pos": -137.8457,
+        "z_pos": -30.545708,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -34.85593,
+        "y_pos": -150.33267,
+        "z_pos": 80.33176,
+        "quaternion": [0.9705721, -0.24080953, 0.0, 6.8586273E-4]
+      },
+      "left_knee": {
+        "x_pos": -34.13727,
+        "y_pos": 326.85577,
+        "z_pos": 332.656,
+        "quaternion": [0.755898, 0.6543113, 0.009621653, -0.020059776]
+      },
+      "left_ankle": {
+        "x_pos": -48.874306,
+        "y_pos": 586.4358,
+        "z_pos": -23.530407,
+        "quaternion": [0.6523879, -0.74445003, -0.1277003, -0.06226362]
+      },
+      "left_heel": {
+        "x_pos": -60.43554,
+        "y_pos": 599.82007,
+        "z_pos": -137.74184,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -95.75169,
+        "y_pos": 738.0093,
+        "z_pos": 1.0922394,
+        "quaternion": [0.9993971, -0.03395999, -0.0016043845, -0.0070416993]
+      },
+      "left_toe": {
+        "x_pos": -110.51927,
+        "y_pos": 789.44543,
+        "z_pos": 60.592575,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 162.72798,
+        "y_pos": -156.93295,
+        "z_pos": 52.75643,
+        "quaternion": [0.9976997, 0.02749507, 0.0, -0.061963182]
+      },
+      "right_knee": {
+        "x_pos": 97.4899,
+        "y_pos": 365.85754,
+        "z_pos": 23.808182,
+        "quaternion": [0.9810837, 0.19209859, 0.023903707, -0.001226769]
+      },
+      "right_ankle": {
+        "x_pos": 46.06053,
+        "y_pos": 769.22217,
+        "z_pos": -169.87076,
+        "quaternion": [0.6090895, -0.7601877, 0.011502183, 0.22581466]
+      },
+      "right_heel": {
+        "x_pos": 30.471848,
+        "y_pos": 847.14166,
+        "z_pos": -294.83548,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 82.43947,
+        "y_pos": 883.7511,
+        "z_pos": -121.75523,
+        "quaternion": [0.99653137, -0.07970062, -3.4347104E-5, 0.023937503]
+      },
+      "right_toe": {
+        "x_pos": 104.82132,
+        "y_pos": 886.3393,
+        "z_pos": -47.23049,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 49.88469,
+        "y_pos": -916.2457,
+        "z_pos": 177.02765,
+        "quaternion": [0.9915228, 0.1299328, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 33.138477,
+        "y_pos": -138.65196,
+        "z_pos": 129.23738,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 603203,
+      "stride_index": 0.84,
+      "lower_spine": {
+        "x_pos": 51.426643,
+        "y_pos": -167.90646,
+        "z_pos": -11.31459,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -31.721924,
+        "y_pos": -181.51031,
+        "z_pos": 90.94568,
+        "quaternion": [0.9682774, -0.24986306, 0.0, 0.0027054318]
+      },
+      "left_knee": {
+        "x_pos": -28.939991,
+        "y_pos": 283.16434,
+        "z_pos": 347.87408,
+        "quaternion": [0.83293235, 0.5526606, 0.010993473, -0.025866559]
+      },
+      "left_ankle": {
+        "x_pos": -48.94081,
+        "y_pos": 635.60815,
+        "z_pos": 70.33105,
+        "quaternion": [0.6409159, -0.74636894, -0.13516621, -0.1178574]
+      },
+      "left_heel": {
+        "x_pos": -40.64683,
+        "y_pos": 697.86664,
+        "z_pos": -40.380695,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -79.03113,
+        "y_pos": 776.24054,
+        "z_pos": 112.81584,
+        "quaternion": [0.99779457, 7.489599E-4, -0.05901387, 0.030378597]
+      },
+      "left_toe": {
+        "x_pos": -85.440475,
+        "y_pos": 809.9568,
+        "z_pos": 178.4715,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 163.34076,
+        "y_pos": -154.20026,
+        "z_pos": 56.265198,
+        "quaternion": [0.9913695, 0.11182387, 0.0, -0.0684249]
+      },
+      "right_knee": {
+        "x_pos": 91.69032,
+        "y_pos": 355.77423,
+        "z_pos": -60.830017,
+        "quaternion": [0.98852164, 0.1492863, 0.022382306, 0.0061315657]
+      },
+      "right_ankle": {
+        "x_pos": 42.44934,
+        "y_pos": 747.0033,
+        "z_pos": -290.07083,
+        "quaternion": [0.6476599, -0.74028426, 0.012241894, 0.17990561]
+      },
+      "right_heel": {
+        "x_pos": 34.461685,
+        "y_pos": 813.11334,
+        "z_pos": -397.188,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 75.89841,
+        "y_pos": 880.985,
+        "z_pos": -231.30058,
+        "quaternion": [0.9867371, -0.15713704, -0.0032630232, 0.040586032]
+      },
+      "right_toe": {
+        "x_pos": 95.11273,
+        "y_pos": 884.98816,
+        "z_pos": -156.58658,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 51.426643,
+        "y_pos": -946.3065,
+        "z_pos": 196.25876,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 29.92999,
+        "y_pos": -170.96007,
+        "z_pos": 147.5745,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 631927,
+      "stride_index": 0.88,
+      "lower_spine": {
+        "x_pos": 54.423706,
+        "y_pos": -195.65308,
+        "z_pos": -11.288895,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -31.942219,
+        "y_pos": -199.10886,
+        "z_pos": 98.86804,
+        "quaternion": [0.96729314, -0.2536395, 0.0, 0.0033129512]
+      },
+      "left_knee": {
+        "x_pos": -28.523691,
+        "y_pos": 265.6307,
+        "z_pos": 360.59045,
+        "quaternion": [0.9003411, 0.434919, 0.0049087303, -0.014397175]
+      },
+      "left_ankle": {
+        "x_pos": -38.823437,
+        "y_pos": 681.1959,
+        "z_pos": 191.13657,
+        "quaternion": [0.68205273, -0.72496146, -0.051143754, -0.081359275]
+      },
+      "left_heel": {
+        "x_pos": -31.395655,
+        "y_pos": 755.4661,
+        "z_pos": 85.55973,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -54.27365,
+        "y_pos": 810.4396,
+        "z_pos": 254.85962,
+        "quaternion": [0.99991965, -0.012494257, 8.3868986E-4, -0.0019607183]
+      },
+      "left_toe": {
+        "x_pos": -64.21423,
+        "y_pos": 831.9777,
+        "z_pos": 327.41675,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 164.25485,
+        "y_pos": -165.49136,
+        "z_pos": 67.04472,
+        "quaternion": [0.98520607, 0.15741149, 0.0, -0.067753926]
+      },
+      "right_knee": {
+        "x_pos": 93.25629,
+        "y_pos": 335.083,
+        "z_pos": -97.90497,
+        "quaternion": [0.9926542, 0.119665496, 0.017692562, 0.0021846963]
+      },
+      "right_ankle": {
+        "x_pos": 41.345554,
+        "y_pos": 715.79297,
+        "z_pos": -337.66888,
+        "quaternion": [0.7573591, -0.6284895, 0.024816189, 0.17547728]
+      },
+      "right_heel": {
+        "x_pos": 27.013977,
+        "y_pos": 748.63654,
+        "z_pos": -457.76517,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 66.16452,
+        "y_pos": 862.4204,
+        "z_pos": -333.635,
+        "quaternion": [0.9751451, -0.21418546, 0.013641488, 0.055049438]
+      },
+      "right_toe": {
+        "x_pos": 86.45347,
+        "y_pos": 883.7814,
+        "z_pos": -259.98843,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 54.423706,
+        "y_pos": -974.0531,
+        "z_pos": 196.28445,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 33.122307,
+        "y_pos": -198.62793,
+        "z_pos": 146.92297,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 660651,
+      "stride_index": 0.92,
+      "lower_spine": {
+        "x_pos": 47.780827,
+        "y_pos": -206.68633,
+        "z_pos": -16.636917,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -32.53505,
+        "y_pos": -212.99628,
+        "z_pos": 92.49136,
+        "quaternion": [0.9757809, -0.2187247, 0.0, -0.0033425132]
+      },
+      "left_knee": {
+        "x_pos": -36.008488,
+        "y_pos": 268.52454,
+        "z_pos": 319.78342,
+        "quaternion": [0.9630514, 0.26892912, -0.0045426306, 0.013733343]
+      },
+      "left_ankle": {
+        "x_pos": -26.120531,
+        "y_pos": 713.8728,
+        "z_pos": 273.46503,
+        "quaternion": [0.66015273, -0.7365955, 0.0010602813, -0.14705238]
+      },
+      "left_heel": {
+        "x_pos": -14.200337,
+        "y_pos": 828.209,
+        "z_pos": 190.41805,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -50.1236,
+        "y_pos": 824.0232,
+        "z_pos": 370.32996,
+        "quaternion": [0.9998798, 0.009521195, -0.012133888, 0.0016188056]
+      },
+      "left_toe": {
+        "x_pos": -63.582058,
+        "y_pos": 823.7494,
+        "z_pos": 447.43512,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 157.36684,
+        "y_pos": -180.41519,
+        "z_pos": 63.44748,
+        "quaternion": [0.9834936, 0.16707636, 0.0, -0.06946711]
+      },
+      "right_knee": {
+        "x_pos": 84.70827,
+        "y_pos": 316.51385,
+        "z_pos": -111.30469,
+        "quaternion": [0.9854685, 0.1676273, 0.026714038, 0.0062684175]
+      },
+      "right_ankle": {
+        "x_pos": 39.404003,
+        "y_pos": 667.36115,
+        "z_pos": -394.99902,
+        "quaternion": [0.76286083, -0.62968063, 0.034127604, 0.1427621]
+      },
+      "right_heel": {
+        "x_pos": 20.737167,
+        "y_pos": 680.73175,
+        "z_pos": -523.1946,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 52.98121,
+        "y_pos": 811.5802,
+        "z_pos": -412.25543,
+        "quaternion": [0.9974234, -0.030749874, -0.037339915, 0.052978326]
+      },
+      "right_toe": {
+        "x_pos": 79.04328,
+        "y_pos": 869.14813,
+        "z_pos": -356.55365,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 47.780827,
+        "y_pos": -985.08636,
+        "z_pos": 190.93643,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 30.798733,
+        "y_pos": -208.53065,
+        "z_pos": 137.6188,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 689375,
+      "stride_index": 0.96,
+      "lower_spine": {
+        "x_pos": 52.579254,
+        "y_pos": -206.73145,
+        "z_pos": 5.3922424,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -31.600252,
+        "y_pos": -215.1741,
+        "z_pos": 104.70921,
+        "quaternion": [0.98225075, -0.18756948, 0.0, -0.0010397366]
+      },
+      "left_knee": {
+        "x_pos": -32.686356,
+        "y_pos": 279.14468,
+        "z_pos": 300.6433,
+        "quaternion": [0.9886095, 0.1468484, -0.011868401, 0.030756598]
+      },
+      "left_ankle": {
+        "x_pos": -4.0188255,
+        "y_pos": 730.0939,
+        "z_pos": 337.7822,
+        "quaternion": [0.6287958, -0.77300733, 0.054423414, -0.06413715]
+      },
+      "left_heel": {
+        "x_pos": -1.5800425,
+        "y_pos": 861.7036,
+        "z_pos": 270.26123,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -19.344471,
+        "y_pos": 811.01855,
+        "z_pos": 441.35675,
+        "quaternion": [0.9998536, -0.017008262, -3.0230684E-4, -0.0018554811]
+      },
+      "left_toe": {
+        "x_pos": -26.957798,
+        "y_pos": 786.368,
+        "z_pos": 515.1605,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 159.71564,
+        "y_pos": -190.73193,
+        "z_pos": 75.13315,
+        "quaternion": [0.9869821, 0.14793594, 0.0, -0.0630972]
+      },
+      "right_knee": {
+        "x_pos": 93.65047,
+        "y_pos": 312.2519,
+        "z_pos": -79.76141,
+        "quaternion": [0.9548644, 0.29469565, 0.03403556, -0.015170214]
+      },
+      "right_ankle": {
+        "x_pos": 41.629333,
+        "y_pos": 599.3634,
+        "z_pos": -446.16376,
+        "quaternion": [0.73925966, -0.66169995, 0.033806834, 0.12043786]
+      },
+      "right_heel": {
+        "x_pos": 35.542862,
+        "y_pos": 596.1769,
+        "z_pos": -564.98016,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 60.12153,
+        "y_pos": 746.2445,
+        "z_pos": -472.06592,
+        "quaternion": [0.99994016, -0.010130967, -8.40364E-4, 0.0040372456]
+      },
+      "right_toe": {
+        "x_pos": 71.74138,
+        "y_pos": 812.5177,
+        "z_pos": -429.11234,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 52.579254,
+        "y_pos": -985.1315,
+        "z_pos": 212.96559,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 36.35076,
+        "y_pos": -208.26965,
+        "z_pos": 161.31848,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }, {
+      "micros": 718099,
+      "stride_index": 1.0,
+      "lower_spine": {
+        "x_pos": 44.361595,
+        "y_pos": -200.83362,
+        "z_pos": 2.4252777,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "left_hip": {
+        "x_pos": -44.406097,
+        "y_pos": -210.61877,
+        "z_pos": 99.26592,
+        "quaternion": [0.986378, -0.1639753, 0.0, 0.013058481]
+      },
+      "left_knee": {
+        "x_pos": -30.705278,
+        "y_pos": 292.4392,
+        "z_pos": 271.30707,
+        "quaternion": [0.9974155, 0.068984516, -0.008156736, 0.018357046]
+      },
+      "left_ankle": {
+        "x_pos": -1.0450232,
+        "y_pos": 736.77435,
+        "z_pos": 357.28094,
+        "quaternion": [0.6469381, -0.7592243, 0.058488555, -0.040358014]
+      },
+      "left_heel": {
+        "x_pos": -0.2145462,
+        "y_pos": 872.2036,
+        "z_pos": 291.82724,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "left_metatarsal": {
+        "x_pos": -14.067199,
+        "y_pos": 809.91846,
+        "z_pos": 462.16022,
+        "quaternion": [0.99996233, 0.008590947, -0.001237588, 2.461299E-4]
+      },
+      "left_toe": {
+        "x_pos": -19.799309,
+        "y_pos": 784.64606,
+        "z_pos": 535.16003,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_hip": {
+        "x_pos": 151.91263,
+        "y_pos": -189.21692,
+        "z_pos": 82.629105,
+        "quaternion": [0.99045646, 0.12549919, 0.0, -0.056973256]
+      },
+      "right_knee": {
+        "x_pos": 92.49223,
+        "y_pos": 317.28113,
+        "z_pos": -48.260574,
+        "quaternion": [0.91519624, 0.39982715, 0.038422044, -0.032830685]
+      },
+      "right_ankle": {
+        "x_pos": 38.290176,
+        "y_pos": 531.62244,
+        "z_pos": -457.5126,
+        "quaternion": [0.6967118, -0.7009648, 0.07555677, 0.13240904]
+      },
+      "right_heel": {
+        "x_pos": 36.680706,
+        "y_pos": 521.2938,
+        "z_pos": -576.69727,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "right_metatarsal": {
+        "x_pos": 70.393234,
+        "y_pos": 682.81134,
+        "z_pos": -490.39233,
+        "quaternion": [0.9998714, 0.015634477, -0.0035367613, 5.118015E-4]
+      },
+      "right_toe": {
+        "x_pos": 84.93414,
+        "y_pos": 752.03314,
+        "z_pos": -456.2357,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "head": {
+        "x_pos": 44.361595,
+        "y_pos": -979.23364,
+        "z_pos": 209.99863,
+        "quaternion": [0.9915228, 0.12993279, 0.0, -0.0]
+      },
+      "centre_of_mass": {
+        "x_pos": 32.892075,
+        "y_pos": -201.42535,
+        "z_pos": 158.344,
+        "quaternion": [1.0, 0.0, 0.0, 0.0]
+      },
+      "com_offset": [0.0, 0.0, 0.0]
+    }]
+  },
+  "alignment": {
+    "right_x_offset": 28.517288208007812,
+    "right_y_offset": -4.232328414916992,
+    "right_z_offset": -30.503868103027344,
+    "right_x_rotate": 1.3040771484375,
+    "right_y_rotate": 4.5934295654296875,
+    "right_z_rotate": -1.8298492431640625,
+    "left_z_pre_rotate": -5.0,
+    "camera_offset_x": 505,
+    "camera_offset_y": 700,
+    "camera_offset_z": 960,
+    "bounding_box_min_x": -600,
+    "bounding_box_max_x": 600,
+    "bounding_box_min_y": -1300,
+    "bounding_box_max_y": 950,
+    "bounding_box_min_z": -1000,
+    "bounding_box_max_z": 700,
+    "bounding_box_max_range": 1700,
+    "frame_count": 301,
+    "loaded_filename": "RawFrames_004_side_Niall_Johnson_24-Dec_10-21-37.bin"
+  },
+  "qa_msg": {
+    "interpolation_scan": {
+      "total_frame_count": 301,
+      "left_hip_outliers": [186],
+      "left_knee_outliers": [187],
+      "right_hip_outliers": [284],
+      "right_knee_outliers": [283]
+    },
+    "compare_average_scan": {
+      "total_frame_count": 301
+    }
+  },
+  "capture_engine_version": "2.4.0",
+  "recording_filename": "RawFrames_004_side_Niall_Johnson_24-Dec_10-21-37.bin"
+}

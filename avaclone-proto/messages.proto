@@ -1,0 +1,1185 @@
+/*******************************************************************************
+ * FILE     : messages.proto
+ * PURPOSE  : RunRight message definition
+ * VERSION  : 1.21
+ * LANGUAGE : Google protobuf
+ * TARGET   : generic
+ * AUTHOR   : David Robb, Comet Scientific Software Ltd
+ * REMARKS  :
+ ********************************************************************************/
+ syntax = "proto3";
+ package AvaProtos;
+ 
+ option java_package = "uk.co.comsci.runright.proto";
+ option java_outer_classname = "AvaProtos";
+ 
+ service Reports {
+   rpc GetDashboardReport(ReportQuery) returns (DashboardReport) {}
+ 
+   rpc GetNoSaleRecords(NoSaleQuery) returns (stream ShoeTrialResult) {}
+ 
+   rpc GetTechSaleRecords(ReportQuery) returns (stream ShoeTrialResult) {}
+ 
+   rpc GetBrandSaleRecords(BrandSaleRecordsQuery) returns (stream ShoeTrialResult) {}
+
+   rpc GetBrandModelSaleCounts(BrandSaleRecordsQuery) returns (BrandModelSaleCounts) {}
+ 
+   rpc GetDailySaleScanRecords(SaleScanRecordsQuery) returns (stream ShoeTrialResult) {}
+
+   rpc GetSeasons(ReportQuery) returns (stream SeasonSelector) {}
+
+   rpc GetBrandsSelector(ReportQuery) returns (stream ShoeTrialResult) {}
+
+   rpc GenerateHtml(ReportQuery) returns (DashboardReport) {}
+
+   rpc GetData (DataRequest) returns (DataResponse) {}
+ }
+
+ message DataRequest {
+    string query = 1;
+  }
+
+  message DataResponse {
+      string result = 1;
+      string memory = 2;
+      string disk = 3;
+  }
+ 
+ message BrandSaleRecordsQuery {
+   ReportQuery query = 1;
+   string brand = 2;
+ }
+
+ message BrandModelSaleCounts {
+   map<string, int32> sale_counts = 1;
+ }
+ 
+ message SaleScanRecordsQuery {
+   ReportQuery query = 1;
+   string date = 2;
+   string type = 3;
+ }
+ 
+ message NoSaleQuery {
+   ReportQuery query = 1;
+   int32 reason = 2;
+ }
+ 
+ message PerformanceDay {
+   int32 sales = 1;
+   int32 scans = 2;
+ }
+ 
+ message TechnicianSales {
+   string id = 1;
+   string name = 2;
+   string location = 3;
+   map<int32, int32> purchase_decisions = 4;
+ }
+
+ message DashboardTableRecord {
+  string id = 1;
+  string gender = 2;
+  string season = 3;
+  string brand = 4;
+  string model = 5;
+  string size = 6;
+  string purchase = 7;
+  string reason = 8;
+  string tech = 9;
+  string store = 10;
+  string recording_date = 11;
+ }
+
+ message SizeGenderSales {
+  string size = 1;
+  int32 gender = 2;
+  int32 count = 3;
+ }
+
+ message BrandSales {
+  string name = 1;
+  int32 sale = 2;
+  int32 scan = 3;
+ }
+
+ message ModelSales {
+  string name = 1;
+  int32 sale = 2;
+  int32 scan = 3;
+ }
+ 
+ message DashboardReport {
+   map<string, int32> daily_scans = 1;
+   map<string, int32> daily_sales = 2;
+   map<string, int32> brand_sales = 3;
+   map<string, int32> model_sales = 4;
+   repeated TechnicianSales technician_sales = 5;
+   repeated DashboardTableRecord dashboard_table_record = 6;
+   map<int32, int32> no_sale_reasons = 7;
+   repeated SizeGenderSales size_gender_sales = 8;
+   int32 aged_sales_count = 9;
+   repeated BrandSales brand_sales_table = 10;
+   repeated ModelSales model_sales_table = 11;
+ }
+  
+ message ReportQuery {
+   string company_id = 1;
+   string branch_id = 2;
+   string technician_id = 3;
+   int32 skip = 5;
+   int32 limit = 6;
+   int64 start_millis = 7; // Start date of interest (inclusive) in millis (ignore if 0)
+   int64 end_millis = 8; // End date of interest (inclusive) in millis (ignore if 0)
+   string gender = 9; // Set gender option
+   string season = 10; // Set Season option
+   string brand = 11; // Set Brand option
+ }
+ 
+ service Companies {
+   // List companies matching logged in user role
+   // Possible sort and filter attributes: "name"
+   rpc getCompanies(CMSQuery) returns (stream Company) {}
+
+   // Get company by name
+   rpc GetCompanyByName(CMSQuery) returns (Company) {}
+ 
+   // Get the matching Branch for the CMSQuery.str_query branch_id
+   rpc getBranch(CMSQuery) returns (Branch) {}
+ 
+   // Add company
+   rpc addCompany(Company) returns (CMSResult) {}
+ 
+   // Edit company
+   rpc editCompany(Company) returns (CMSResult) {}
+ 
+   // Count companies matching query
+   rpc countCompanies(CMSQuery) returns (CMSResult) {}
+
+   // Add Branch
+   rpc addBranch(Branch) returns (CMSResult) {}
+
+   // Edit Branch
+   rpc editBranch(Branch) returns (CMSResult) {}
+
+   // Add license
+   rpc addLicense(Company) returns (CMSResult) {}
+
+   // Get License History
+   rpc getLicenseHistory(LicenseHistoryQuery) returns (stream LicenseHistory) {}
+
+   rpc uploadFile (ImageLogoQuery) returns (CMSResult) {}
+
+   rpc deleteCompany (Company) returns (CMSResult) {}
+ }
+ 
+ service Shoes {
+  // List all shoes within the system
+  rpc getShoes(CMSQuery) returns (stream Shoe) {}
+
+  // Get shoe by EAN specified in string_query
+  rpc getShoe(CMSQuery) returns (Shoe) {} 
+
+  // List shoes for branch_id specified in string_query
+  rpc getShoesForBranchId(CMSQuery) returns (stream Shoe) {}
+
+  // Check if a EAN specified in string_query exists, int_result 1 indicates exists
+  rpc doesEanExist(CMSQuery) returns (CMSResult) {}
+ 
+  // Add / Edit a Shoe
+  rpc setShoe(Shoe) returns (CMSResult) {}
+
+  // Remove a Shoe
+  rpc removeShoe(Shoe) returns (CMSResult) {}
+ 
+  // Count Shoes matching query
+  rpc countShoes(CMSQuery) returns (CMSResult) {}
+
+  // Count the number of shoes for a given branch_id in string_query
+  rpc countShoesForBranchId(CMSQuery) returns (CMSResult) {}
+
+  // Set the shoes a given branch has
+  rpc setShoesForBranch(BranchShoeUpdate) returns (CMSResult) {}
+
+  // List shoes for selected specified branch_id
+  rpc getTotalShoesForBranchId(SearchBranch) returns (stream Shoe) {}
+
+  // List shoes for selected specified brand
+  rpc getShoesForModel(CMSQuery) returns (stream Shoe) {}
+
+  // List shoe Size
+  rpc getShoeSizeList(CMSQuery) returns (stream Shoe) {}
+  
+ }
+ 
+ service Users {
+   // Login and get JWT token
+   rpc login(Login) returns (User) {}
+ 
+   // Returns a list of users matching the query
+   // Possible sort and filter attributes: "name", "email"
+   rpc getUsers(CMSQuery) returns (stream User) {}
+ 
+   // Get the count of users in the system
+   // Possible filter attributes: "name", "email"
+   rpc countUsers(CMSQuery) returns (CMSResult) {}
+ 
+   // Updates an existing user
+   rpc setUser(User) returns (CMSResult) {}
+ 
+   // Returns stream of users matching branch
+   rpc getBranchUsers(CMSQuery) returns (stream User) {}
+
+   // Request a password reset link
+   rpc sendPasswordReset(CMSQuery) returns (CMSResult) {}
+
+   // Reset password using token
+   rpc resetPassword(PasswordReset) returns (CMSResult) {}
+
+   // Remove users
+   rpc removeUser(User) returns (CMSResult) {}
+ }
+
+ service Customers {
+ 
+   // Returns a list of customers matching the query
+   // Possible sort and filter attributes: "first_name", "last_name", "email"
+   rpc getCustomers(CMSQuery) returns (stream Customer) {}
+ 
+   // Get the count of users in the system
+   // Possible filter attributes: "first_name", "last_name", "email"
+   rpc countCustomers(CMSQuery) returns (CMSResult) {}
+
+   // List for Bio-report
+   rpc getBioCustomers(CMSQuery) returns (stream Customer) {}
+
+   // List for Bio-report
+   rpc getBioCustomersExport(CMSQuery) returns (stream Customer) {}
+ 
+   // Get the count of Bio-report in the system
+   rpc countBioCustomers(CMSQuery) returns (CMSResult) {}
+ 
+   // Stores (upserts) the passed customer details, returns assigned customer_id in result
+   // If specified customer_id is blank, new customer is created, otherwise must specify an
+   // existing record to be updated
+   rpc setCustomer(Customer) returns (CMSResult) {}
+ 
+   // Removes an existing customer
+   rpc removeCustomer(Customer) returns (CMSResult) {}
+
+
+ }
+ 
+ service Data {
+   // Returns a list of ShoeTrial Results matching the query
+   rpc getShoeTrialResults(CMSQuery) returns (stream ShoeTrialResult) {}
+
+  // Returns a minfied version of the shoe trial results for a given customer ID
+  // Used for the web UI
+  rpc getMinifiedResultsByCustomerId(CMSQuery) returns (stream ShoeTrialResult) {}
+
+   // Returns a list of ShoeTrial Results matching the customer_id passed to string_query
+   rpc getShoeTrialResultsByCustomerId(CMSQuery) returns (stream ShoeTrialResult) {}
+ 
+  // Get the count of ShoeTrialResults matching the customer_id passed to string_query
+   rpc countShoeTrialResultsByCustomerId(CMSQuery) returns (CMSResult) {}
+
+   // Get the count of ShoeTrialResults in the system
+   rpc countShoeTrialResults(CMSQuery) returns (CMSResult) {}
+ 
+   // Saves the passed Shoe Trial Result
+   rpc setShoeTrialResult(ShoeTrialResult) returns (CMSResult) {}
+ 
+   // Returns a list of Metric Mapping schemes
+   rpc getMetricMapping(CMSQuery) returns (stream MetricMappingMsg) {}
+ 
+   // Saves the passed Metric Mapping scheme
+   rpc setMetricMapping(MetricMappingMsg) returns (CMSResult) {}
+ 
+   // Deletes any matching ShoeTrialResult (using CMSQuery.str_value = recording_id)
+   rpc deleteShoeTrialResult(CMSQuery) returns (CMSResult) {}
+ }
+ 
+ service Configuration {
+   // Returns the current Configuration Settings
+   rpc getCurrentConfigurationSettings(CMSQuery) returns (ConfigurationSettings) {}
+ 
+   // Saves the passed Configuration Settings as current
+   rpc setConfigurationSettings(ConfigurationSettings) returns (CMSResult) {}
+ }
+
+ message SeasonSelector {
+  string shoe_season = 1;
+ }
+
+ message PasswordReset {
+   string token = 1;
+   string password = 2;
+ }
+ 
+ /**
+ * Company model
+ */
+ message Company {
+   string company_id = 1;
+   string name = 2;
+   string contact_name = 3;
+   string phone_number = 4;
+   string email_address = 5;
+   repeated string address = 6;
+   int32 no_branches = 8;
+   bool blocked = 9;
+   string creator = 10;
+   int64 created = 11;
+   string updater = 12;
+   int64 updated = 13;
+   repeated Branch branches = 14;
+   string type = 15;
+   int64 licence_expiry = 16;
+   int64 month_count = 17;
+   string payment_model = 18;
+   string file_name = 19;
+ }
+ 
+ /**
+  * Branch model
+  */
+ message Branch {
+   string branch_id = 1;
+   string name = 2;
+   string contact_name = 3;
+   string phone_number = 4;
+   string email_address = 5;
+   repeated string address = 6;
+   repeated Device devices = 7;
+   string company_id = 8;
+   string creator = 9;
+   int64 created = 10;
+   string updater = 11;
+   int64 updated = 12;
+ }
+
+ message BranchShoeUpdate {
+   string branch_id = 1;
+   repeated string shoe_eans = 2;
+ }
+ 
+ message Device {
+   string device_id = 1;
+   int64 license_start = 2;
+   int64 license_end = 3;
+ }
+ 
+ /**
+ * User model
+ */
+ message User {
+   enum Role {
+     GUEST = 0;
+     CUSTOMER = 1;
+     TECHNICIAN = 2;
+     BRANCH_OFFICE = 3;
+     HEAD_OFFICE = 4;
+     ADMIN = 5;
+     RUNRIGHT_CENTRAL = 6;
+   }
+   string user_id = 1; // MongoDB unique identifier
+   string email = 2; // User's email address
+   string password = 3;
+   Role role = 4;
+   int64 created = 5 [jstype = JS_STRING]; // Creation timestamp
+   int64 updated = 6 [jstype = JS_STRING]; // Updated timestamp
+   string creator = 7; // Email address of the creator
+   bool disabled = 8; // Manual lockout flag
+   int32 auth_failures = 9; // Auth failure count
+   bool locked = 10; // Auto lockout flag
+   string token = 11; // JWT token for post login auth
+   string name = 12;
+   string company_id = 13; // The branch this user is associated with
+   string branch_id = 14; // The branch this user is associated with
+   string updater = 15;
+   int64 licence_expiry = 16; // Timestamp of licence expiry
+   string type = 17;
+ }
+ 
+ /**
+ * Login request message
+ */
+ message Login {
+   string email = 1;
+   string password = 2;
+ }
+ 
+ /**
+ * CMS Query.
+  */
+ message CMSQuery {
+    enum SortOrder {
+      ASCENDING = 0;
+      DESCENDING = 1;
+   }
+   int64 start_millis = 1; // Start date of interest (inclusive) in millis (ignore if 0)
+   int64 end_millis = 2; // End date of interest (inclusive) in millis (ignore if 0)
+   int32 skip = 3; // > 0 means skip n result
+   int32 limit = 4; // > 0 means return limit returned results
+   int32 int_query = 5;      // Integer match query, Value depends on context.
+   string string_query = 6;   // String match query. Value depends on context.
+   string sort_by = 7; // Attribute to sort by, see individual methods for possible usage
+   SortOrder sort_order = 8; // Sort direction
+   string filter_on = 9; // Attribute to filter by, see individual methods for possible usage, filter_term in string_query
+   bool mode = 10; // Platform for the API, if true: Web false: Mobile or other API
+   string branch_id = 11; // branch_id for the cms query
+   int64 start_bir_millis = 12;
+   int64 end_bir_millis = 13;
+   string gender = 14;
+   string brand = 15;
+   string model = 16;
+   string season = 17;
+   string company = 18;
+   string size = 19;
+ }
+ 
+ /**
+ * CMS Result.
+ * If the error string is empty the result is assumed to be success
+  */
+ message CMSResult {
+   string error = 1;       // Empty means no error
+   string message = 2;     // Optional descriptive message
+   int32 int_result = 3;      // Integer result, Value depends on context.
+   string string_result = 4;   // String result. Value depends on context.
+ }
+
+ /**
+ * LicenseHistory Query.
+  */
+ message LicenseHistoryQuery {
+    string company_id = 1; // Company id
+ }
+
+ message ImageLogoQuery {
+  string company_id = 1;
+  string file_name = 2;
+  string file_content = 3;
+ }
+
+ message LicenseHistory {
+  string company_id = 1;
+  int64 created = 2;
+  string type = 3;
+  int64 month = 4;
+ }
+ 
+ // Customer profile
+ message Customer {
+ 
+   enum Gender {
+     UNKNOWN = 0;
+     MALE = 1;
+     FEMALE = 2;
+   };
+ 
+   string customer_id = 1;  // CMS assigned key for the customer
+   string first_name = 2;
+   string last_name = 3;
+   repeated string address = 4;  // Excluding postcode (separate field)
+   string postcode = 8;
+   string telephone = 9;
+   string email = 10;
+   int64 created = 12 [jstype = JS_STRING]; // Millis since 1970
+   Gender gender = 13;
+   int32 height_mm = 14;
+   int32 weight_g = 15;
+   int32 preferred_speed_metreph = 16;
+   string shoe_size = 17;    // Shoe size format TBD. Could include country code and width? Assume just UK size as float int32 e.g. "9.5"
+   GDPRSettings gdpr_settings = 19;
+   int64 date_of_birth = 20;
+   string creator = 21; // Email address of creator
+   int64 updated = 22;
+   string updater = 23;
+   string company_id = 24;
+   string branch_id = 25;
+   PurchaseResult shoeTrialResults = 26;
+   string company_name = 27;
+   string branch_name = 28;
+ }
+
+ message PurchaseResult {
+  int64 recording_date = 1 [jstype = JS_STRING];
+  string shoe_brand = 2;
+  string shoe_name = 3;
+  string shoe_size = 4;
+  string shoe_season = 5;
+ }
+ 
+ // Customer GDPR settings
+ message GDPRSettings {
+   int64 agreed_date = 1 [jstype = JS_STRING];
+   bool newsletter = 2;
+   bool third_party_messages = 3;
+   // + other settings TBD
+ }
+ 
+ // Configuration of Devices and App
+ message ConfigurationSettings {
+   string capture_engine_release_version = 1;
+   string capture_engine_beta_version = 2;
+   string app_release_version = 3;
+   string app_beta_version = 4;
+   int32 metric_mapping_release_version = 5;
+   int32 metric_mapping_beta_version = 6;
+ }
+ 
+ enum NoSaleReason {
+   OUT_OF_STOCK = 0;
+   COLOUR = 1;
+   ONLINE_PURCHASE = 2;
+   PROHIBITIVE_COST = 3;
+   FIT = 4;
+   OTHER = 5;
+   SCORE = 6;
+   DUPLICATE_MEASUREMENT = 7;
+ }
+ 
+ message PurchaseDecision {
+   enum Decision {
+     SOLD_WITH_SCAN = 0;
+     SOLD_WITHOUT_SCAN = 1;
+     NO_SALE = 2;
+   }
+   Decision decision = 1;
+   NoSaleReason no_sale_reason = 2;
+   string notes = 3;
+   int32 purchased_pair_count = 4;
+ }
+ 
+ // Records the result of a customer trialling a particular shoe
+ message ShoeTrialResult {
+   string recording_id = 1;  // CMS assigned id
+   string customer_id = 2;
+   string technician_id = 4;
+   string device_id = 5;
+   int64 recording_date = 6 [jstype = JS_STRING];
+   string shoe_brand = 7;
+   string shoe_name = 8;
+   string shoe_size = 9;
+   PurchaseDecision purchase_decision = 10;
+   int32 metric_mapping_version = 12;
+   map<string, MacroMetricResult> macro_metric_results = 13; // Performance, Energy, Efficiency and Protection
+   map<string, MicroMetricScore> micro_metric_scores = 17;
+   map<string, RawMetric> raw_metrics = 18;
+   BodyFramesMsg body_frames = 19;
+   AlignParams alignment = 20;
+   QAMsg qa_msg = 21;
+   string capture_engine_version = 22;
+   string recording_filename = 23;
+   int64 created = 24;
+   int32 age_days = 25;
+   string branch_id = 26;
+   string company_id = 27;
+   string shoe_season = 28;
+ }
+
+ message MacroMetricResult {
+   float score = 2;
+   string grade = 3;
+   map<string, ComponentScore> component_scores = 4;
+ }
+ 
+ message MicroMetricScore {
+   float raw_value = 2;
+   float normalised_value = 3;
+   float score = 4;
+   float elite_score = 5;
+ }
+ 
+ message ComponentScore {
+   MicroMetricScore micro_metric_score = 1;
+   float weighted_score = 2;
+ }
+ 
+ // Message that describes how to generate results from teh measured raw metrics
+ message MetricMappingMsg {
+   int64 created = 1 [jstype = JS_STRING];              // Creation date
+   int32 version = 2 ;     // To be incremented after any changes
+   repeated MacroMetricMapping macro_metric_mappings = 3;  // Performance, Energy, Efficiency and Protection mappings
+   repeated MicroMetricMapping micro_metric_mappings = 4;  // Cadence, knee flexion, overstride, ground contact time etc
+ }
+ 
+ // Defines how a macro metric is constructed from a weighted set of micro metric components
+ message MacroMetricMapping {
+   string name = 1;
+   repeated MacroGradeBoundary macro_grade_boundaries = 2;
+   repeated MacroMetricComponent macro_metric_components = 3;
+   repeated AgeFactorMapPoint male_age_factor_map = 4;
+   repeated AgeFactorMapPoint female_age_factor_map = 5;
+ }
+ 
+ // Macro score to result grade map point
+ message MacroGradeBoundary {
+   float grade_boundary = 1;
+   string grade = 2;
+ }
+ 
+ // Weighted component of a combined metric
+ message MacroMetricComponent {
+   string micro_metric_name = 1;
+   float weight = 2;
+ }
+ 
+ // Defines the score mapping for the named micro metric with the specified weighting
+ message MicroMetricMapping {
+   enum Type {
+     EXACT_IS_BEST = 0;
+     MORE_IS_BETTER = 1;
+     LESS_IS_BETTER = 2;
+     TYPE_D = 3;
+   }
+   enum Method {
+     PERCENTAGE = 0;
+     RELATIVE_DIFFERENCE = 1;
+     ABSOLUTE_DIFFERENCE = 2;
+   }
+   string name = 1;
+   Type scoring_type = 2;
+   Method scoring_method = 3;
+   float dial_start = 4;
+   float dial_pin1 = 5;
+   float dial_pin2 = 6;
+   float dial_end = 7;
+   repeated ScoreMapPoint score_map_points = 10;
+   repeated EliteScoreMapPoint elite_score_map = 11;
+   repeated EliteScoreHeightFactorPoint elite_male_height_factors = 12;
+   repeated EliteScoreHeightFactorPoint elite_female_height_factors = 13;
+ }
+ 
+ // Specifies how the elite score varies with age
+ message AgeFactorMapPoint {
+   float age_years = 1;
+   float age_factor = 2;
+ }
+ 
+ // Defines the perfect value for the specified running speed
+ message EliteScoreMapPoint {
+   float speed_kph = 1;
+   float elite_score = 2;
+ }
+
+// Defines the elite value adjustment factor for the specified runner height
+message EliteScoreHeightFactorPoint {
+  int32 height_mm = 1;
+  float elite_score_factor = 2;
+}
+
+// Normalised value to score mapping point
+ message ScoreMapPoint {
+   float normalised_value = 1;
+   float score = 2;
+ }
+ 
+ // Result for a raw metric
+ message RawMetric {
+   float median = 2;
+   float mean = 3;
+   float min = 4;
+   float max = 5;
+   float variance = 6;
+   int32 sample_count = 7;
+   repeated MetricFrame frames = 8;
+ }
+ 
+ message MetricFrame {
+   int64 micros = 1 [jstype = JS_STRING];
+   repeated float values = 2;
+   float stride_index = 3;
+ }
+ 
+ /**
+ * Quality Assurance message
+ * Contains the outlier reports for the interpolation scan and the
+ * compare with average scan.
+ */
+ message QAMsg {
+   OutlierMsg interpolation_scan = 1;
+   OutlierMsg compare_average_scan = 2;
+ }
+ 
+ /**
+ * Outlier message
+ * For each body position, there is a list of frame indexes that have been processed as outliers.
+ * A positive value for the index means the frame was successfully reprocessed from this point. A
+ * negative value indicates that the reprocessing failed at this index (absolute value).
+ */
+ message OutlierMsg {
+   int32 total_frame_count = 1;
+   repeated sint32 com_outliers = 3;
+   repeated sint32 left_hip_outliers = 4;
+   repeated sint32 left_knee_outliers = 5;
+   repeated sint32 left_ankle_outliers = 6;
+   repeated sint32 left_heel_outliers = 7;
+   repeated sint32 left_sole_outliers = 8;
+   repeated sint32 right_hip_outliers = 9;
+   repeated sint32 right_knee_outliers = 10;
+   repeated sint32 right_ankle_outliers = 11;
+   repeated sint32 right_heel_outliers = 12;
+   repeated sint32 right_sole_outliers = 13;
+ }
+ 
+ // Describes the Capture Engine device
+ message DeviceInfo {
+   string device_id = 1;
+   string os_version = 2;
+   string k4a_sdk_version = 3;
+   string capture_engine_version = 4;
+   repeated CameraInfo camera_infos = 5;
+   string hardware_description = 6;
+ }
+ 
+ // Describes a Depth camera device
+ message CameraInfo {
+   string device_type = 1;
+   string firmware_version = 4;
+   string serial = 6;
+ }
+ 
+ message AppInfo {
+   string app_version = 1;
+   string app_os_version = 2;
+   string hardware_description = 3;
+ }
+ 
+ message InfoMsg {
+   string technician_id = 1;
+   AppInfo app_info = 2;
+   DeviceInfo device_info = 3;
+ }
+ 
+ message UpdateInfo {
+ 
+   enum SubSystem {
+     RUNRIGHT_APP = 0;
+     CAPTURE_ENGINE = 1;
+     OS_IMAGE = 2;
+     CAMERA_FIRMWARE = 3;
+   }
+ 
+   SubSystem sub_system = 1;
+   string new_version = 2;
+   string new_description = 3;
+ }
+ 
+ message UpdateInfoMsg {
+   repeated UpdateInfo update_info = 1;    // Empty if no updates available
+ }
+ 
+ // Container message to store CMS content locally
+ message CMSCacheMsg {
+   repeated ShoeTrialResult shoeTrialResults = 1;
+   repeated Customer customers = 2;
+   repeated AlignParams aligns = 3;
+   repeated MetricMappingMsg metric_mappings = 4;
+ }
+ 
+ /**
+ * Persisted parameters
+ * A collection of values by the capture engine to process the point cloud data. This data can
+ * be configured on installation and is persisted by the capture engine.
+ */
+ message PersistParams {
+   float std_dev_multiplier = 1;
+   float search_radius = 2;
+   float nearest_neighbour_multiplier = 3;
+   float smoothness_threshold = 4;
+   float curvature_threshold = 5;
+   int32 nearest_neighbour_count = 6;
+   int32 max_nearest_neighbour_count = 7;
+   bool point_filter_enabled = 18;
+   bool down_sampling = 21;
+   bool interpolate_outliers = 22;
+   bool compare_with_average = 23;
+ }
+ 
+ /**
+ * Alignment parameters
+ * A collection of values used to align the point clouds from each camera. Parameters are to be
+ * stored keyed against the loaded_filename field so that they can be retrieved for data
+ * reprocessing
+ */
+ message AlignParams {
+   double right_x_offset = 1;
+   double right_y_offset = 2;
+   double right_z_offset = 3;
+   double right_x_rotate = 4;
+   double right_y_rotate = 5;
+   double right_z_rotate = 6;
+   double left_x_pre_rotate = 7;
+   double left_y_pre_rotate = 8;
+   double left_z_pre_rotate = 9;
+   int32 camera_offset_x = 10;
+   int32 camera_offset_y = 11;
+   int32 camera_offset_z = 12;
+   int32 bounding_box_min_x = 13;
+   int32 bounding_box_max_x = 14;
+   int32 bounding_box_min_y = 15;
+   int32 bounding_box_max_y = 16;
+   int32 bounding_box_min_z = 17;
+   int32 bounding_box_max_z = 18;
+   int32 bounding_box_max_range = 19;
+   bool master_transform_off = 20;
+   bool right_cam_transform_off = 21;
+   bool calculate_from_points = 22;
+   int32 frame_count = 30;
+   string loaded_filename = 31;
+   string runner_id = 32;
+ }
+ 
+ /**
+ * Capture parameters
+ * The per recording capture parameters.
+  */
+ message CaptureParams {
+   CameraState camera_state = 1;       // Desired camera state
+   int32 capture_duration_millis = 2;  // Capture for this many millis (if > 0)
+   int64 capture_start_time = 3 [jstype = JS_STRING];  // Use this time as the start time
+   Customer customer = 4;              // The customer being recorded
+ }
+ 
+ /**
+ * Per recording data details
+  */
+ message DataFileInfo {
+   string name = 1;
+   int64 size = 2 [jstype = JS_STRING];
+   int64 created = 3 [jstype = JS_STRING];
+   int32 frame_count = 4;
+ }
+ 
+ /**
+ * Details of the recordings in a directory
+  */
+ message DataDirMsg {
+   string root_path = 1;
+   int64 free_space = 2 [jstype = JS_STRING];
+   repeated DataFileInfo data_files = 3;
+ }
+ 
+ /**
+ * A point cloud point value
+ */
+ message Point {
+   float x = 1;
+   float y = 2;
+   float z = 3;
+   float nx = 4;
+   float ny = 5;
+   float nz = 6;
+   float c = 7;
+   int32 id = 8;
+ }
+ 
+ /**
+ * An XYZ coordinate
+ */
+ message XYZ {
+   float x = 1;
+   float y = 2;
+   float z = 3;
+ }
+ 
+ /**
+ * Shape definition for drawing debug shapes
+  */
+ message Shape {
+   enum Type {
+     POINT = 0;
+     SEGMENT = 1;
+     SPHERE = 2;
+     BOX = 3;
+     POLYGON = 4;
+   }
+   enum DrawMode {
+     FILL = 0;
+     LINE = 1;
+   }
+ 
+   Type type = 1;
+   repeated Point point = 2;
+   int32 colour = 3;
+   DrawMode draw_mode = 4;
+   string name = 5;
+   repeated float fp_args = 6;
+ }
+ 
+ /**
+ * bone position and rotation
+  */
+ message BoneData {
+   float x_pos = 1;
+   float y_pos = 2;
+   float z_pos = 3;
+   repeated float quaternion = 4;
+ }
+ 
+ /**
+ * A captured body frame
+ * Has time of capture, the stride index within the recording and bone positions.
+  */
+ message BodyFrame {
+   int64 micros = 1 [jstype = JS_STRING];
+   float stride_index = 2;
+   BoneData lower_spine = 3;
+   BoneData upper_spine = 4;
+   BoneData left_buttock = 5;
+   BoneData left_hip = 6;
+   BoneData left_knee = 7;
+   BoneData left_ankle = 8;
+   BoneData left_heel = 9;
+   BoneData left_metatarsal = 10;
+   BoneData left_toe = 11;
+   BoneData left_collar = 12;
+   BoneData left_humerus = 13;
+   BoneData left_radius = 14;
+   BoneData left_hand = 15;
+   BoneData right_buttock = 16;
+   BoneData right_hip = 17;
+   BoneData right_knee = 18;
+   BoneData right_ankle = 19;
+   BoneData right_heel = 20;
+   BoneData right_metatarsal = 21;
+   BoneData right_toe = 22;
+   BoneData right_collar = 23;
+   BoneData right_humerus = 24;
+   BoneData right_radius = 25;
+   BoneData right_hand = 26;
+   BoneData neck = 27;
+   BoneData head = 28;
+   BoneData centre_of_mass = 29;
+   repeated float com_offset = 30;
+ }
+ 
+ /**
+ * All the captured body frames and an average stride frame set.
+ */
+ message BodyFramesMsg {
+   repeated BodyFrame frames = 1;
+   repeated BodyFrame avg_stride_frames = 2;
+ }
+ 
+ // A single frame from a depth camera
+ message CamK4AFrame {
+   uint64 timestamp = 1;
+   uint32 sequence = 2;
+   uint32 status = 3;
+   uint32 width = 4;
+   uint32 height = 5;
+   bytes  data = 6;
+ }
+ 
+ // A Capture engine depth cloud frame pair
+ message CamFramePair {
+   CamK4AFrame left = 1;
+   CamK4AFrame right = 2;
+ }
+ 
+ // Capture Engine Depth camera state
+ enum CameraState {
+   UNKNOWN = 0;
+   STANDBY = 1;
+   LIVE = 2;
+   CAPTURING = 3;
+   FAILED = 4;
+ }
+enum GullWingState {
+  GWS_UNKNOWN = 0;
+  GWS_IDLE = 1;
+  GWS_LIVE = 2;
+  GWS_RECORDING = 3;
+  GWS_PROCESSING = 4;
+  GWS_SAVING_DATA = 5;
+  GWS_FAILED = 6;
+  GWS_UPDATING = 7;
+  GWS_OFFLINE = 8;
+}
+
+// Capture Engine Commands
+enum CECommand {
+  INVALID = 0;
+  GET_PARAMS = 1;
+  SET_PARAMS = 2;
+  CALC_ALIGNMENT = 3;
+  PUBLISH_FRAME = 4;
+  LOAD_FILE = 5;
+  SAVE_FILE = 6;
+  GET_BODYFRAMES = 7;
+  GET_METRICS = 8;
+  REPROCESS_FRAME = 9;
+  GET_DEVICE_INFO = 10;
+  GET_DATA_LISTING = 11;
+  SET_CAMERAS = 12;
+  GET_SHOE_TRIAL_METRICS = 13;
+  GET_CAL_FRAMES = 14;
+  SAVE_CALIBRATION = 15;
+  SYSTEM_COMMAND = 16;
+  GET_GULL_WING_STATE = 17;
+}
+
+// Capture Engine Request
+//
+// Capture engine request with associated parameters. Repeated arguments are mostly historical
+// use during development. All settings are now present in the params fields.
+//
+message CERequest {
+  CECommand command = 1;
+  repeated string str_args = 2;
+  repeated int32 int_args = 3;
+  repeated double fp_args = 4;
+  repeated bool bool_args = 5;
+  bytes blob = 6;
+  AlignParams align_params = 7;
+  PersistParams persist_params = 8;
+  CaptureParams capture_params = 9;
+}
+
+// Capture Engine Reply
+//
+// This is the response from the capture engine request. Success can be
+// assumed if the response error message is empty
+//
+message CEReply {
+  CECommand command_reply = 1;
+  string error_message = 2;
+  CameraState camera_state = 3;
+  repeated int32 int_args = 4;
+  repeated string str_args = 5;
+  repeated double fp_args = 6;
+  BodyFramesMsg body_frames_msg = 11;
+  map<string, RawMetric> raw_metrics = 12;
+  QAMsg qa_msg = 13;
+  DeviceInfo device_info = 14;
+  ShoeTrialResult shoe_trial_result = 15;
+  CalFrames cal_frames = 16;
+  GullWingState gull_wing_state = 17;
+  int32 estimated_runner_height_mm = 18;
+}
+
+// Capture Engine Published message
+//
+// The capture engine uses a publish subscribe message pattern to keep its client settings in sync.
+// It also publishes progress messages and cloud data frames. A common message is used for all
+// publishes and subscribers should check to see which fields are present.
+//
+message CEPubMsg {
+  ProgressMsg progress_msg = 2;
+  AlignParams align_params = 3;
+  PersistParams persist_params = 4;
+  CaptureParams capture_params = 5;
+  CloudDataMsg cloud_data_msg = 6;
+  DataDirMsg data_dir_msg = 7;
+  GullWingState gull_wing_state = 8;
+}
+
+// Cloud data message.
+message CloudDataMsg {
+  repeated string line = 1;
+  int32 frame_index = 2;
+  repeated AvaProtos.Shape skeleton_shapes = 3;
+  repeated AvaProtos.Shape debug_shapes = 4;
+  bytes frame_data = 10;
+}
+
+// Cal Frames message.
+message CalFrames {
+  CalFrame left_cal_frame = 1;
+  CalFrame right_cal_frame = 2;
+  repeated BoundingBox bounding_boxes = 3;
+}
+
+message CalFrame {
+  AvaProtos.XYZ high_ball = 1;
+  AvaProtos.XYZ low_ball = 2;
+  AvaProtos.XYZ calculated_camera_offset = 3;
+  string error_message = 4;
+  DepthFrame depth_frame = 10;
+}
+
+message BoundingBox {
+  AvaProtos.XYZ min_corner = 1;
+  AvaProtos.XYZ max_corner = 2;
+}
+ 
+ message DepthFrame {
+   int64 micros = 1;
+   int32 sequence = 2;
+   int32 status = 3;
+   int32 width = 4;
+   int32 height = 5;
+   bytes data = 10;
+ }
+ 
+ // Progress message. Published by the capture engine when performing long running processes
+ message ProgressMsg {
+   int32 percent = 1;
+   string title = 2;
+   string message = 3;
+ }
+ 
+ // Shoe model
+ message Shoe {
+   string shoe_id = 1;
+   string brand = 2;
+   string model = 3;
+   string color = 4;
+   string ean = 5;
+   string season = 6;
+   string gender = 7;
+   string size = 8;
+   int64 created = 9;
+   string creator = 10; // Email address of creator
+   int64 updated = 11;
+   string updater = 12;
+ }
+ 
+ message EANList {
+   repeated string ean = 1;
+ }
+
+message SearchBranch {
+  string branch = 1;
+}
+
+service CaptureEngineGRpc {
+  rpc GetPointCloudData(PointCloudDataRequest) returns (stream PointCloudData) {}
+}
+
+message PointCloudDataRequest {
+  string filename = 1;
+  int32 frame_index = 2;
+  bool  get_full_points = 3;
+  bool  get_debug_shapes = 4;
+}
+
+message PointCloudData {
+  int32 frame_index = 1;
+  int32 point_count = 2;
+  repeated AvaProtos.XYZI points = 3;
+  repeated AvaProtos.Shape skeleton_shapes = 4;
+  repeated AvaProtos.Shape debug_shapes = 5;
+  repeated AvaProtos.Point full_points = 6;
+  bytes points_data = 7;
+  bytes full_points_data = 8;
+}
+
+message PointCloudDataFrames {
+  string filename = 1;
+  repeated PointCloudData frames = 2;
+}
+
+/**
+* An XYZ coordinate plus id
+*/
+message XYZI {
+  sint32 x = 1;
+  sint32 y = 2;
+  sint32 z = 3;
+  sint32 id = 4;
+}
