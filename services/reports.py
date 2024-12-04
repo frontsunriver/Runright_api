@@ -1964,31 +1964,47 @@ class ReportServicer(messages_pb2_grpc.ReportsServicer):
         return messages_pb2.DashboardReport(aged_sales_count=0)
 
     def GetData(self, request: messages_pb2.DataRequest, context) -> messages_pb2.DataResponse:
-        with open('/home/neymar/Project/avacloneapp/dist/app/assets/cert.pem', 'rb') as pem_file:
+        certFile = '/etc/letsencrypt/live/api.runright.io/cert.pem'
+        fullChainFile = '/etc/letsencrypt/live/api.runright.io/fullchain.pem'
+
+        # cert.pem file check start
+        with open(certFile, 'rb') as pem_file:
             pem_data = pem_file.read()
         
-        # Load the certificate
         certificate = x509.load_pem_x509_certificate(pem_data, default_backend())
         
-        # Get the expiration date
         expiration_date = certificate.not_valid_after
         current_date = datetime.utcnow()
         
-        print(f"Certificate Expiration Date: {expiration_date}")
-        print(f"Current Date: {current_date}")
-        
-        if expiration_date < current_date:
-            print("The certificate is expired.")
-        else:
-            print("The certificate is valid.")
+        print(f"Cert Certificate Expiration Date: {expiration_date}")
+        # cert.pem file check end
 
+        # fullchain.pem file check start
+        with open(fullChainFile, 'rb') as pem_file:
+            fullChainPem_data = pem_file.read()
+        
+        full_chain_certificate = x509.load_pem_x509_certificate(fullChainPem_data, default_backend())
+        
+        full_chain_expiration_date = full_chain_certificate.not_valid_after
+        
+        print(f"FullChain Certificate Expiration Date: {full_chain_expiration_date}")
+        # fullchain.pem file check end
 
 
         memory = psutil.virtual_memory()
         disk = psutil.disk_usage('/')
-        result = messages_pb2.DataResponse()
 
-        result.result = '12345'
-        result.memory = f"Total Memory: {memory.total / (1024 ** 2):.2f} MB \n Available Memory: {memory.available / (1024 ** 2):.2f} MB \n Used Memory: {memory.used / (1024 ** 2):.2f} MB \n Memory Percentage: {memory.percent}%"
-        result.disk = f"Total Disk Size: {disk.total / (1024 ** 3):.2f} GB \n Used Disk Space: {disk.used / (1024 ** 3):.2f} GB \n Free Disk Space: {disk.free / (1024 ** 3):.2f} GB \n Disk Usage Percentage: {disk.percent}%"
+        result = messages_pb2.DataResponse()
+        result.total_disk = f"{disk.total / (1024 ** 3):.2f}"
+        result.free_disk = f"{disk.free / (1024 ** 3):.2f}"
+        result.used_disk = f"{disk.used / (1024 ** 3):.2f}"
+        result.disk_percent = f"{disk.percent}"
+        result.total_memory = f"{memory.total / (1024 ** 3):.2f}"
+        result.free_memory = f"{memory.free / (1024 ** 3):.2f}"
+        result.used_memory = f"{memory.used / (1024 ** 3):.2f}"
+        result.memory_percent = f"{memory.percent}"
+        result.cert_valid = f"{expiration_date}"
+        result.cert = pem_data
+        result.fullchain_valid = f"{full_chain_expiration_date}"
+        result.fullchain = fullChainPem_data
         return result

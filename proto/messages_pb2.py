@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=b'\n\033uk.co.comsci.runright.protoB\tAvaProtos',
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0emessages.proto\x12\tAvaProtos\"\x1c\n\x0b\x44\x61taRequest\x12\r\n\x05query\x18\x01 \x01(\t\"<\n\x0c\x44\x61taResponse\x12\x0e\n\x06result\x18\x01 \x01(\t\x12\x0e\n\x06memory\x18\x02 \x01(\t\x12\x0c\n\x04\x64isk\x18\x03 \x01(\t\"M\n\x15\x42randSaleRecordsQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\r\n\x05\x62rand\x18\x02 \x01(\t\"\x8f\x01\n\x14\x42randModelSaleCounts\x12\x44\n\x0bsale_counts\x18\x01 \x03(\x0b\x32/.AvaProtos.BrandModelSaleCounts.SaleCountsEntry\x1a\x31\n\x0fSaleCountsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"Y\n\x14SaleScanRecordsQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\x0c\n\x04\x64\x61te\x18\x02 \x01(\t\x12\x0c\n\x04type\x18\x03 \x01(\t\"D\n\x0bNoSaleQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\x0e\n\x06reason\x18\x02 \x01(\x05\".\n\x0ePerformanceDay\x12\r\n\x05sales\x18\x01 \x01(\x05\x12\r\n\x05scans\x18\x02 \x01(\x05\"\xc6\x01\n\x0fTechnicianSales\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x10\n\x08location\x18\x03 \x01(\t\x12M\n\x12purchase_decisions\x18\x04 \x03(\x0b\x32\x31.AvaProtos.TechnicianSales.PurchaseDecisionsEntry\x1a\x38\n\x16PurchaseDecisionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"\xc5\x01\n\x14\x44\x61shboardTableRecord\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06gender\x18\x02 \x01(\t\x12\x0e\n\x06season\x18\x03 \x01(\t\x12\r\n\x05\x62rand\x18\x04 \x01(\t\x12\r\n\x05model\x18\x05 \x01(\t\x12\x0c\n\x04size\x18\x06 \x01(\t\x12\x10\n\x08purchase\x18\x07 \x01(\t\x12\x0e\n\x06reason\x18\x08 \x01(\t\x12\x0c\n\x04tech\x18\t \x01(\t\x12\r\n\x05store\x18\n \x01(\t\x12\x16\n\x0erecording_date\x18\x0b \x01(\t\">\n\x0fSizeGenderSales\x12\x0c\n\x04size\x18\x01 \x01(\t\x12\x0e\n\x06gender\x18\x02 \x01(\x05\x12\r\n\x05\x63ount\x18\x03 \x01(\x05\"6\n\nBrandSales\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04sale\x18\x02 \x01(\x05\x12\x0c\n\x04scan\x18\x03 \x01(\x05\"6\n\nModelSales\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04sale\x18\x02 \x01(\x05\x12\x0c\n\x04scan\x18\x03 \x01(\x05\"\x8b\x07\n\x0f\x44\x61shboardReport\x12?\n\x0b\x64\x61ily_scans\x18\x01 \x03(\x0b\x32*.AvaProtos.DashboardReport.DailyScansEntry\x12?\n\x0b\x64\x61ily_sales\x18\x02 \x03(\x0b\x32*.AvaProtos.DashboardReport.DailySalesEntry\x12?\n\x0b\x62rand_sales\x18\x03 \x03(\x0b\x32*.AvaProtos.DashboardReport.BrandSalesEntry\x12?\n\x0bmodel_sales\x18\x04 \x03(\x0b\x32*.AvaProtos.DashboardReport.ModelSalesEntry\x12\x34\n\x10technician_sales\x18\x05 \x03(\x0b\x32\x1a.AvaProtos.TechnicianSales\x12?\n\x16\x64\x61shboard_table_record\x18\x06 \x03(\x0b\x32\x1f.AvaProtos.DashboardTableRecord\x12\x46\n\x0fno_sale_reasons\x18\x07 \x03(\x0b\x32-.AvaProtos.DashboardReport.NoSaleReasonsEntry\x12\x35\n\x11size_gender_sales\x18\x08 \x03(\x0b\x32\x1a.AvaProtos.SizeGenderSales\x12\x18\n\x10\x61ged_sales_count\x18\t \x01(\x05\x12\x30\n\x11\x62rand_sales_table\x18\n \x03(\x0b\x32\x15.AvaProtos.BrandSales\x12\x30\n\x11model_sales_table\x18\x0b \x03(\x0b\x32\x15.AvaProtos.ModelSales\x1a\x31\n\x0f\x44\x61ilyScansEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0f\x44\x61ilySalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0f\x42randSalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fModelSalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x34\n\x12NoSaleReasonsEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"\xc1\x01\n\x0bReportQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x11\n\tbranch_id\x18\x02 \x01(\t\x12\x15\n\rtechnician_id\x18\x03 \x01(\t\x12\x0c\n\x04skip\x18\x05 \x01(\x05\x12\r\n\x05limit\x18\x06 \x01(\x05\x12\x14\n\x0cstart_millis\x18\x07 \x01(\x03\x12\x12\n\nend_millis\x18\x08 \x01(\x03\x12\x0e\n\x06gender\x18\t \x01(\t\x12\x0e\n\x06season\x18\n \x01(\t\x12\r\n\x05\x62rand\x18\x0b \x01(\t\"%\n\x0eSeasonSelector\x12\x13\n\x0bshoe_season\x18\x01 \x01(\t\"0\n\rPasswordReset\x12\r\n\x05token\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\xf3\x02\n\x07\x43ompany\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x14\n\x0c\x63ontact_name\x18\x03 \x01(\t\x12\x14\n\x0cphone_number\x18\x04 \x01(\t\x12\x15\n\remail_address\x18\x05 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x06 \x03(\t\x12\x13\n\x0bno_branches\x18\x08 \x01(\x05\x12\x0f\n\x07\x62locked\x18\t \x01(\x08\x12\x0f\n\x07\x63reator\x18\n \x01(\t\x12\x0f\n\x07\x63reated\x18\x0b \x01(\x03\x12\x0f\n\x07updater\x18\x0c \x01(\t\x12\x0f\n\x07updated\x18\r \x01(\x03\x12#\n\x08\x62ranches\x18\x0e \x03(\x0b\x32\x11.AvaProtos.Branch\x12\x0c\n\x04type\x18\x0f \x01(\t\x12\x16\n\x0elicence_expiry\x18\x10 \x01(\x03\x12\x13\n\x0bmonth_count\x18\x11 \x01(\x03\x12\x15\n\rpayment_model\x18\x12 \x01(\t\x12\x11\n\tfile_name\x18\x13 \x01(\t\"\xf9\x01\n\x06\x42ranch\x12\x11\n\tbranch_id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x14\n\x0c\x63ontact_name\x18\x03 \x01(\t\x12\x14\n\x0cphone_number\x18\x04 \x01(\t\x12\x15\n\remail_address\x18\x05 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x06 \x03(\t\x12\"\n\x07\x64\x65vices\x18\x07 \x03(\x0b\x32\x11.AvaProtos.Device\x12\x12\n\ncompany_id\x18\x08 \x01(\t\x12\x0f\n\x07\x63reator\x18\t \x01(\t\x12\x0f\n\x07\x63reated\x18\n \x01(\x03\x12\x0f\n\x07updater\x18\x0b \x01(\t\x12\x0f\n\x07updated\x18\x0c \x01(\x03\"8\n\x10\x42ranchShoeUpdate\x12\x11\n\tbranch_id\x18\x01 \x01(\t\x12\x11\n\tshoe_eans\x18\x02 \x03(\t\"G\n\x06\x44\x65vice\x12\x11\n\tdevice_id\x18\x01 \x01(\t\x12\x15\n\rlicense_start\x18\x02 \x01(\x03\x12\x13\n\x0blicense_end\x18\x03 \x01(\x03\"\xc1\x03\n\x04User\x12\x0f\n\x07user_id\x18\x01 \x01(\t\x12\r\n\x05\x65mail\x18\x02 \x01(\t\x12\x10\n\x08password\x18\x03 \x01(\t\x12\"\n\x04role\x18\x04 \x01(\x0e\x32\x14.AvaProtos.User.Role\x12\x13\n\x07\x63reated\x18\x05 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x07updated\x18\x06 \x01(\x03\x42\x02\x30\x01\x12\x0f\n\x07\x63reator\x18\x07 \x01(\t\x12\x10\n\x08\x64isabled\x18\x08 \x01(\x08\x12\x15\n\rauth_failures\x18\t \x01(\x05\x12\x0e\n\x06locked\x18\n \x01(\x08\x12\r\n\x05token\x18\x0b \x01(\t\x12\x0c\n\x04name\x18\x0c \x01(\t\x12\x12\n\ncompany_id\x18\r \x01(\t\x12\x11\n\tbranch_id\x18\x0e \x01(\t\x12\x0f\n\x07updater\x18\x0f \x01(\t\x12\x16\n\x0elicence_expiry\x18\x10 \x01(\x03\x12\x0c\n\x04type\x18\x11 \x01(\t\"t\n\x04Role\x12\t\n\x05GUEST\x10\x00\x12\x0c\n\x08\x43USTOMER\x10\x01\x12\x0e\n\nTECHNICIAN\x10\x02\x12\x11\n\rBRANCH_OFFICE\x10\x03\x12\x0f\n\x0bHEAD_OFFICE\x10\x04\x12\t\n\x05\x41\x44MIN\x10\x05\x12\x14\n\x10RUNRIGHT_CENTRAL\x10\x06\"(\n\x05Login\x12\r\n\x05\x65mail\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\xad\x03\n\x08\x43MSQuery\x12\x14\n\x0cstart_millis\x18\x01 \x01(\x03\x12\x12\n\nend_millis\x18\x02 \x01(\x03\x12\x0c\n\x04skip\x18\x03 \x01(\x05\x12\r\n\x05limit\x18\x04 \x01(\x05\x12\x11\n\tint_query\x18\x05 \x01(\x05\x12\x14\n\x0cstring_query\x18\x06 \x01(\t\x12\x0f\n\x07sort_by\x18\x07 \x01(\t\x12\x31\n\nsort_order\x18\x08 \x01(\x0e\x32\x1d.AvaProtos.CMSQuery.SortOrder\x12\x11\n\tfilter_on\x18\t \x01(\t\x12\x0c\n\x04mode\x18\n \x01(\x08\x12\x11\n\tbranch_id\x18\x0b \x01(\t\x12\x18\n\x10start_bir_millis\x18\x0c \x01(\x03\x12\x16\n\x0e\x65nd_bir_millis\x18\r \x01(\x03\x12\x0e\n\x06gender\x18\x0e \x01(\t\x12\r\n\x05\x62rand\x18\x0f \x01(\t\x12\r\n\x05model\x18\x10 \x01(\t\x12\x0e\n\x06season\x18\x11 \x01(\t\x12\x0f\n\x07\x63ompany\x18\x12 \x01(\t\x12\x0c\n\x04size\x18\x13 \x01(\t\"*\n\tSortOrder\x12\r\n\tASCENDING\x10\x00\x12\x0e\n\nDESCENDING\x10\x01\"V\n\tCMSResult\x12\r\n\x05\x65rror\x18\x01 \x01(\t\x12\x0f\n\x07message\x18\x02 \x01(\t\x12\x12\n\nint_result\x18\x03 \x01(\x05\x12\x15\n\rstring_result\x18\x04 \x01(\t\")\n\x13LicenseHistoryQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\"M\n\x0eImageLogoQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x11\n\tfile_name\x18\x02 \x01(\t\x12\x14\n\x0c\x66ile_content\x18\x03 \x01(\t\"R\n\x0eLicenseHistory\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x0f\n\x07\x63reated\x18\x02 \x01(\x03\x12\x0c\n\x04type\x18\x03 \x01(\t\x12\r\n\x05month\x18\x04 \x01(\x03\"\xd3\x04\n\x08\x43ustomer\x12\x13\n\x0b\x63ustomer_id\x18\x01 \x01(\t\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x04 \x03(\t\x12\x10\n\x08postcode\x18\x08 \x01(\t\x12\x11\n\ttelephone\x18\t \x01(\t\x12\r\n\x05\x65mail\x18\n \x01(\t\x12\x13\n\x07\x63reated\x18\x0c \x01(\x03\x42\x02\x30\x01\x12*\n\x06gender\x18\r \x01(\x0e\x32\x1a.AvaProtos.Customer.Gender\x12\x11\n\theight_mm\x18\x0e \x01(\x05\x12\x10\n\x08weight_g\x18\x0f \x01(\x05\x12\x1f\n\x17preferred_speed_metreph\x18\x10 \x01(\x05\x12\x11\n\tshoe_size\x18\x11 \x01(\t\x12.\n\rgdpr_settings\x18\x13 \x01(\x0b\x32\x17.AvaProtos.GDPRSettings\x12\x15\n\rdate_of_birth\x18\x14 \x01(\x03\x12\x0f\n\x07\x63reator\x18\x15 \x01(\t\x12\x0f\n\x07updated\x18\x16 \x01(\x03\x12\x0f\n\x07updater\x18\x17 \x01(\t\x12\x12\n\ncompany_id\x18\x18 \x01(\t\x12\x11\n\tbranch_id\x18\x19 \x01(\t\x12\x33\n\x10shoeTrialResults\x18\x1a \x01(\x0b\x32\x19.AvaProtos.PurchaseResult\x12\x14\n\x0c\x63ompany_name\x18\x1b \x01(\t\x12\x13\n\x0b\x62ranch_name\x18\x1c \x01(\t\"+\n\x06Gender\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x08\n\x04MALE\x10\x01\x12\n\n\x06\x46\x45MALE\x10\x02\"{\n\x0ePurchaseResult\x12\x1a\n\x0erecording_date\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nshoe_brand\x18\x02 \x01(\t\x12\x11\n\tshoe_name\x18\x03 \x01(\t\x12\x11\n\tshoe_size\x18\x04 \x01(\t\x12\x13\n\x0bshoe_season\x18\x05 \x01(\t\"Y\n\x0cGDPRSettings\x12\x17\n\x0b\x61greed_date\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nnewsletter\x18\x02 \x01(\x08\x12\x1c\n\x14third_party_messages\x18\x03 \x01(\x08\"\xe8\x01\n\x15\x43onfigurationSettings\x12&\n\x1e\x63\x61pture_engine_release_version\x18\x01 \x01(\t\x12#\n\x1b\x63\x61pture_engine_beta_version\x18\x02 \x01(\t\x12\x1b\n\x13\x61pp_release_version\x18\x03 \x01(\t\x12\x18\n\x10\x61pp_beta_version\x18\x04 \x01(\t\x12&\n\x1emetric_mapping_release_version\x18\x05 \x01(\x05\x12#\n\x1bmetric_mapping_beta_version\x18\x06 \x01(\x05\"\xec\x01\n\x10PurchaseDecision\x12\x36\n\x08\x64\x65\x63ision\x18\x01 \x01(\x0e\x32$.AvaProtos.PurchaseDecision.Decision\x12/\n\x0eno_sale_reason\x18\x02 \x01(\x0e\x32\x17.AvaProtos.NoSaleReason\x12\r\n\x05notes\x18\x03 \x01(\t\x12\x1c\n\x14purchased_pair_count\x18\x04 \x01(\x05\"B\n\x08\x44\x65\x63ision\x12\x12\n\x0eSOLD_WITH_SCAN\x10\x00\x12\x15\n\x11SOLD_WITHOUT_SCAN\x10\x01\x12\x0b\n\x07NO_SALE\x10\x02\"\x87\x08\n\x0fShoeTrialResult\x12\x14\n\x0crecording_id\x18\x01 \x01(\t\x12\x13\n\x0b\x63ustomer_id\x18\x02 \x01(\t\x12\x15\n\rtechnician_id\x18\x04 \x01(\t\x12\x11\n\tdevice_id\x18\x05 \x01(\t\x12\x1a\n\x0erecording_date\x18\x06 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nshoe_brand\x18\x07 \x01(\t\x12\x11\n\tshoe_name\x18\x08 \x01(\t\x12\x11\n\tshoe_size\x18\t \x01(\t\x12\x36\n\x11purchase_decision\x18\n \x01(\x0b\x32\x1b.AvaProtos.PurchaseDecision\x12\x1e\n\x16metric_mapping_version\x18\x0c \x01(\x05\x12P\n\x14macro_metric_results\x18\r \x03(\x0b\x32\x32.AvaProtos.ShoeTrialResult.MacroMetricResultsEntry\x12N\n\x13micro_metric_scores\x18\x11 \x03(\x0b\x32\x31.AvaProtos.ShoeTrialResult.MicroMetricScoresEntry\x12?\n\x0braw_metrics\x18\x12 \x03(\x0b\x32*.AvaProtos.ShoeTrialResult.RawMetricsEntry\x12-\n\x0b\x62ody_frames\x18\x13 \x01(\x0b\x32\x18.AvaProtos.BodyFramesMsg\x12)\n\talignment\x18\x14 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12 \n\x06qa_msg\x18\x15 \x01(\x0b\x32\x10.AvaProtos.QAMsg\x12\x1e\n\x16\x63\x61pture_engine_version\x18\x16 \x01(\t\x12\x1a\n\x12recording_filename\x18\x17 \x01(\t\x12\x0f\n\x07\x63reated\x18\x18 \x01(\x03\x12\x10\n\x08\x61ge_days\x18\x19 \x01(\x05\x12\x11\n\tbranch_id\x18\x1a \x01(\t\x12\x12\n\ncompany_id\x18\x1b \x01(\t\x12\x13\n\x0bshoe_season\x18\x1c \x01(\t\x1aW\n\x17MacroMetricResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.AvaProtos.MacroMetricResult:\x02\x38\x01\x1aU\n\x16MicroMetricScoresEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12*\n\x05value\x18\x02 \x01(\x0b\x32\x1b.AvaProtos.MicroMetricScore:\x02\x38\x01\x1aG\n\x0fRawMetricsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.AvaProtos.RawMetric:\x02\x38\x01\"\xd1\x01\n\x11MacroMetricResult\x12\r\n\x05score\x18\x02 \x01(\x02\x12\r\n\x05grade\x18\x03 \x01(\t\x12K\n\x10\x63omponent_scores\x18\x04 \x03(\x0b\x32\x31.AvaProtos.MacroMetricResult.ComponentScoresEntry\x1aQ\n\x14\x43omponentScoresEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12(\n\x05value\x18\x02 \x01(\x0b\x32\x19.AvaProtos.ComponentScore:\x02\x38\x01\"c\n\x10MicroMetricScore\x12\x11\n\traw_value\x18\x02 \x01(\x02\x12\x18\n\x10normalised_value\x18\x03 \x01(\x02\x12\r\n\x05score\x18\x04 \x01(\x02\x12\x13\n\x0b\x65lite_score\x18\x05 \x01(\x02\"a\n\x0e\x43omponentScore\x12\x37\n\x12micro_metric_score\x18\x01 \x01(\x0b\x32\x1b.AvaProtos.MicroMetricScore\x12\x16\n\x0eweighted_score\x18\x02 \x01(\x02\"\xb4\x01\n\x10MetricMappingMsg\x12\x13\n\x07\x63reated\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x0f\n\x07version\x18\x02 \x01(\x05\x12<\n\x15macro_metric_mappings\x18\x03 \x03(\x0b\x32\x1d.AvaProtos.MacroMetricMapping\x12<\n\x15micro_metric_mappings\x18\x04 \x03(\x0b\x32\x1d.AvaProtos.MicroMetricMapping\"\x9b\x02\n\x12MacroMetricMapping\x12\x0c\n\x04name\x18\x01 \x01(\t\x12=\n\x16macro_grade_boundaries\x18\x02 \x03(\x0b\x32\x1d.AvaProtos.MacroGradeBoundary\x12@\n\x17macro_metric_components\x18\x03 \x03(\x0b\x32\x1f.AvaProtos.MacroMetricComponent\x12\x39\n\x13male_age_factor_map\x18\x04 \x03(\x0b\x32\x1c.AvaProtos.AgeFactorMapPoint\x12;\n\x15\x66\x65male_age_factor_map\x18\x05 \x03(\x0b\x32\x1c.AvaProtos.AgeFactorMapPoint\";\n\x12MacroGradeBoundary\x12\x16\n\x0egrade_boundary\x18\x01 \x01(\x02\x12\r\n\x05grade\x18\x02 \x01(\t\"A\n\x14MacroMetricComponent\x12\x19\n\x11micro_metric_name\x18\x01 \x01(\t\x12\x0e\n\x06weight\x18\x02 \x01(\x02\"\x85\x05\n\x12MicroMetricMapping\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x38\n\x0cscoring_type\x18\x02 \x01(\x0e\x32\".AvaProtos.MicroMetricMapping.Type\x12<\n\x0escoring_method\x18\x03 \x01(\x0e\x32$.AvaProtos.MicroMetricMapping.Method\x12\x12\n\ndial_start\x18\x04 \x01(\x02\x12\x11\n\tdial_pin1\x18\x05 \x01(\x02\x12\x11\n\tdial_pin2\x18\x06 \x01(\x02\x12\x10\n\x08\x64ial_end\x18\x07 \x01(\x02\x12\x32\n\x10score_map_points\x18\n \x03(\x0b\x32\x18.AvaProtos.ScoreMapPoint\x12\x36\n\x0f\x65lite_score_map\x18\x0b \x03(\x0b\x32\x1d.AvaProtos.EliteScoreMapPoint\x12I\n\x19\x65lite_male_height_factors\x18\x0c \x03(\x0b\x32&.AvaProtos.EliteScoreHeightFactorPoint\x12K\n\x1b\x65lite_female_height_factors\x18\r \x03(\x0b\x32&.AvaProtos.EliteScoreHeightFactorPoint\"M\n\x04Type\x12\x11\n\rEXACT_IS_BEST\x10\x00\x12\x12\n\x0eMORE_IS_BETTER\x10\x01\x12\x12\n\x0eLESS_IS_BETTER\x10\x02\x12\n\n\x06TYPE_D\x10\x03\"J\n\x06Method\x12\x0e\n\nPERCENTAGE\x10\x00\x12\x17\n\x13RELATIVE_DIFFERENCE\x10\x01\x12\x17\n\x13\x41\x42SOLUTE_DIFFERENCE\x10\x02\":\n\x11\x41geFactorMapPoint\x12\x11\n\tage_years\x18\x01 \x01(\x02\x12\x12\n\nage_factor\x18\x02 \x01(\x02\"<\n\x12\x45liteScoreMapPoint\x12\x11\n\tspeed_kph\x18\x01 \x01(\x02\x12\x13\n\x0b\x65lite_score\x18\x02 \x01(\x02\"L\n\x1b\x45liteScoreHeightFactorPoint\x12\x11\n\theight_mm\x18\x01 \x01(\x05\x12\x1a\n\x12\x65lite_score_factor\x18\x02 \x01(\x02\"8\n\rScoreMapPoint\x12\x18\n\x10normalised_value\x18\x01 \x01(\x02\x12\r\n\x05score\x18\x02 \x01(\x02\"\x93\x01\n\tRawMetric\x12\x0e\n\x06median\x18\x02 \x01(\x02\x12\x0c\n\x04mean\x18\x03 \x01(\x02\x12\x0b\n\x03min\x18\x04 \x01(\x02\x12\x0b\n\x03max\x18\x05 \x01(\x02\x12\x10\n\x08variance\x18\x06 \x01(\x02\x12\x14\n\x0csample_count\x18\x07 \x01(\x05\x12&\n\x06\x66rames\x18\x08 \x03(\x0b\x32\x16.AvaProtos.MetricFrame\"G\n\x0bMetricFrame\x12\x12\n\x06micros\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x0e\n\x06values\x18\x02 \x03(\x02\x12\x14\n\x0cstride_index\x18\x03 \x01(\x02\"o\n\x05QAMsg\x12\x31\n\x12interpolation_scan\x18\x01 \x01(\x0b\x32\x15.AvaProtos.OutlierMsg\x12\x33\n\x14\x63ompare_average_scan\x18\x02 \x01(\x0b\x32\x15.AvaProtos.OutlierMsg\"\xda\x02\n\nOutlierMsg\x12\x19\n\x11total_frame_count\x18\x01 \x01(\x05\x12\x14\n\x0c\x63om_outliers\x18\x03 \x03(\x11\x12\x19\n\x11left_hip_outliers\x18\x04 \x03(\x11\x12\x1a\n\x12left_knee_outliers\x18\x05 \x03(\x11\x12\x1b\n\x13left_ankle_outliers\x18\x06 \x03(\x11\x12\x1a\n\x12left_heel_outliers\x18\x07 \x03(\x11\x12\x1a\n\x12left_sole_outliers\x18\x08 \x03(\x11\x12\x1a\n\x12right_hip_outliers\x18\t \x03(\x11\x12\x1b\n\x13right_knee_outliers\x18\n \x03(\x11\x12\x1c\n\x14right_ankle_outliers\x18\x0b \x03(\x11\x12\x1b\n\x13right_heel_outliers\x18\x0c \x03(\x11\x12\x1b\n\x13right_sole_outliers\x18\r \x03(\x11\"\xb7\x01\n\nDeviceInfo\x12\x11\n\tdevice_id\x18\x01 \x01(\t\x12\x12\n\nos_version\x18\x02 \x01(\t\x12\x17\n\x0fk4a_sdk_version\x18\x03 \x01(\t\x12\x1e\n\x16\x63\x61pture_engine_version\x18\x04 \x01(\t\x12+\n\x0c\x63\x61mera_infos\x18\x05 \x03(\x0b\x32\x15.AvaProtos.CameraInfo\x12\x1c\n\x14hardware_description\x18\x06 \x01(\t\"K\n\nCameraInfo\x12\x13\n\x0b\x64\x65vice_type\x18\x01 \x01(\t\x12\x18\n\x10\x66irmware_version\x18\x04 \x01(\t\x12\x0e\n\x06serial\x18\x06 \x01(\t\"T\n\x07\x41ppInfo\x12\x13\n\x0b\x61pp_version\x18\x01 \x01(\t\x12\x16\n\x0e\x61pp_os_version\x18\x02 \x01(\t\x12\x1c\n\x14hardware_description\x18\x03 \x01(\t\"r\n\x07InfoMsg\x12\x15\n\rtechnician_id\x18\x01 \x01(\t\x12$\n\x08\x61pp_info\x18\x02 \x01(\x0b\x32\x12.AvaProtos.AppInfo\x12*\n\x0b\x64\x65vice_info\x18\x03 \x01(\x0b\x32\x15.AvaProtos.DeviceInfo\"\xc5\x01\n\nUpdateInfo\x12\x33\n\nsub_system\x18\x01 \x01(\x0e\x32\x1f.AvaProtos.UpdateInfo.SubSystem\x12\x13\n\x0bnew_version\x18\x02 \x01(\t\x12\x17\n\x0fnew_description\x18\x03 \x01(\t\"T\n\tSubSystem\x12\x10\n\x0cRUNRIGHT_APP\x10\x00\x12\x12\n\x0e\x43\x41PTURE_ENGINE\x10\x01\x12\x0c\n\x08OS_IMAGE\x10\x02\x12\x13\n\x0f\x43\x41MERA_FIRMWARE\x10\x03\";\n\rUpdateInfoMsg\x12*\n\x0bupdate_info\x18\x01 \x03(\x0b\x32\x15.AvaProtos.UpdateInfo\"\xc9\x01\n\x0b\x43MSCacheMsg\x12\x34\n\x10shoeTrialResults\x18\x01 \x03(\x0b\x32\x1a.AvaProtos.ShoeTrialResult\x12&\n\tcustomers\x18\x02 \x03(\x0b\x32\x13.AvaProtos.Customer\x12&\n\x06\x61ligns\x18\x03 \x03(\x0b\x32\x16.AvaProtos.AlignParams\x12\x34\n\x0fmetric_mappings\x18\x04 \x03(\x0b\x32\x1b.AvaProtos.MetricMappingMsg\"\xda\x02\n\rPersistParams\x12\x1a\n\x12std_dev_multiplier\x18\x01 \x01(\x02\x12\x15\n\rsearch_radius\x18\x02 \x01(\x02\x12$\n\x1cnearest_neighbour_multiplier\x18\x03 \x01(\x02\x12\x1c\n\x14smoothness_threshold\x18\x04 \x01(\x02\x12\x1b\n\x13\x63urvature_threshold\x18\x05 \x01(\x02\x12\x1f\n\x17nearest_neighbour_count\x18\x06 \x01(\x05\x12#\n\x1bmax_nearest_neighbour_count\x18\x07 \x01(\x05\x12\x1c\n\x14point_filter_enabled\x18\x12 \x01(\x08\x12\x15\n\rdown_sampling\x18\x15 \x01(\x08\x12\x1c\n\x14interpolate_outliers\x18\x16 \x01(\x08\x12\x1c\n\x14\x63ompare_with_average\x18\x17 \x01(\x08\"\xa0\x05\n\x0b\x41lignParams\x12\x16\n\x0eright_x_offset\x18\x01 \x01(\x01\x12\x16\n\x0eright_y_offset\x18\x02 \x01(\x01\x12\x16\n\x0eright_z_offset\x18\x03 \x01(\x01\x12\x16\n\x0eright_x_rotate\x18\x04 \x01(\x01\x12\x16\n\x0eright_y_rotate\x18\x05 \x01(\x01\x12\x16\n\x0eright_z_rotate\x18\x06 \x01(\x01\x12\x19\n\x11left_x_pre_rotate\x18\x07 \x01(\x01\x12\x19\n\x11left_y_pre_rotate\x18\x08 \x01(\x01\x12\x19\n\x11left_z_pre_rotate\x18\t \x01(\x01\x12\x17\n\x0f\x63\x61mera_offset_x\x18\n \x01(\x05\x12\x17\n\x0f\x63\x61mera_offset_y\x18\x0b \x01(\x05\x12\x17\n\x0f\x63\x61mera_offset_z\x18\x0c \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_x\x18\r \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_x\x18\x0e \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_y\x18\x0f \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_y\x18\x10 \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_z\x18\x11 \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_z\x18\x12 \x01(\x05\x12\x1e\n\x16\x62ounding_box_max_range\x18\x13 \x01(\x05\x12\x1c\n\x14master_transform_off\x18\x14 \x01(\x08\x12\x1f\n\x17right_cam_transform_off\x18\x15 \x01(\x08\x12\x1d\n\x15\x63\x61lculate_from_points\x18\x16 \x01(\x08\x12\x13\n\x0b\x66rame_count\x18\x1e \x01(\x05\x12\x17\n\x0floaded_filename\x18\x1f \x01(\t\x12\x11\n\trunner_id\x18  \x01(\t\"\xa5\x01\n\rCaptureParams\x12,\n\x0c\x63\x61mera_state\x18\x01 \x01(\x0e\x32\x16.AvaProtos.CameraState\x12\x1f\n\x17\x63\x61pture_duration_millis\x18\x02 \x01(\x05\x12\x1e\n\x12\x63\x61pture_start_time\x18\x03 \x01(\x03\x42\x02\x30\x01\x12%\n\x08\x63ustomer\x18\x04 \x01(\x0b\x32\x13.AvaProtos.Customer\"X\n\x0c\x44\x61taFileInfo\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x04size\x18\x02 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x07\x63reated\x18\x03 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x0b\x66rame_count\x18\x04 \x01(\x05\"d\n\nDataDirMsg\x12\x11\n\troot_path\x18\x01 \x01(\t\x12\x16\n\nfree_space\x18\x02 \x01(\x03\x42\x02\x30\x01\x12+\n\ndata_files\x18\x03 \x03(\x0b\x32\x17.AvaProtos.DataFileInfo\"c\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x12\n\n\x02nx\x18\x04 \x01(\x02\x12\n\n\x02ny\x18\x05 \x01(\x02\x12\n\n\x02nz\x18\x06 \x01(\x02\x12\t\n\x01\x63\x18\x07 \x01(\x02\x12\n\n\x02id\x18\x08 \x01(\x05\"&\n\x03XYZ\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x8c\x02\n\x05Shape\x12#\n\x04type\x18\x01 \x01(\x0e\x32\x15.AvaProtos.Shape.Type\x12\x1f\n\x05point\x18\x02 \x03(\x0b\x32\x10.AvaProtos.Point\x12\x0e\n\x06\x63olour\x18\x03 \x01(\x05\x12,\n\tdraw_mode\x18\x04 \x01(\x0e\x32\x19.AvaProtos.Shape.DrawMode\x12\x0c\n\x04name\x18\x05 \x01(\t\x12\x0f\n\x07\x66p_args\x18\x06 \x03(\x02\"@\n\x04Type\x12\t\n\x05POINT\x10\x00\x12\x0b\n\x07SEGMENT\x10\x01\x12\n\n\x06SPHERE\x10\x02\x12\x07\n\x03\x42OX\x10\x03\x12\x0b\n\x07POLYGON\x10\x04\"\x1e\n\x08\x44rawMode\x12\x08\n\x04\x46ILL\x10\x00\x12\x08\n\x04LINE\x10\x01\"K\n\x08\x42oneData\x12\r\n\x05x_pos\x18\x01 \x01(\x02\x12\r\n\x05y_pos\x18\x02 \x01(\x02\x12\r\n\x05z_pos\x18\x03 \x01(\x02\x12\x12\n\nquaternion\x18\x04 \x03(\x02\"\xa9\t\n\tBodyFrame\x12\x12\n\x06micros\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x14\n\x0cstride_index\x18\x02 \x01(\x02\x12(\n\x0blower_spine\x18\x03 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bupper_spine\x18\x04 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cleft_buttock\x18\x05 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12%\n\x08left_hip\x18\x06 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_knee\x18\x07 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nleft_ankle\x18\x08 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_heel\x18\t \x01(\x0b\x32\x13.AvaProtos.BoneData\x12,\n\x0fleft_metatarsal\x18\n \x01(\x0b\x32\x13.AvaProtos.BoneData\x12%\n\x08left_toe\x18\x0b \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bleft_collar\x18\x0c \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cleft_humerus\x18\r \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bleft_radius\x18\x0e \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_hand\x18\x0f \x01(\x0b\x32\x13.AvaProtos.BoneData\x12*\n\rright_buttock\x18\x10 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tright_hip\x18\x11 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_knee\x18\x12 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bright_ankle\x18\x13 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_heel\x18\x14 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12-\n\x10right_metatarsal\x18\x15 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tright_toe\x18\x16 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cright_collar\x18\x17 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12*\n\rright_humerus\x18\x18 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cright_radius\x18\x19 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_hand\x18\x1a \x01(\x0b\x32\x13.AvaProtos.BoneData\x12!\n\x04neck\x18\x1b \x01(\x0b\x32\x13.AvaProtos.BoneData\x12!\n\x04head\x18\x1c \x01(\x0b\x32\x13.AvaProtos.BoneData\x12+\n\x0e\x63\x65ntre_of_mass\x18\x1d \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\x12\n\ncom_offset\x18\x1e \x03(\x02\"f\n\rBodyFramesMsg\x12$\n\x06\x66rames\x18\x01 \x03(\x0b\x32\x14.AvaProtos.BodyFrame\x12/\n\x11\x61vg_stride_frames\x18\x02 \x03(\x0b\x32\x14.AvaProtos.BodyFrame\"o\n\x0b\x43\x61mK4AFrame\x12\x11\n\ttimestamp\x18\x01 \x01(\x04\x12\x10\n\x08sequence\x18\x02 \x01(\r\x12\x0e\n\x06status\x18\x03 \x01(\r\x12\r\n\x05width\x18\x04 \x01(\r\x12\x0e\n\x06height\x18\x05 \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\x06 \x01(\x0c\"[\n\x0c\x43\x61mFramePair\x12$\n\x04left\x18\x01 \x01(\x0b\x32\x16.AvaProtos.CamK4AFrame\x12%\n\x05right\x18\x02 \x01(\x0b\x32\x16.AvaProtos.CamK4AFrame\"\x9a\x02\n\tCERequest\x12%\n\x07\x63ommand\x18\x01 \x01(\x0e\x32\x14.AvaProtos.CECommand\x12\x10\n\x08str_args\x18\x02 \x03(\t\x12\x10\n\x08int_args\x18\x03 \x03(\x05\x12\x0f\n\x07\x66p_args\x18\x04 \x03(\x01\x12\x11\n\tbool_args\x18\x05 \x03(\x08\x12\x0c\n\x04\x62lob\x18\x06 \x01(\x0c\x12,\n\x0c\x61lign_params\x18\x07 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12\x30\n\x0epersist_params\x18\x08 \x01(\x0b\x32\x18.AvaProtos.PersistParams\x12\x30\n\x0e\x63\x61pture_params\x18\t \x01(\x0b\x32\x18.AvaProtos.CaptureParams\"\xeb\x04\n\x07\x43\x45Reply\x12+\n\rcommand_reply\x18\x01 \x01(\x0e\x32\x14.AvaProtos.CECommand\x12\x15\n\rerror_message\x18\x02 \x01(\t\x12,\n\x0c\x63\x61mera_state\x18\x03 \x01(\x0e\x32\x16.AvaProtos.CameraState\x12\x10\n\x08int_args\x18\x04 \x03(\x05\x12\x10\n\x08str_args\x18\x05 \x03(\t\x12\x0f\n\x07\x66p_args\x18\x06 \x03(\x01\x12\x31\n\x0f\x62ody_frames_msg\x18\x0b \x01(\x0b\x32\x18.AvaProtos.BodyFramesMsg\x12\x37\n\x0braw_metrics\x18\x0c \x03(\x0b\x32\".AvaProtos.CEReply.RawMetricsEntry\x12 \n\x06qa_msg\x18\r \x01(\x0b\x32\x10.AvaProtos.QAMsg\x12*\n\x0b\x64\x65vice_info\x18\x0e \x01(\x0b\x32\x15.AvaProtos.DeviceInfo\x12\x35\n\x11shoe_trial_result\x18\x0f \x01(\x0b\x32\x1a.AvaProtos.ShoeTrialResult\x12(\n\ncal_frames\x18\x10 \x01(\x0b\x32\x14.AvaProtos.CalFrames\x12\x31\n\x0fgull_wing_state\x18\x11 \x01(\x0e\x32\x18.AvaProtos.GullWingState\x12\"\n\x1a\x65stimated_runner_height_mm\x18\x12 \x01(\x05\x1aG\n\x0fRawMetricsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.AvaProtos.RawMetric:\x02\x38\x01\"\xdb\x02\n\x08\x43\x45PubMsg\x12,\n\x0cprogress_msg\x18\x02 \x01(\x0b\x32\x16.AvaProtos.ProgressMsg\x12,\n\x0c\x61lign_params\x18\x03 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12\x30\n\x0epersist_params\x18\x04 \x01(\x0b\x32\x18.AvaProtos.PersistParams\x12\x30\n\x0e\x63\x61pture_params\x18\x05 \x01(\x0b\x32\x18.AvaProtos.CaptureParams\x12/\n\x0e\x63loud_data_msg\x18\x06 \x01(\x0b\x32\x17.AvaProtos.CloudDataMsg\x12+\n\x0c\x64\x61ta_dir_msg\x18\x07 \x01(\x0b\x32\x15.AvaProtos.DataDirMsg\x12\x31\n\x0fgull_wing_state\x18\x08 \x01(\x0e\x32\x18.AvaProtos.GullWingState\"\x98\x01\n\x0c\x43loudDataMsg\x12\x0c\n\x04line\x18\x01 \x03(\t\x12\x13\n\x0b\x66rame_index\x18\x02 \x01(\x05\x12)\n\x0fskeleton_shapes\x18\x03 \x03(\x0b\x32\x10.AvaProtos.Shape\x12&\n\x0c\x64\x65\x62ug_shapes\x18\x04 \x03(\x0b\x32\x10.AvaProtos.Shape\x12\x12\n\nframe_data\x18\n \x01(\x0c\"\x96\x01\n\tCalFrames\x12+\n\x0eleft_cal_frame\x18\x01 \x01(\x0b\x32\x13.AvaProtos.CalFrame\x12,\n\x0fright_cal_frame\x18\x02 \x01(\x0b\x32\x13.AvaProtos.CalFrame\x12.\n\x0e\x62ounding_boxes\x18\x03 \x03(\x0b\x32\x16.AvaProtos.BoundingBox\"\xc4\x01\n\x08\x43\x61lFrame\x12!\n\thigh_ball\x18\x01 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12 \n\x08low_ball\x18\x02 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\x30\n\x18\x63\x61lculated_camera_offset\x18\x03 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\x15\n\rerror_message\x18\x04 \x01(\t\x12*\n\x0b\x64\x65pth_frame\x18\n \x01(\x0b\x32\x15.AvaProtos.DepthFrame\"U\n\x0b\x42oundingBox\x12\"\n\nmin_corner\x18\x01 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\"\n\nmax_corner\x18\x02 \x01(\x0b\x32\x0e.AvaProtos.XYZ\"k\n\nDepthFrame\x12\x0e\n\x06micros\x18\x01 \x01(\x03\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12\x0e\n\x06status\x18\x03 \x01(\x05\x12\r\n\x05width\x18\x04 \x01(\x05\x12\x0e\n\x06height\x18\x05 \x01(\x05\x12\x0c\n\x04\x64\x61ta\x18\n \x01(\x0c\">\n\x0bProgressMsg\x12\x0f\n\x07percent\x18\x01 \x01(\x05\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0f\n\x07message\x18\x03 \x01(\t\"\xc3\x01\n\x04Shoe\x12\x0f\n\x07shoe_id\x18\x01 \x01(\t\x12\r\n\x05\x62rand\x18\x02 \x01(\t\x12\r\n\x05model\x18\x03 \x01(\t\x12\r\n\x05\x63olor\x18\x04 \x01(\t\x12\x0b\n\x03\x65\x61n\x18\x05 \x01(\t\x12\x0e\n\x06season\x18\x06 \x01(\t\x12\x0e\n\x06gender\x18\x07 \x01(\t\x12\x0c\n\x04size\x18\x08 \x01(\t\x12\x0f\n\x07\x63reated\x18\t \x01(\x03\x12\x0f\n\x07\x63reator\x18\n \x01(\t\x12\x0f\n\x07updated\x18\x0b \x01(\x03\x12\x0f\n\x07updater\x18\x0c \x01(\t\"\x16\n\x07\x45\x41NList\x12\x0b\n\x03\x65\x61n\x18\x01 \x03(\t\"\x1e\n\x0cSearchBranch\x12\x0e\n\x06\x62ranch\x18\x01 \x01(\t\"q\n\x15PointCloudDataRequest\x12\x10\n\x08\x66ilename\x18\x01 \x01(\t\x12\x13\n\x0b\x66rame_index\x18\x02 \x01(\x05\x12\x17\n\x0fget_full_points\x18\x03 \x01(\x08\x12\x18\n\x10get_debug_shapes\x18\x04 \x01(\x08\"\x84\x02\n\x0ePointCloudData\x12\x13\n\x0b\x66rame_index\x18\x01 \x01(\x05\x12\x13\n\x0bpoint_count\x18\x02 \x01(\x05\x12\x1f\n\x06points\x18\x03 \x03(\x0b\x32\x0f.AvaProtos.XYZI\x12)\n\x0fskeleton_shapes\x18\x04 \x03(\x0b\x32\x10.AvaProtos.Shape\x12&\n\x0c\x64\x65\x62ug_shapes\x18\x05 \x03(\x0b\x32\x10.AvaProtos.Shape\x12%\n\x0b\x66ull_points\x18\x06 \x03(\x0b\x32\x10.AvaProtos.Point\x12\x13\n\x0bpoints_data\x18\x07 \x01(\x0c\x12\x18\n\x10\x66ull_points_data\x18\x08 \x01(\x0c\"S\n\x14PointCloudDataFrames\x12\x10\n\x08\x66ilename\x18\x01 \x01(\t\x12)\n\x06\x66rames\x18\x02 \x03(\x0b\x32\x19.AvaProtos.PointCloudData\"3\n\x04XYZI\x12\t\n\x01x\x18\x01 \x01(\x11\x12\t\n\x01y\x18\x02 \x01(\x11\x12\t\n\x01z\x18\x03 \x01(\x11\x12\n\n\x02id\x18\x04 \x01(\x11*\x91\x01\n\x0cNoSaleReason\x12\x10\n\x0cOUT_OF_STOCK\x10\x00\x12\n\n\x06\x43OLOUR\x10\x01\x12\x13\n\x0fONLINE_PURCHASE\x10\x02\x12\x14\n\x10PROHIBITIVE_COST\x10\x03\x12\x07\n\x03\x46IT\x10\x04\x12\t\n\x05OTHER\x10\x05\x12\t\n\x05SCORE\x10\x06\x12\x19\n\x15\x44UPLICATE_MEASUREMENT\x10\x07*L\n\x0b\x43\x61meraState\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0b\n\x07STANDBY\x10\x01\x12\x08\n\x04LIVE\x10\x02\x12\r\n\tCAPTURING\x10\x03\x12\n\n\x06\x46\x41ILED\x10\x04*\xab\x01\n\rGullWingState\x12\x0f\n\x0bGWS_UNKNOWN\x10\x00\x12\x0c\n\x08GWS_IDLE\x10\x01\x12\x0c\n\x08GWS_LIVE\x10\x02\x12\x11\n\rGWS_RECORDING\x10\x03\x12\x12\n\x0eGWS_PROCESSING\x10\x04\x12\x13\n\x0fGWS_SAVING_DATA\x10\x05\x12\x0e\n\nGWS_FAILED\x10\x06\x12\x10\n\x0cGWS_UPDATING\x10\x07\x12\x0f\n\x0bGWS_OFFLINE\x10\x08*\xe6\x02\n\tCECommand\x12\x0b\n\x07INVALID\x10\x00\x12\x0e\n\nGET_PARAMS\x10\x01\x12\x0e\n\nSET_PARAMS\x10\x02\x12\x12\n\x0e\x43\x41LC_ALIGNMENT\x10\x03\x12\x11\n\rPUBLISH_FRAME\x10\x04\x12\r\n\tLOAD_FILE\x10\x05\x12\r\n\tSAVE_FILE\x10\x06\x12\x12\n\x0eGET_BODYFRAMES\x10\x07\x12\x0f\n\x0bGET_METRICS\x10\x08\x12\x13\n\x0fREPROCESS_FRAME\x10\t\x12\x13\n\x0fGET_DEVICE_INFO\x10\n\x12\x14\n\x10GET_DATA_LISTING\x10\x0b\x12\x0f\n\x0bSET_CAMERAS\x10\x0c\x12\x1a\n\x16GET_SHOE_TRIAL_METRICS\x10\r\x12\x12\n\x0eGET_CAL_FRAMES\x10\x0e\x12\x14\n\x10SAVE_CALIBRATION\x10\x0f\x12\x12\n\x0eSYSTEM_COMMAND\x10\x10\x12\x17\n\x13GET_GULL_WING_STATE\x10\x11\x32\x9a\x06\n\x07Reports\x12J\n\x12GetDashboardReport\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.DashboardReport\"\x00\x12J\n\x10GetNoSaleRecords\x12\x16.AvaProtos.NoSaleQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12L\n\x12GetTechSaleRecords\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12W\n\x13GetBrandSaleRecords\x12 .AvaProtos.BrandSaleRecordsQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12^\n\x17GetBrandModelSaleCounts\x12 .AvaProtos.BrandSaleRecordsQuery\x1a\x1f.AvaProtos.BrandModelSaleCounts\"\x00\x12Z\n\x17GetDailySaleScanRecords\x12\x1f.AvaProtos.SaleScanRecordsQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12\x43\n\nGetSeasons\x12\x16.AvaProtos.ReportQuery\x1a\x19.AvaProtos.SeasonSelector\"\x00\x30\x01\x12K\n\x11GetBrandsSelector\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12\x44\n\x0cGenerateHtml\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.DashboardReport\"\x00\x12<\n\x07GetData\x12\x16.AvaProtos.DataRequest\x1a\x17.AvaProtos.DataResponse\"\x00\x32\xef\x05\n\tCompanies\x12;\n\x0cgetCompanies\x12\x13.AvaProtos.CMSQuery\x1a\x12.AvaProtos.Company\"\x00\x30\x01\x12=\n\x10GetCompanyByName\x12\x13.AvaProtos.CMSQuery\x1a\x12.AvaProtos.Company\"\x00\x12\x35\n\tgetBranch\x12\x13.AvaProtos.CMSQuery\x1a\x11.AvaProtos.Branch\"\x00\x12\x38\n\naddCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x39\n\x0b\x65\x64itCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12=\n\x0e\x63ountCompanies\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x36\n\taddBranch\x12\x11.AvaProtos.Branch\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x37\n\neditBranch\x12\x11.AvaProtos.Branch\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x38\n\naddLicense\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12R\n\x11getLicenseHistory\x12\x1e.AvaProtos.LicenseHistoryQuery\x1a\x19.AvaProtos.LicenseHistory\"\x00\x30\x01\x12?\n\nuploadFile\x12\x19.AvaProtos.ImageLogoQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12;\n\rdeleteCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xe9\x05\n\x05Shoes\x12\x34\n\x08getShoes\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12\x31\n\x07getShoe\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x12?\n\x13getShoesForBranchId\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12;\n\x0c\x64oesEanExist\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x32\n\x07setShoe\x12\x0f.AvaProtos.Shoe\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x35\n\nremoveShoe\x12\x0f.AvaProtos.Shoe\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x39\n\ncountShoes\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x63ountShoesForBranchId\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x11setShoesForBranch\x12\x1b.AvaProtos.BranchShoeUpdate\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x18getTotalShoesForBranchId\x12\x17.AvaProtos.SearchBranch\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12<\n\x10getShoesForModel\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12;\n\x0fgetShoeSizeList\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x32\xd2\x03\n\x05Users\x12,\n\x05login\x12\x10.AvaProtos.Login\x1a\x0f.AvaProtos.User\"\x00\x12\x34\n\x08getUsers\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.User\"\x00\x30\x01\x12\x39\n\ncountUsers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x32\n\x07setUser\x12\x0f.AvaProtos.User\x1a\x14.AvaProtos.CMSResult\"\x00\x12:\n\x0egetBranchUsers\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.User\"\x00\x30\x01\x12@\n\x11sendPasswordReset\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x41\n\rresetPassword\x12\x18.AvaProtos.PasswordReset\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x35\n\nremoveUser\x12\x0f.AvaProtos.User\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xcd\x03\n\tCustomers\x12<\n\x0cgetCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12=\n\x0e\x63ountCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12?\n\x0fgetBioCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12\x45\n\x15getBioCustomersExport\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12@\n\x11\x63ountBioCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12:\n\x0bsetCustomer\x12\x13.AvaProtos.Customer\x1a\x14.AvaProtos.CMSResult\"\x00\x12=\n\x0eremoveCustomer\x12\x13.AvaProtos.Customer\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xbc\x05\n\x04\x44\x61ta\x12J\n\x13getShoeTrialResults\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12U\n\x1egetMinifiedResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12V\n\x1fgetShoeTrialResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12P\n!countShoeTrialResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x63ountShoeTrialResults\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x12setShoeTrialResult\x12\x1a.AvaProtos.ShoeTrialResult\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x10getMetricMapping\x12\x13.AvaProtos.CMSQuery\x1a\x1b.AvaProtos.MetricMappingMsg\"\x00\x30\x01\x12G\n\x10setMetricMapping\x12\x1b.AvaProtos.MetricMappingMsg\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x64\x65leteShoeTrialResult\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xc1\x01\n\rConfiguration\x12Z\n\x1fgetCurrentConfigurationSettings\x12\x13.AvaProtos.CMSQuery\x1a .AvaProtos.ConfigurationSettings\"\x00\x12T\n\x18setConfigurationSettings\x12 .AvaProtos.ConfigurationSettings\x1a\x14.AvaProtos.CMSResult\"\x00\x32i\n\x11\x43\x61ptureEngineGRpc\x12T\n\x11GetPointCloudData\x12 .AvaProtos.PointCloudDataRequest\x1a\x19.AvaProtos.PointCloudData\"\x00\x30\x01\x42(\n\x1buk.co.comsci.runright.protoB\tAvaProtosb\x06proto3'
+  serialized_pb=b'\n\x0emessages.proto\x12\tAvaProtos\"\x1c\n\x0b\x44\x61taRequest\x12\r\n\x05query\x18\x01 \x01(\t\"\x84\x02\n\x0c\x44\x61taResponse\x12\x12\n\ntotal_disk\x18\x01 \x01(\t\x12\x11\n\tfree_disk\x18\x02 \x01(\t\x12\x11\n\tused_disk\x18\x03 \x01(\t\x12\x14\n\x0c\x64isk_percent\x18\x04 \x01(\t\x12\x14\n\x0ctotal_memory\x18\x05 \x01(\t\x12\x13\n\x0b\x66ree_memory\x18\x06 \x01(\t\x12\x13\n\x0bused_memory\x18\x07 \x01(\t\x12\x16\n\x0ememory_percent\x18\x08 \x01(\t\x12\x12\n\ncert_valid\x18\t \x01(\t\x12\x0c\n\x04\x63\x65rt\x18\n \x01(\x0c\x12\x17\n\x0f\x66ullchain_valid\x18\x0b \x01(\t\x12\x11\n\tfullchain\x18\x0c \x01(\x0c\"M\n\x15\x42randSaleRecordsQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\r\n\x05\x62rand\x18\x02 \x01(\t\"\x8f\x01\n\x14\x42randModelSaleCounts\x12\x44\n\x0bsale_counts\x18\x01 \x03(\x0b\x32/.AvaProtos.BrandModelSaleCounts.SaleCountsEntry\x1a\x31\n\x0fSaleCountsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"Y\n\x14SaleScanRecordsQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\x0c\n\x04\x64\x61te\x18\x02 \x01(\t\x12\x0c\n\x04type\x18\x03 \x01(\t\"D\n\x0bNoSaleQuery\x12%\n\x05query\x18\x01 \x01(\x0b\x32\x16.AvaProtos.ReportQuery\x12\x0e\n\x06reason\x18\x02 \x01(\x05\".\n\x0ePerformanceDay\x12\r\n\x05sales\x18\x01 \x01(\x05\x12\r\n\x05scans\x18\x02 \x01(\x05\"\xc6\x01\n\x0fTechnicianSales\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x10\n\x08location\x18\x03 \x01(\t\x12M\n\x12purchase_decisions\x18\x04 \x03(\x0b\x32\x31.AvaProtos.TechnicianSales.PurchaseDecisionsEntry\x1a\x38\n\x16PurchaseDecisionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"\xc5\x01\n\x14\x44\x61shboardTableRecord\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06gender\x18\x02 \x01(\t\x12\x0e\n\x06season\x18\x03 \x01(\t\x12\r\n\x05\x62rand\x18\x04 \x01(\t\x12\r\n\x05model\x18\x05 \x01(\t\x12\x0c\n\x04size\x18\x06 \x01(\t\x12\x10\n\x08purchase\x18\x07 \x01(\t\x12\x0e\n\x06reason\x18\x08 \x01(\t\x12\x0c\n\x04tech\x18\t \x01(\t\x12\r\n\x05store\x18\n \x01(\t\x12\x16\n\x0erecording_date\x18\x0b \x01(\t\">\n\x0fSizeGenderSales\x12\x0c\n\x04size\x18\x01 \x01(\t\x12\x0e\n\x06gender\x18\x02 \x01(\x05\x12\r\n\x05\x63ount\x18\x03 \x01(\x05\"6\n\nBrandSales\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04sale\x18\x02 \x01(\x05\x12\x0c\n\x04scan\x18\x03 \x01(\x05\"6\n\nModelSales\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04sale\x18\x02 \x01(\x05\x12\x0c\n\x04scan\x18\x03 \x01(\x05\"\x8b\x07\n\x0f\x44\x61shboardReport\x12?\n\x0b\x64\x61ily_scans\x18\x01 \x03(\x0b\x32*.AvaProtos.DashboardReport.DailyScansEntry\x12?\n\x0b\x64\x61ily_sales\x18\x02 \x03(\x0b\x32*.AvaProtos.DashboardReport.DailySalesEntry\x12?\n\x0b\x62rand_sales\x18\x03 \x03(\x0b\x32*.AvaProtos.DashboardReport.BrandSalesEntry\x12?\n\x0bmodel_sales\x18\x04 \x03(\x0b\x32*.AvaProtos.DashboardReport.ModelSalesEntry\x12\x34\n\x10technician_sales\x18\x05 \x03(\x0b\x32\x1a.AvaProtos.TechnicianSales\x12?\n\x16\x64\x61shboard_table_record\x18\x06 \x03(\x0b\x32\x1f.AvaProtos.DashboardTableRecord\x12\x46\n\x0fno_sale_reasons\x18\x07 \x03(\x0b\x32-.AvaProtos.DashboardReport.NoSaleReasonsEntry\x12\x35\n\x11size_gender_sales\x18\x08 \x03(\x0b\x32\x1a.AvaProtos.SizeGenderSales\x12\x18\n\x10\x61ged_sales_count\x18\t \x01(\x05\x12\x30\n\x11\x62rand_sales_table\x18\n \x03(\x0b\x32\x15.AvaProtos.BrandSales\x12\x30\n\x11model_sales_table\x18\x0b \x03(\x0b\x32\x15.AvaProtos.ModelSales\x1a\x31\n\x0f\x44\x61ilyScansEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0f\x44\x61ilySalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0f\x42randSalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fModelSalesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x34\n\x12NoSaleReasonsEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"\xc1\x01\n\x0bReportQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x11\n\tbranch_id\x18\x02 \x01(\t\x12\x15\n\rtechnician_id\x18\x03 \x01(\t\x12\x0c\n\x04skip\x18\x05 \x01(\x05\x12\r\n\x05limit\x18\x06 \x01(\x05\x12\x14\n\x0cstart_millis\x18\x07 \x01(\x03\x12\x12\n\nend_millis\x18\x08 \x01(\x03\x12\x0e\n\x06gender\x18\t \x01(\t\x12\x0e\n\x06season\x18\n \x01(\t\x12\r\n\x05\x62rand\x18\x0b \x01(\t\"%\n\x0eSeasonSelector\x12\x13\n\x0bshoe_season\x18\x01 \x01(\t\"0\n\rPasswordReset\x12\r\n\x05token\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\xf3\x02\n\x07\x43ompany\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x14\n\x0c\x63ontact_name\x18\x03 \x01(\t\x12\x14\n\x0cphone_number\x18\x04 \x01(\t\x12\x15\n\remail_address\x18\x05 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x06 \x03(\t\x12\x13\n\x0bno_branches\x18\x08 \x01(\x05\x12\x0f\n\x07\x62locked\x18\t \x01(\x08\x12\x0f\n\x07\x63reator\x18\n \x01(\t\x12\x0f\n\x07\x63reated\x18\x0b \x01(\x03\x12\x0f\n\x07updater\x18\x0c \x01(\t\x12\x0f\n\x07updated\x18\r \x01(\x03\x12#\n\x08\x62ranches\x18\x0e \x03(\x0b\x32\x11.AvaProtos.Branch\x12\x0c\n\x04type\x18\x0f \x01(\t\x12\x16\n\x0elicence_expiry\x18\x10 \x01(\x03\x12\x13\n\x0bmonth_count\x18\x11 \x01(\x03\x12\x15\n\rpayment_model\x18\x12 \x01(\t\x12\x11\n\tfile_name\x18\x13 \x01(\t\"\xf9\x01\n\x06\x42ranch\x12\x11\n\tbranch_id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x14\n\x0c\x63ontact_name\x18\x03 \x01(\t\x12\x14\n\x0cphone_number\x18\x04 \x01(\t\x12\x15\n\remail_address\x18\x05 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x06 \x03(\t\x12\"\n\x07\x64\x65vices\x18\x07 \x03(\x0b\x32\x11.AvaProtos.Device\x12\x12\n\ncompany_id\x18\x08 \x01(\t\x12\x0f\n\x07\x63reator\x18\t \x01(\t\x12\x0f\n\x07\x63reated\x18\n \x01(\x03\x12\x0f\n\x07updater\x18\x0b \x01(\t\x12\x0f\n\x07updated\x18\x0c \x01(\x03\"8\n\x10\x42ranchShoeUpdate\x12\x11\n\tbranch_id\x18\x01 \x01(\t\x12\x11\n\tshoe_eans\x18\x02 \x03(\t\"G\n\x06\x44\x65vice\x12\x11\n\tdevice_id\x18\x01 \x01(\t\x12\x15\n\rlicense_start\x18\x02 \x01(\x03\x12\x13\n\x0blicense_end\x18\x03 \x01(\x03\"\xc1\x03\n\x04User\x12\x0f\n\x07user_id\x18\x01 \x01(\t\x12\r\n\x05\x65mail\x18\x02 \x01(\t\x12\x10\n\x08password\x18\x03 \x01(\t\x12\"\n\x04role\x18\x04 \x01(\x0e\x32\x14.AvaProtos.User.Role\x12\x13\n\x07\x63reated\x18\x05 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x07updated\x18\x06 \x01(\x03\x42\x02\x30\x01\x12\x0f\n\x07\x63reator\x18\x07 \x01(\t\x12\x10\n\x08\x64isabled\x18\x08 \x01(\x08\x12\x15\n\rauth_failures\x18\t \x01(\x05\x12\x0e\n\x06locked\x18\n \x01(\x08\x12\r\n\x05token\x18\x0b \x01(\t\x12\x0c\n\x04name\x18\x0c \x01(\t\x12\x12\n\ncompany_id\x18\r \x01(\t\x12\x11\n\tbranch_id\x18\x0e \x01(\t\x12\x0f\n\x07updater\x18\x0f \x01(\t\x12\x16\n\x0elicence_expiry\x18\x10 \x01(\x03\x12\x0c\n\x04type\x18\x11 \x01(\t\"t\n\x04Role\x12\t\n\x05GUEST\x10\x00\x12\x0c\n\x08\x43USTOMER\x10\x01\x12\x0e\n\nTECHNICIAN\x10\x02\x12\x11\n\rBRANCH_OFFICE\x10\x03\x12\x0f\n\x0bHEAD_OFFICE\x10\x04\x12\t\n\x05\x41\x44MIN\x10\x05\x12\x14\n\x10RUNRIGHT_CENTRAL\x10\x06\"(\n\x05Login\x12\r\n\x05\x65mail\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\xad\x03\n\x08\x43MSQuery\x12\x14\n\x0cstart_millis\x18\x01 \x01(\x03\x12\x12\n\nend_millis\x18\x02 \x01(\x03\x12\x0c\n\x04skip\x18\x03 \x01(\x05\x12\r\n\x05limit\x18\x04 \x01(\x05\x12\x11\n\tint_query\x18\x05 \x01(\x05\x12\x14\n\x0cstring_query\x18\x06 \x01(\t\x12\x0f\n\x07sort_by\x18\x07 \x01(\t\x12\x31\n\nsort_order\x18\x08 \x01(\x0e\x32\x1d.AvaProtos.CMSQuery.SortOrder\x12\x11\n\tfilter_on\x18\t \x01(\t\x12\x0c\n\x04mode\x18\n \x01(\x08\x12\x11\n\tbranch_id\x18\x0b \x01(\t\x12\x18\n\x10start_bir_millis\x18\x0c \x01(\x03\x12\x16\n\x0e\x65nd_bir_millis\x18\r \x01(\x03\x12\x0e\n\x06gender\x18\x0e \x01(\t\x12\r\n\x05\x62rand\x18\x0f \x01(\t\x12\r\n\x05model\x18\x10 \x01(\t\x12\x0e\n\x06season\x18\x11 \x01(\t\x12\x0f\n\x07\x63ompany\x18\x12 \x01(\t\x12\x0c\n\x04size\x18\x13 \x01(\t\"*\n\tSortOrder\x12\r\n\tASCENDING\x10\x00\x12\x0e\n\nDESCENDING\x10\x01\"V\n\tCMSResult\x12\r\n\x05\x65rror\x18\x01 \x01(\t\x12\x0f\n\x07message\x18\x02 \x01(\t\x12\x12\n\nint_result\x18\x03 \x01(\x05\x12\x15\n\rstring_result\x18\x04 \x01(\t\")\n\x13LicenseHistoryQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\"M\n\x0eImageLogoQuery\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x11\n\tfile_name\x18\x02 \x01(\t\x12\x14\n\x0c\x66ile_content\x18\x03 \x01(\t\"R\n\x0eLicenseHistory\x12\x12\n\ncompany_id\x18\x01 \x01(\t\x12\x0f\n\x07\x63reated\x18\x02 \x01(\x03\x12\x0c\n\x04type\x18\x03 \x01(\t\x12\r\n\x05month\x18\x04 \x01(\x03\"\xd3\x04\n\x08\x43ustomer\x12\x13\n\x0b\x63ustomer_id\x18\x01 \x01(\t\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x04 \x03(\t\x12\x10\n\x08postcode\x18\x08 \x01(\t\x12\x11\n\ttelephone\x18\t \x01(\t\x12\r\n\x05\x65mail\x18\n \x01(\t\x12\x13\n\x07\x63reated\x18\x0c \x01(\x03\x42\x02\x30\x01\x12*\n\x06gender\x18\r \x01(\x0e\x32\x1a.AvaProtos.Customer.Gender\x12\x11\n\theight_mm\x18\x0e \x01(\x05\x12\x10\n\x08weight_g\x18\x0f \x01(\x05\x12\x1f\n\x17preferred_speed_metreph\x18\x10 \x01(\x05\x12\x11\n\tshoe_size\x18\x11 \x01(\t\x12.\n\rgdpr_settings\x18\x13 \x01(\x0b\x32\x17.AvaProtos.GDPRSettings\x12\x15\n\rdate_of_birth\x18\x14 \x01(\x03\x12\x0f\n\x07\x63reator\x18\x15 \x01(\t\x12\x0f\n\x07updated\x18\x16 \x01(\x03\x12\x0f\n\x07updater\x18\x17 \x01(\t\x12\x12\n\ncompany_id\x18\x18 \x01(\t\x12\x11\n\tbranch_id\x18\x19 \x01(\t\x12\x33\n\x10shoeTrialResults\x18\x1a \x01(\x0b\x32\x19.AvaProtos.PurchaseResult\x12\x14\n\x0c\x63ompany_name\x18\x1b \x01(\t\x12\x13\n\x0b\x62ranch_name\x18\x1c \x01(\t\"+\n\x06Gender\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x08\n\x04MALE\x10\x01\x12\n\n\x06\x46\x45MALE\x10\x02\"{\n\x0ePurchaseResult\x12\x1a\n\x0erecording_date\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nshoe_brand\x18\x02 \x01(\t\x12\x11\n\tshoe_name\x18\x03 \x01(\t\x12\x11\n\tshoe_size\x18\x04 \x01(\t\x12\x13\n\x0bshoe_season\x18\x05 \x01(\t\"Y\n\x0cGDPRSettings\x12\x17\n\x0b\x61greed_date\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nnewsletter\x18\x02 \x01(\x08\x12\x1c\n\x14third_party_messages\x18\x03 \x01(\x08\"\xe8\x01\n\x15\x43onfigurationSettings\x12&\n\x1e\x63\x61pture_engine_release_version\x18\x01 \x01(\t\x12#\n\x1b\x63\x61pture_engine_beta_version\x18\x02 \x01(\t\x12\x1b\n\x13\x61pp_release_version\x18\x03 \x01(\t\x12\x18\n\x10\x61pp_beta_version\x18\x04 \x01(\t\x12&\n\x1emetric_mapping_release_version\x18\x05 \x01(\x05\x12#\n\x1bmetric_mapping_beta_version\x18\x06 \x01(\x05\"\xec\x01\n\x10PurchaseDecision\x12\x36\n\x08\x64\x65\x63ision\x18\x01 \x01(\x0e\x32$.AvaProtos.PurchaseDecision.Decision\x12/\n\x0eno_sale_reason\x18\x02 \x01(\x0e\x32\x17.AvaProtos.NoSaleReason\x12\r\n\x05notes\x18\x03 \x01(\t\x12\x1c\n\x14purchased_pair_count\x18\x04 \x01(\x05\"B\n\x08\x44\x65\x63ision\x12\x12\n\x0eSOLD_WITH_SCAN\x10\x00\x12\x15\n\x11SOLD_WITHOUT_SCAN\x10\x01\x12\x0b\n\x07NO_SALE\x10\x02\"\x87\x08\n\x0fShoeTrialResult\x12\x14\n\x0crecording_id\x18\x01 \x01(\t\x12\x13\n\x0b\x63ustomer_id\x18\x02 \x01(\t\x12\x15\n\rtechnician_id\x18\x04 \x01(\t\x12\x11\n\tdevice_id\x18\x05 \x01(\t\x12\x1a\n\x0erecording_date\x18\x06 \x01(\x03\x42\x02\x30\x01\x12\x12\n\nshoe_brand\x18\x07 \x01(\t\x12\x11\n\tshoe_name\x18\x08 \x01(\t\x12\x11\n\tshoe_size\x18\t \x01(\t\x12\x36\n\x11purchase_decision\x18\n \x01(\x0b\x32\x1b.AvaProtos.PurchaseDecision\x12\x1e\n\x16metric_mapping_version\x18\x0c \x01(\x05\x12P\n\x14macro_metric_results\x18\r \x03(\x0b\x32\x32.AvaProtos.ShoeTrialResult.MacroMetricResultsEntry\x12N\n\x13micro_metric_scores\x18\x11 \x03(\x0b\x32\x31.AvaProtos.ShoeTrialResult.MicroMetricScoresEntry\x12?\n\x0braw_metrics\x18\x12 \x03(\x0b\x32*.AvaProtos.ShoeTrialResult.RawMetricsEntry\x12-\n\x0b\x62ody_frames\x18\x13 \x01(\x0b\x32\x18.AvaProtos.BodyFramesMsg\x12)\n\talignment\x18\x14 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12 \n\x06qa_msg\x18\x15 \x01(\x0b\x32\x10.AvaProtos.QAMsg\x12\x1e\n\x16\x63\x61pture_engine_version\x18\x16 \x01(\t\x12\x1a\n\x12recording_filename\x18\x17 \x01(\t\x12\x0f\n\x07\x63reated\x18\x18 \x01(\x03\x12\x10\n\x08\x61ge_days\x18\x19 \x01(\x05\x12\x11\n\tbranch_id\x18\x1a \x01(\t\x12\x12\n\ncompany_id\x18\x1b \x01(\t\x12\x13\n\x0bshoe_season\x18\x1c \x01(\t\x1aW\n\x17MacroMetricResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.AvaProtos.MacroMetricResult:\x02\x38\x01\x1aU\n\x16MicroMetricScoresEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12*\n\x05value\x18\x02 \x01(\x0b\x32\x1b.AvaProtos.MicroMetricScore:\x02\x38\x01\x1aG\n\x0fRawMetricsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.AvaProtos.RawMetric:\x02\x38\x01\"\xd1\x01\n\x11MacroMetricResult\x12\r\n\x05score\x18\x02 \x01(\x02\x12\r\n\x05grade\x18\x03 \x01(\t\x12K\n\x10\x63omponent_scores\x18\x04 \x03(\x0b\x32\x31.AvaProtos.MacroMetricResult.ComponentScoresEntry\x1aQ\n\x14\x43omponentScoresEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12(\n\x05value\x18\x02 \x01(\x0b\x32\x19.AvaProtos.ComponentScore:\x02\x38\x01\"c\n\x10MicroMetricScore\x12\x11\n\traw_value\x18\x02 \x01(\x02\x12\x18\n\x10normalised_value\x18\x03 \x01(\x02\x12\r\n\x05score\x18\x04 \x01(\x02\x12\x13\n\x0b\x65lite_score\x18\x05 \x01(\x02\"a\n\x0e\x43omponentScore\x12\x37\n\x12micro_metric_score\x18\x01 \x01(\x0b\x32\x1b.AvaProtos.MicroMetricScore\x12\x16\n\x0eweighted_score\x18\x02 \x01(\x02\"\xb4\x01\n\x10MetricMappingMsg\x12\x13\n\x07\x63reated\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x0f\n\x07version\x18\x02 \x01(\x05\x12<\n\x15macro_metric_mappings\x18\x03 \x03(\x0b\x32\x1d.AvaProtos.MacroMetricMapping\x12<\n\x15micro_metric_mappings\x18\x04 \x03(\x0b\x32\x1d.AvaProtos.MicroMetricMapping\"\x9b\x02\n\x12MacroMetricMapping\x12\x0c\n\x04name\x18\x01 \x01(\t\x12=\n\x16macro_grade_boundaries\x18\x02 \x03(\x0b\x32\x1d.AvaProtos.MacroGradeBoundary\x12@\n\x17macro_metric_components\x18\x03 \x03(\x0b\x32\x1f.AvaProtos.MacroMetricComponent\x12\x39\n\x13male_age_factor_map\x18\x04 \x03(\x0b\x32\x1c.AvaProtos.AgeFactorMapPoint\x12;\n\x15\x66\x65male_age_factor_map\x18\x05 \x03(\x0b\x32\x1c.AvaProtos.AgeFactorMapPoint\";\n\x12MacroGradeBoundary\x12\x16\n\x0egrade_boundary\x18\x01 \x01(\x02\x12\r\n\x05grade\x18\x02 \x01(\t\"A\n\x14MacroMetricComponent\x12\x19\n\x11micro_metric_name\x18\x01 \x01(\t\x12\x0e\n\x06weight\x18\x02 \x01(\x02\"\x85\x05\n\x12MicroMetricMapping\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x38\n\x0cscoring_type\x18\x02 \x01(\x0e\x32\".AvaProtos.MicroMetricMapping.Type\x12<\n\x0escoring_method\x18\x03 \x01(\x0e\x32$.AvaProtos.MicroMetricMapping.Method\x12\x12\n\ndial_start\x18\x04 \x01(\x02\x12\x11\n\tdial_pin1\x18\x05 \x01(\x02\x12\x11\n\tdial_pin2\x18\x06 \x01(\x02\x12\x10\n\x08\x64ial_end\x18\x07 \x01(\x02\x12\x32\n\x10score_map_points\x18\n \x03(\x0b\x32\x18.AvaProtos.ScoreMapPoint\x12\x36\n\x0f\x65lite_score_map\x18\x0b \x03(\x0b\x32\x1d.AvaProtos.EliteScoreMapPoint\x12I\n\x19\x65lite_male_height_factors\x18\x0c \x03(\x0b\x32&.AvaProtos.EliteScoreHeightFactorPoint\x12K\n\x1b\x65lite_female_height_factors\x18\r \x03(\x0b\x32&.AvaProtos.EliteScoreHeightFactorPoint\"M\n\x04Type\x12\x11\n\rEXACT_IS_BEST\x10\x00\x12\x12\n\x0eMORE_IS_BETTER\x10\x01\x12\x12\n\x0eLESS_IS_BETTER\x10\x02\x12\n\n\x06TYPE_D\x10\x03\"J\n\x06Method\x12\x0e\n\nPERCENTAGE\x10\x00\x12\x17\n\x13RELATIVE_DIFFERENCE\x10\x01\x12\x17\n\x13\x41\x42SOLUTE_DIFFERENCE\x10\x02\":\n\x11\x41geFactorMapPoint\x12\x11\n\tage_years\x18\x01 \x01(\x02\x12\x12\n\nage_factor\x18\x02 \x01(\x02\"<\n\x12\x45liteScoreMapPoint\x12\x11\n\tspeed_kph\x18\x01 \x01(\x02\x12\x13\n\x0b\x65lite_score\x18\x02 \x01(\x02\"L\n\x1b\x45liteScoreHeightFactorPoint\x12\x11\n\theight_mm\x18\x01 \x01(\x05\x12\x1a\n\x12\x65lite_score_factor\x18\x02 \x01(\x02\"8\n\rScoreMapPoint\x12\x18\n\x10normalised_value\x18\x01 \x01(\x02\x12\r\n\x05score\x18\x02 \x01(\x02\"\x93\x01\n\tRawMetric\x12\x0e\n\x06median\x18\x02 \x01(\x02\x12\x0c\n\x04mean\x18\x03 \x01(\x02\x12\x0b\n\x03min\x18\x04 \x01(\x02\x12\x0b\n\x03max\x18\x05 \x01(\x02\x12\x10\n\x08variance\x18\x06 \x01(\x02\x12\x14\n\x0csample_count\x18\x07 \x01(\x05\x12&\n\x06\x66rames\x18\x08 \x03(\x0b\x32\x16.AvaProtos.MetricFrame\"G\n\x0bMetricFrame\x12\x12\n\x06micros\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x0e\n\x06values\x18\x02 \x03(\x02\x12\x14\n\x0cstride_index\x18\x03 \x01(\x02\"o\n\x05QAMsg\x12\x31\n\x12interpolation_scan\x18\x01 \x01(\x0b\x32\x15.AvaProtos.OutlierMsg\x12\x33\n\x14\x63ompare_average_scan\x18\x02 \x01(\x0b\x32\x15.AvaProtos.OutlierMsg\"\xda\x02\n\nOutlierMsg\x12\x19\n\x11total_frame_count\x18\x01 \x01(\x05\x12\x14\n\x0c\x63om_outliers\x18\x03 \x03(\x11\x12\x19\n\x11left_hip_outliers\x18\x04 \x03(\x11\x12\x1a\n\x12left_knee_outliers\x18\x05 \x03(\x11\x12\x1b\n\x13left_ankle_outliers\x18\x06 \x03(\x11\x12\x1a\n\x12left_heel_outliers\x18\x07 \x03(\x11\x12\x1a\n\x12left_sole_outliers\x18\x08 \x03(\x11\x12\x1a\n\x12right_hip_outliers\x18\t \x03(\x11\x12\x1b\n\x13right_knee_outliers\x18\n \x03(\x11\x12\x1c\n\x14right_ankle_outliers\x18\x0b \x03(\x11\x12\x1b\n\x13right_heel_outliers\x18\x0c \x03(\x11\x12\x1b\n\x13right_sole_outliers\x18\r \x03(\x11\"\xb7\x01\n\nDeviceInfo\x12\x11\n\tdevice_id\x18\x01 \x01(\t\x12\x12\n\nos_version\x18\x02 \x01(\t\x12\x17\n\x0fk4a_sdk_version\x18\x03 \x01(\t\x12\x1e\n\x16\x63\x61pture_engine_version\x18\x04 \x01(\t\x12+\n\x0c\x63\x61mera_infos\x18\x05 \x03(\x0b\x32\x15.AvaProtos.CameraInfo\x12\x1c\n\x14hardware_description\x18\x06 \x01(\t\"K\n\nCameraInfo\x12\x13\n\x0b\x64\x65vice_type\x18\x01 \x01(\t\x12\x18\n\x10\x66irmware_version\x18\x04 \x01(\t\x12\x0e\n\x06serial\x18\x06 \x01(\t\"T\n\x07\x41ppInfo\x12\x13\n\x0b\x61pp_version\x18\x01 \x01(\t\x12\x16\n\x0e\x61pp_os_version\x18\x02 \x01(\t\x12\x1c\n\x14hardware_description\x18\x03 \x01(\t\"r\n\x07InfoMsg\x12\x15\n\rtechnician_id\x18\x01 \x01(\t\x12$\n\x08\x61pp_info\x18\x02 \x01(\x0b\x32\x12.AvaProtos.AppInfo\x12*\n\x0b\x64\x65vice_info\x18\x03 \x01(\x0b\x32\x15.AvaProtos.DeviceInfo\"\xc5\x01\n\nUpdateInfo\x12\x33\n\nsub_system\x18\x01 \x01(\x0e\x32\x1f.AvaProtos.UpdateInfo.SubSystem\x12\x13\n\x0bnew_version\x18\x02 \x01(\t\x12\x17\n\x0fnew_description\x18\x03 \x01(\t\"T\n\tSubSystem\x12\x10\n\x0cRUNRIGHT_APP\x10\x00\x12\x12\n\x0e\x43\x41PTURE_ENGINE\x10\x01\x12\x0c\n\x08OS_IMAGE\x10\x02\x12\x13\n\x0f\x43\x41MERA_FIRMWARE\x10\x03\";\n\rUpdateInfoMsg\x12*\n\x0bupdate_info\x18\x01 \x03(\x0b\x32\x15.AvaProtos.UpdateInfo\"\xc9\x01\n\x0b\x43MSCacheMsg\x12\x34\n\x10shoeTrialResults\x18\x01 \x03(\x0b\x32\x1a.AvaProtos.ShoeTrialResult\x12&\n\tcustomers\x18\x02 \x03(\x0b\x32\x13.AvaProtos.Customer\x12&\n\x06\x61ligns\x18\x03 \x03(\x0b\x32\x16.AvaProtos.AlignParams\x12\x34\n\x0fmetric_mappings\x18\x04 \x03(\x0b\x32\x1b.AvaProtos.MetricMappingMsg\"\xda\x02\n\rPersistParams\x12\x1a\n\x12std_dev_multiplier\x18\x01 \x01(\x02\x12\x15\n\rsearch_radius\x18\x02 \x01(\x02\x12$\n\x1cnearest_neighbour_multiplier\x18\x03 \x01(\x02\x12\x1c\n\x14smoothness_threshold\x18\x04 \x01(\x02\x12\x1b\n\x13\x63urvature_threshold\x18\x05 \x01(\x02\x12\x1f\n\x17nearest_neighbour_count\x18\x06 \x01(\x05\x12#\n\x1bmax_nearest_neighbour_count\x18\x07 \x01(\x05\x12\x1c\n\x14point_filter_enabled\x18\x12 \x01(\x08\x12\x15\n\rdown_sampling\x18\x15 \x01(\x08\x12\x1c\n\x14interpolate_outliers\x18\x16 \x01(\x08\x12\x1c\n\x14\x63ompare_with_average\x18\x17 \x01(\x08\"\xa0\x05\n\x0b\x41lignParams\x12\x16\n\x0eright_x_offset\x18\x01 \x01(\x01\x12\x16\n\x0eright_y_offset\x18\x02 \x01(\x01\x12\x16\n\x0eright_z_offset\x18\x03 \x01(\x01\x12\x16\n\x0eright_x_rotate\x18\x04 \x01(\x01\x12\x16\n\x0eright_y_rotate\x18\x05 \x01(\x01\x12\x16\n\x0eright_z_rotate\x18\x06 \x01(\x01\x12\x19\n\x11left_x_pre_rotate\x18\x07 \x01(\x01\x12\x19\n\x11left_y_pre_rotate\x18\x08 \x01(\x01\x12\x19\n\x11left_z_pre_rotate\x18\t \x01(\x01\x12\x17\n\x0f\x63\x61mera_offset_x\x18\n \x01(\x05\x12\x17\n\x0f\x63\x61mera_offset_y\x18\x0b \x01(\x05\x12\x17\n\x0f\x63\x61mera_offset_z\x18\x0c \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_x\x18\r \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_x\x18\x0e \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_y\x18\x0f \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_y\x18\x10 \x01(\x05\x12\x1a\n\x12\x62ounding_box_min_z\x18\x11 \x01(\x05\x12\x1a\n\x12\x62ounding_box_max_z\x18\x12 \x01(\x05\x12\x1e\n\x16\x62ounding_box_max_range\x18\x13 \x01(\x05\x12\x1c\n\x14master_transform_off\x18\x14 \x01(\x08\x12\x1f\n\x17right_cam_transform_off\x18\x15 \x01(\x08\x12\x1d\n\x15\x63\x61lculate_from_points\x18\x16 \x01(\x08\x12\x13\n\x0b\x66rame_count\x18\x1e \x01(\x05\x12\x17\n\x0floaded_filename\x18\x1f \x01(\t\x12\x11\n\trunner_id\x18  \x01(\t\"\xa5\x01\n\rCaptureParams\x12,\n\x0c\x63\x61mera_state\x18\x01 \x01(\x0e\x32\x16.AvaProtos.CameraState\x12\x1f\n\x17\x63\x61pture_duration_millis\x18\x02 \x01(\x05\x12\x1e\n\x12\x63\x61pture_start_time\x18\x03 \x01(\x03\x42\x02\x30\x01\x12%\n\x08\x63ustomer\x18\x04 \x01(\x0b\x32\x13.AvaProtos.Customer\"X\n\x0c\x44\x61taFileInfo\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x04size\x18\x02 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x07\x63reated\x18\x03 \x01(\x03\x42\x02\x30\x01\x12\x13\n\x0b\x66rame_count\x18\x04 \x01(\x05\"d\n\nDataDirMsg\x12\x11\n\troot_path\x18\x01 \x01(\t\x12\x16\n\nfree_space\x18\x02 \x01(\x03\x42\x02\x30\x01\x12+\n\ndata_files\x18\x03 \x03(\x0b\x32\x17.AvaProtos.DataFileInfo\"c\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x12\n\n\x02nx\x18\x04 \x01(\x02\x12\n\n\x02ny\x18\x05 \x01(\x02\x12\n\n\x02nz\x18\x06 \x01(\x02\x12\t\n\x01\x63\x18\x07 \x01(\x02\x12\n\n\x02id\x18\x08 \x01(\x05\"&\n\x03XYZ\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x8c\x02\n\x05Shape\x12#\n\x04type\x18\x01 \x01(\x0e\x32\x15.AvaProtos.Shape.Type\x12\x1f\n\x05point\x18\x02 \x03(\x0b\x32\x10.AvaProtos.Point\x12\x0e\n\x06\x63olour\x18\x03 \x01(\x05\x12,\n\tdraw_mode\x18\x04 \x01(\x0e\x32\x19.AvaProtos.Shape.DrawMode\x12\x0c\n\x04name\x18\x05 \x01(\t\x12\x0f\n\x07\x66p_args\x18\x06 \x03(\x02\"@\n\x04Type\x12\t\n\x05POINT\x10\x00\x12\x0b\n\x07SEGMENT\x10\x01\x12\n\n\x06SPHERE\x10\x02\x12\x07\n\x03\x42OX\x10\x03\x12\x0b\n\x07POLYGON\x10\x04\"\x1e\n\x08\x44rawMode\x12\x08\n\x04\x46ILL\x10\x00\x12\x08\n\x04LINE\x10\x01\"K\n\x08\x42oneData\x12\r\n\x05x_pos\x18\x01 \x01(\x02\x12\r\n\x05y_pos\x18\x02 \x01(\x02\x12\r\n\x05z_pos\x18\x03 \x01(\x02\x12\x12\n\nquaternion\x18\x04 \x03(\x02\"\xa9\t\n\tBodyFrame\x12\x12\n\x06micros\x18\x01 \x01(\x03\x42\x02\x30\x01\x12\x14\n\x0cstride_index\x18\x02 \x01(\x02\x12(\n\x0blower_spine\x18\x03 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bupper_spine\x18\x04 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cleft_buttock\x18\x05 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12%\n\x08left_hip\x18\x06 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_knee\x18\x07 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nleft_ankle\x18\x08 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_heel\x18\t \x01(\x0b\x32\x13.AvaProtos.BoneData\x12,\n\x0fleft_metatarsal\x18\n \x01(\x0b\x32\x13.AvaProtos.BoneData\x12%\n\x08left_toe\x18\x0b \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bleft_collar\x18\x0c \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cleft_humerus\x18\r \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bleft_radius\x18\x0e \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tleft_hand\x18\x0f \x01(\x0b\x32\x13.AvaProtos.BoneData\x12*\n\rright_buttock\x18\x10 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tright_hip\x18\x11 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_knee\x18\x12 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12(\n\x0bright_ankle\x18\x13 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_heel\x18\x14 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12-\n\x10right_metatarsal\x18\x15 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12&\n\tright_toe\x18\x16 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cright_collar\x18\x17 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12*\n\rright_humerus\x18\x18 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12)\n\x0cright_radius\x18\x19 \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\'\n\nright_hand\x18\x1a \x01(\x0b\x32\x13.AvaProtos.BoneData\x12!\n\x04neck\x18\x1b \x01(\x0b\x32\x13.AvaProtos.BoneData\x12!\n\x04head\x18\x1c \x01(\x0b\x32\x13.AvaProtos.BoneData\x12+\n\x0e\x63\x65ntre_of_mass\x18\x1d \x01(\x0b\x32\x13.AvaProtos.BoneData\x12\x12\n\ncom_offset\x18\x1e \x03(\x02\"f\n\rBodyFramesMsg\x12$\n\x06\x66rames\x18\x01 \x03(\x0b\x32\x14.AvaProtos.BodyFrame\x12/\n\x11\x61vg_stride_frames\x18\x02 \x03(\x0b\x32\x14.AvaProtos.BodyFrame\"o\n\x0b\x43\x61mK4AFrame\x12\x11\n\ttimestamp\x18\x01 \x01(\x04\x12\x10\n\x08sequence\x18\x02 \x01(\r\x12\x0e\n\x06status\x18\x03 \x01(\r\x12\r\n\x05width\x18\x04 \x01(\r\x12\x0e\n\x06height\x18\x05 \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\x06 \x01(\x0c\"[\n\x0c\x43\x61mFramePair\x12$\n\x04left\x18\x01 \x01(\x0b\x32\x16.AvaProtos.CamK4AFrame\x12%\n\x05right\x18\x02 \x01(\x0b\x32\x16.AvaProtos.CamK4AFrame\"\x9a\x02\n\tCERequest\x12%\n\x07\x63ommand\x18\x01 \x01(\x0e\x32\x14.AvaProtos.CECommand\x12\x10\n\x08str_args\x18\x02 \x03(\t\x12\x10\n\x08int_args\x18\x03 \x03(\x05\x12\x0f\n\x07\x66p_args\x18\x04 \x03(\x01\x12\x11\n\tbool_args\x18\x05 \x03(\x08\x12\x0c\n\x04\x62lob\x18\x06 \x01(\x0c\x12,\n\x0c\x61lign_params\x18\x07 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12\x30\n\x0epersist_params\x18\x08 \x01(\x0b\x32\x18.AvaProtos.PersistParams\x12\x30\n\x0e\x63\x61pture_params\x18\t \x01(\x0b\x32\x18.AvaProtos.CaptureParams\"\xeb\x04\n\x07\x43\x45Reply\x12+\n\rcommand_reply\x18\x01 \x01(\x0e\x32\x14.AvaProtos.CECommand\x12\x15\n\rerror_message\x18\x02 \x01(\t\x12,\n\x0c\x63\x61mera_state\x18\x03 \x01(\x0e\x32\x16.AvaProtos.CameraState\x12\x10\n\x08int_args\x18\x04 \x03(\x05\x12\x10\n\x08str_args\x18\x05 \x03(\t\x12\x0f\n\x07\x66p_args\x18\x06 \x03(\x01\x12\x31\n\x0f\x62ody_frames_msg\x18\x0b \x01(\x0b\x32\x18.AvaProtos.BodyFramesMsg\x12\x37\n\x0braw_metrics\x18\x0c \x03(\x0b\x32\".AvaProtos.CEReply.RawMetricsEntry\x12 \n\x06qa_msg\x18\r \x01(\x0b\x32\x10.AvaProtos.QAMsg\x12*\n\x0b\x64\x65vice_info\x18\x0e \x01(\x0b\x32\x15.AvaProtos.DeviceInfo\x12\x35\n\x11shoe_trial_result\x18\x0f \x01(\x0b\x32\x1a.AvaProtos.ShoeTrialResult\x12(\n\ncal_frames\x18\x10 \x01(\x0b\x32\x14.AvaProtos.CalFrames\x12\x31\n\x0fgull_wing_state\x18\x11 \x01(\x0e\x32\x18.AvaProtos.GullWingState\x12\"\n\x1a\x65stimated_runner_height_mm\x18\x12 \x01(\x05\x1aG\n\x0fRawMetricsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.AvaProtos.RawMetric:\x02\x38\x01\"\xdb\x02\n\x08\x43\x45PubMsg\x12,\n\x0cprogress_msg\x18\x02 \x01(\x0b\x32\x16.AvaProtos.ProgressMsg\x12,\n\x0c\x61lign_params\x18\x03 \x01(\x0b\x32\x16.AvaProtos.AlignParams\x12\x30\n\x0epersist_params\x18\x04 \x01(\x0b\x32\x18.AvaProtos.PersistParams\x12\x30\n\x0e\x63\x61pture_params\x18\x05 \x01(\x0b\x32\x18.AvaProtos.CaptureParams\x12/\n\x0e\x63loud_data_msg\x18\x06 \x01(\x0b\x32\x17.AvaProtos.CloudDataMsg\x12+\n\x0c\x64\x61ta_dir_msg\x18\x07 \x01(\x0b\x32\x15.AvaProtos.DataDirMsg\x12\x31\n\x0fgull_wing_state\x18\x08 \x01(\x0e\x32\x18.AvaProtos.GullWingState\"\x98\x01\n\x0c\x43loudDataMsg\x12\x0c\n\x04line\x18\x01 \x03(\t\x12\x13\n\x0b\x66rame_index\x18\x02 \x01(\x05\x12)\n\x0fskeleton_shapes\x18\x03 \x03(\x0b\x32\x10.AvaProtos.Shape\x12&\n\x0c\x64\x65\x62ug_shapes\x18\x04 \x03(\x0b\x32\x10.AvaProtos.Shape\x12\x12\n\nframe_data\x18\n \x01(\x0c\"\x96\x01\n\tCalFrames\x12+\n\x0eleft_cal_frame\x18\x01 \x01(\x0b\x32\x13.AvaProtos.CalFrame\x12,\n\x0fright_cal_frame\x18\x02 \x01(\x0b\x32\x13.AvaProtos.CalFrame\x12.\n\x0e\x62ounding_boxes\x18\x03 \x03(\x0b\x32\x16.AvaProtos.BoundingBox\"\xc4\x01\n\x08\x43\x61lFrame\x12!\n\thigh_ball\x18\x01 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12 \n\x08low_ball\x18\x02 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\x30\n\x18\x63\x61lculated_camera_offset\x18\x03 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\x15\n\rerror_message\x18\x04 \x01(\t\x12*\n\x0b\x64\x65pth_frame\x18\n \x01(\x0b\x32\x15.AvaProtos.DepthFrame\"U\n\x0b\x42oundingBox\x12\"\n\nmin_corner\x18\x01 \x01(\x0b\x32\x0e.AvaProtos.XYZ\x12\"\n\nmax_corner\x18\x02 \x01(\x0b\x32\x0e.AvaProtos.XYZ\"k\n\nDepthFrame\x12\x0e\n\x06micros\x18\x01 \x01(\x03\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12\x0e\n\x06status\x18\x03 \x01(\x05\x12\r\n\x05width\x18\x04 \x01(\x05\x12\x0e\n\x06height\x18\x05 \x01(\x05\x12\x0c\n\x04\x64\x61ta\x18\n \x01(\x0c\">\n\x0bProgressMsg\x12\x0f\n\x07percent\x18\x01 \x01(\x05\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0f\n\x07message\x18\x03 \x01(\t\"\xc3\x01\n\x04Shoe\x12\x0f\n\x07shoe_id\x18\x01 \x01(\t\x12\r\n\x05\x62rand\x18\x02 \x01(\t\x12\r\n\x05model\x18\x03 \x01(\t\x12\r\n\x05\x63olor\x18\x04 \x01(\t\x12\x0b\n\x03\x65\x61n\x18\x05 \x01(\t\x12\x0e\n\x06season\x18\x06 \x01(\t\x12\x0e\n\x06gender\x18\x07 \x01(\t\x12\x0c\n\x04size\x18\x08 \x01(\t\x12\x0f\n\x07\x63reated\x18\t \x01(\x03\x12\x0f\n\x07\x63reator\x18\n \x01(\t\x12\x0f\n\x07updated\x18\x0b \x01(\x03\x12\x0f\n\x07updater\x18\x0c \x01(\t\"\x16\n\x07\x45\x41NList\x12\x0b\n\x03\x65\x61n\x18\x01 \x03(\t\"\x1e\n\x0cSearchBranch\x12\x0e\n\x06\x62ranch\x18\x01 \x01(\t\"q\n\x15PointCloudDataRequest\x12\x10\n\x08\x66ilename\x18\x01 \x01(\t\x12\x13\n\x0b\x66rame_index\x18\x02 \x01(\x05\x12\x17\n\x0fget_full_points\x18\x03 \x01(\x08\x12\x18\n\x10get_debug_shapes\x18\x04 \x01(\x08\"\x84\x02\n\x0ePointCloudData\x12\x13\n\x0b\x66rame_index\x18\x01 \x01(\x05\x12\x13\n\x0bpoint_count\x18\x02 \x01(\x05\x12\x1f\n\x06points\x18\x03 \x03(\x0b\x32\x0f.AvaProtos.XYZI\x12)\n\x0fskeleton_shapes\x18\x04 \x03(\x0b\x32\x10.AvaProtos.Shape\x12&\n\x0c\x64\x65\x62ug_shapes\x18\x05 \x03(\x0b\x32\x10.AvaProtos.Shape\x12%\n\x0b\x66ull_points\x18\x06 \x03(\x0b\x32\x10.AvaProtos.Point\x12\x13\n\x0bpoints_data\x18\x07 \x01(\x0c\x12\x18\n\x10\x66ull_points_data\x18\x08 \x01(\x0c\"S\n\x14PointCloudDataFrames\x12\x10\n\x08\x66ilename\x18\x01 \x01(\t\x12)\n\x06\x66rames\x18\x02 \x03(\x0b\x32\x19.AvaProtos.PointCloudData\"3\n\x04XYZI\x12\t\n\x01x\x18\x01 \x01(\x11\x12\t\n\x01y\x18\x02 \x01(\x11\x12\t\n\x01z\x18\x03 \x01(\x11\x12\n\n\x02id\x18\x04 \x01(\x11*\x91\x01\n\x0cNoSaleReason\x12\x10\n\x0cOUT_OF_STOCK\x10\x00\x12\n\n\x06\x43OLOUR\x10\x01\x12\x13\n\x0fONLINE_PURCHASE\x10\x02\x12\x14\n\x10PROHIBITIVE_COST\x10\x03\x12\x07\n\x03\x46IT\x10\x04\x12\t\n\x05OTHER\x10\x05\x12\t\n\x05SCORE\x10\x06\x12\x19\n\x15\x44UPLICATE_MEASUREMENT\x10\x07*L\n\x0b\x43\x61meraState\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0b\n\x07STANDBY\x10\x01\x12\x08\n\x04LIVE\x10\x02\x12\r\n\tCAPTURING\x10\x03\x12\n\n\x06\x46\x41ILED\x10\x04*\xab\x01\n\rGullWingState\x12\x0f\n\x0bGWS_UNKNOWN\x10\x00\x12\x0c\n\x08GWS_IDLE\x10\x01\x12\x0c\n\x08GWS_LIVE\x10\x02\x12\x11\n\rGWS_RECORDING\x10\x03\x12\x12\n\x0eGWS_PROCESSING\x10\x04\x12\x13\n\x0fGWS_SAVING_DATA\x10\x05\x12\x0e\n\nGWS_FAILED\x10\x06\x12\x10\n\x0cGWS_UPDATING\x10\x07\x12\x0f\n\x0bGWS_OFFLINE\x10\x08*\xe6\x02\n\tCECommand\x12\x0b\n\x07INVALID\x10\x00\x12\x0e\n\nGET_PARAMS\x10\x01\x12\x0e\n\nSET_PARAMS\x10\x02\x12\x12\n\x0e\x43\x41LC_ALIGNMENT\x10\x03\x12\x11\n\rPUBLISH_FRAME\x10\x04\x12\r\n\tLOAD_FILE\x10\x05\x12\r\n\tSAVE_FILE\x10\x06\x12\x12\n\x0eGET_BODYFRAMES\x10\x07\x12\x0f\n\x0bGET_METRICS\x10\x08\x12\x13\n\x0fREPROCESS_FRAME\x10\t\x12\x13\n\x0fGET_DEVICE_INFO\x10\n\x12\x14\n\x10GET_DATA_LISTING\x10\x0b\x12\x0f\n\x0bSET_CAMERAS\x10\x0c\x12\x1a\n\x16GET_SHOE_TRIAL_METRICS\x10\r\x12\x12\n\x0eGET_CAL_FRAMES\x10\x0e\x12\x14\n\x10SAVE_CALIBRATION\x10\x0f\x12\x12\n\x0eSYSTEM_COMMAND\x10\x10\x12\x17\n\x13GET_GULL_WING_STATE\x10\x11\x32\x9a\x06\n\x07Reports\x12J\n\x12GetDashboardReport\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.DashboardReport\"\x00\x12J\n\x10GetNoSaleRecords\x12\x16.AvaProtos.NoSaleQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12L\n\x12GetTechSaleRecords\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12W\n\x13GetBrandSaleRecords\x12 .AvaProtos.BrandSaleRecordsQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12^\n\x17GetBrandModelSaleCounts\x12 .AvaProtos.BrandSaleRecordsQuery\x1a\x1f.AvaProtos.BrandModelSaleCounts\"\x00\x12Z\n\x17GetDailySaleScanRecords\x12\x1f.AvaProtos.SaleScanRecordsQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12\x43\n\nGetSeasons\x12\x16.AvaProtos.ReportQuery\x1a\x19.AvaProtos.SeasonSelector\"\x00\x30\x01\x12K\n\x11GetBrandsSelector\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12\x44\n\x0cGenerateHtml\x12\x16.AvaProtos.ReportQuery\x1a\x1a.AvaProtos.DashboardReport\"\x00\x12<\n\x07GetData\x12\x16.AvaProtos.DataRequest\x1a\x17.AvaProtos.DataResponse\"\x00\x32\xef\x05\n\tCompanies\x12;\n\x0cgetCompanies\x12\x13.AvaProtos.CMSQuery\x1a\x12.AvaProtos.Company\"\x00\x30\x01\x12=\n\x10GetCompanyByName\x12\x13.AvaProtos.CMSQuery\x1a\x12.AvaProtos.Company\"\x00\x12\x35\n\tgetBranch\x12\x13.AvaProtos.CMSQuery\x1a\x11.AvaProtos.Branch\"\x00\x12\x38\n\naddCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x39\n\x0b\x65\x64itCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12=\n\x0e\x63ountCompanies\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x36\n\taddBranch\x12\x11.AvaProtos.Branch\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x37\n\neditBranch\x12\x11.AvaProtos.Branch\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x38\n\naddLicense\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x12R\n\x11getLicenseHistory\x12\x1e.AvaProtos.LicenseHistoryQuery\x1a\x19.AvaProtos.LicenseHistory\"\x00\x30\x01\x12?\n\nuploadFile\x12\x19.AvaProtos.ImageLogoQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12;\n\rdeleteCompany\x12\x12.AvaProtos.Company\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xe9\x05\n\x05Shoes\x12\x34\n\x08getShoes\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12\x31\n\x07getShoe\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x12?\n\x13getShoesForBranchId\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12;\n\x0c\x64oesEanExist\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x32\n\x07setShoe\x12\x0f.AvaProtos.Shoe\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x35\n\nremoveShoe\x12\x0f.AvaProtos.Shoe\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x39\n\ncountShoes\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x63ountShoesForBranchId\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x11setShoesForBranch\x12\x1b.AvaProtos.BranchShoeUpdate\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x18getTotalShoesForBranchId\x12\x17.AvaProtos.SearchBranch\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12<\n\x10getShoesForModel\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x12;\n\x0fgetShoeSizeList\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.Shoe\"\x00\x30\x01\x32\xd2\x03\n\x05Users\x12,\n\x05login\x12\x10.AvaProtos.Login\x1a\x0f.AvaProtos.User\"\x00\x12\x34\n\x08getUsers\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.User\"\x00\x30\x01\x12\x39\n\ncountUsers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x32\n\x07setUser\x12\x0f.AvaProtos.User\x1a\x14.AvaProtos.CMSResult\"\x00\x12:\n\x0egetBranchUsers\x12\x13.AvaProtos.CMSQuery\x1a\x0f.AvaProtos.User\"\x00\x30\x01\x12@\n\x11sendPasswordReset\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x41\n\rresetPassword\x12\x18.AvaProtos.PasswordReset\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x35\n\nremoveUser\x12\x0f.AvaProtos.User\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xcd\x03\n\tCustomers\x12<\n\x0cgetCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12=\n\x0e\x63ountCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12?\n\x0fgetBioCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12\x45\n\x15getBioCustomersExport\x12\x13.AvaProtos.CMSQuery\x1a\x13.AvaProtos.Customer\"\x00\x30\x01\x12@\n\x11\x63ountBioCustomers\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12:\n\x0bsetCustomer\x12\x13.AvaProtos.Customer\x1a\x14.AvaProtos.CMSResult\"\x00\x12=\n\x0eremoveCustomer\x12\x13.AvaProtos.Customer\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xbc\x05\n\x04\x44\x61ta\x12J\n\x13getShoeTrialResults\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12U\n\x1egetMinifiedResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12V\n\x1fgetShoeTrialResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x1a.AvaProtos.ShoeTrialResult\"\x00\x30\x01\x12P\n!countShoeTrialResultsByCustomerId\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x63ountShoeTrialResults\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x12setShoeTrialResult\x12\x1a.AvaProtos.ShoeTrialResult\x1a\x14.AvaProtos.CMSResult\"\x00\x12H\n\x10getMetricMapping\x12\x13.AvaProtos.CMSQuery\x1a\x1b.AvaProtos.MetricMappingMsg\"\x00\x30\x01\x12G\n\x10setMetricMapping\x12\x1b.AvaProtos.MetricMappingMsg\x1a\x14.AvaProtos.CMSResult\"\x00\x12\x44\n\x15\x64\x65leteShoeTrialResult\x12\x13.AvaProtos.CMSQuery\x1a\x14.AvaProtos.CMSResult\"\x00\x32\xc1\x01\n\rConfiguration\x12Z\n\x1fgetCurrentConfigurationSettings\x12\x13.AvaProtos.CMSQuery\x1a .AvaProtos.ConfigurationSettings\"\x00\x12T\n\x18setConfigurationSettings\x12 .AvaProtos.ConfigurationSettings\x1a\x14.AvaProtos.CMSResult\"\x00\x32i\n\x11\x43\x61ptureEngineGRpc\x12T\n\x11GetPointCloudData\x12 .AvaProtos.PointCloudDataRequest\x1a\x19.AvaProtos.PointCloudData\"\x00\x30\x01\x42(\n\x1buk.co.comsci.runright.protoB\tAvaProtosb\x06proto3'
 )
 
 _NOSALEREASON = _descriptor.EnumDescriptor(
@@ -73,8 +73,8 @@ _NOSALEREASON = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=16330,
-  serialized_end=16475,
+  serialized_start=16531,
+  serialized_end=16676,
 )
 _sym_db.RegisterEnumDescriptor(_NOSALEREASON)
 
@@ -114,8 +114,8 @@ _CAMERASTATE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=16477,
-  serialized_end=16553,
+  serialized_start=16678,
+  serialized_end=16754,
 )
 _sym_db.RegisterEnumDescriptor(_CAMERASTATE)
 
@@ -175,8 +175,8 @@ _GULLWINGSTATE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=16556,
-  serialized_end=16727,
+  serialized_start=16757,
+  serialized_end=16928,
 )
 _sym_db.RegisterEnumDescriptor(_GULLWINGSTATE)
 
@@ -281,8 +281,8 @@ _CECOMMAND = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=16730,
-  serialized_end=17088,
+  serialized_start=16931,
+  serialized_end=17289,
 )
 _sym_db.RegisterEnumDescriptor(_CECOMMAND)
 
@@ -374,8 +374,8 @@ _USER_ROLE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3418,
-  serialized_end=3534,
+  serialized_start=3619,
+  serialized_end=3735,
 )
 _sym_db.RegisterEnumDescriptor(_USER_ROLE)
 
@@ -399,8 +399,8 @@ _CMSQUERY_SORTORDER = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3966,
-  serialized_end=4008,
+  serialized_start=4167,
+  serialized_end=4209,
 )
 _sym_db.RegisterEnumDescriptor(_CMSQUERY_SORTORDER)
 
@@ -429,8 +429,8 @@ _CUSTOMER_GENDER = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4857,
-  serialized_end=4900,
+  serialized_start=5058,
+  serialized_end=5101,
 )
 _sym_db.RegisterEnumDescriptor(_CUSTOMER_GENDER)
 
@@ -459,8 +459,8 @@ _PURCHASEDECISION_DECISION = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=5524,
-  serialized_end=5590,
+  serialized_start=5725,
+  serialized_end=5791,
 )
 _sym_db.RegisterEnumDescriptor(_PURCHASEDECISION_DECISION)
 
@@ -494,8 +494,8 @@ _MICROMETRICMAPPING_TYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=8128,
-  serialized_end=8205,
+  serialized_start=8329,
+  serialized_end=8406,
 )
 _sym_db.RegisterEnumDescriptor(_MICROMETRICMAPPING_TYPE)
 
@@ -524,8 +524,8 @@ _MICROMETRICMAPPING_METHOD = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=8207,
-  serialized_end=8281,
+  serialized_start=8408,
+  serialized_end=8482,
 )
 _sym_db.RegisterEnumDescriptor(_MICROMETRICMAPPING_METHOD)
 
@@ -559,8 +559,8 @@ _UPDATEINFO_SUBSYSTEM = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=9805,
-  serialized_end=9889,
+  serialized_start=10006,
+  serialized_end=10090,
 )
 _sym_db.RegisterEnumDescriptor(_UPDATEINFO_SUBSYSTEM)
 
@@ -599,8 +599,8 @@ _SHAPE_TYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=11854,
-  serialized_end=11918,
+  serialized_start=12055,
+  serialized_end=12119,
 )
 _sym_db.RegisterEnumDescriptor(_SHAPE_TYPE)
 
@@ -624,8 +624,8 @@ _SHAPE_DRAWMODE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=11920,
-  serialized_end=11950,
+  serialized_start=12121,
+  serialized_end=12151,
 )
 _sym_db.RegisterEnumDescriptor(_SHAPE_DRAWMODE)
 
@@ -671,23 +671,86 @@ _DATARESPONSE = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='AvaProtos.DataResponse.result', index=0,
+      name='total_disk', full_name='AvaProtos.DataResponse.total_disk', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='memory', full_name='AvaProtos.DataResponse.memory', index=1,
+      name='free_disk', full_name='AvaProtos.DataResponse.free_disk', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='disk', full_name='AvaProtos.DataResponse.disk', index=2,
+      name='used_disk', full_name='AvaProtos.DataResponse.used_disk', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='disk_percent', full_name='AvaProtos.DataResponse.disk_percent', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='total_memory', full_name='AvaProtos.DataResponse.total_memory', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='free_memory', full_name='AvaProtos.DataResponse.free_memory', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='used_memory', full_name='AvaProtos.DataResponse.used_memory', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='memory_percent', full_name='AvaProtos.DataResponse.memory_percent', index=7,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='cert_valid', full_name='AvaProtos.DataResponse.cert_valid', index=8,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='cert', full_name='AvaProtos.DataResponse.cert', index=9,
+      number=10, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"",
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='fullchain_valid', full_name='AvaProtos.DataResponse.fullchain_valid', index=10,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='fullchain', full_name='AvaProtos.DataResponse.fullchain', index=11,
+      number=12, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
@@ -703,8 +766,8 @@ _DATARESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=59,
-  serialized_end=119,
+  serialized_start=60,
+  serialized_end=320,
 )
 
 
@@ -742,8 +805,8 @@ _BRANDSALERECORDSQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=121,
-  serialized_end=198,
+  serialized_start=322,
+  serialized_end=399,
 )
 
 
@@ -781,8 +844,8 @@ _BRANDMODELSALECOUNTS_SALECOUNTSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=295,
-  serialized_end=344,
+  serialized_start=496,
+  serialized_end=545,
 )
 
 _BRANDMODELSALECOUNTS = _descriptor.Descriptor(
@@ -812,8 +875,8 @@ _BRANDMODELSALECOUNTS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=201,
-  serialized_end=344,
+  serialized_start=402,
+  serialized_end=545,
 )
 
 
@@ -858,8 +921,8 @@ _SALESCANRECORDSQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=346,
-  serialized_end=435,
+  serialized_start=547,
+  serialized_end=636,
 )
 
 
@@ -897,8 +960,8 @@ _NOSALEQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=437,
-  serialized_end=505,
+  serialized_start=638,
+  serialized_end=706,
 )
 
 
@@ -936,8 +999,8 @@ _PERFORMANCEDAY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=507,
-  serialized_end=553,
+  serialized_start=708,
+  serialized_end=754,
 )
 
 
@@ -975,8 +1038,8 @@ _TECHNICIANSALES_PURCHASEDECISIONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=698,
-  serialized_end=754,
+  serialized_start=899,
+  serialized_end=955,
 )
 
 _TECHNICIANSALES = _descriptor.Descriptor(
@@ -1027,8 +1090,8 @@ _TECHNICIANSALES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=556,
-  serialized_end=754,
+  serialized_start=757,
+  serialized_end=955,
 )
 
 
@@ -1129,8 +1192,8 @@ _DASHBOARDTABLERECORD = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=757,
-  serialized_end=954,
+  serialized_start=958,
+  serialized_end=1155,
 )
 
 
@@ -1175,8 +1238,8 @@ _SIZEGENDERSALES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=956,
-  serialized_end=1018,
+  serialized_start=1157,
+  serialized_end=1219,
 )
 
 
@@ -1221,8 +1284,8 @@ _BRANDSALES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1020,
-  serialized_end=1074,
+  serialized_start=1221,
+  serialized_end=1275,
 )
 
 
@@ -1267,8 +1330,8 @@ _MODELSALES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1076,
-  serialized_end=1130,
+  serialized_start=1277,
+  serialized_end=1331,
 )
 
 
@@ -1306,8 +1369,8 @@ _DASHBOARDREPORT_DAILYSCANSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1784,
-  serialized_end=1833,
+  serialized_start=1985,
+  serialized_end=2034,
 )
 
 _DASHBOARDREPORT_DAILYSALESENTRY = _descriptor.Descriptor(
@@ -1344,8 +1407,8 @@ _DASHBOARDREPORT_DAILYSALESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1835,
-  serialized_end=1884,
+  serialized_start=2036,
+  serialized_end=2085,
 )
 
 _DASHBOARDREPORT_BRANDSALESENTRY = _descriptor.Descriptor(
@@ -1382,8 +1445,8 @@ _DASHBOARDREPORT_BRANDSALESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1886,
-  serialized_end=1935,
+  serialized_start=2087,
+  serialized_end=2136,
 )
 
 _DASHBOARDREPORT_MODELSALESENTRY = _descriptor.Descriptor(
@@ -1420,8 +1483,8 @@ _DASHBOARDREPORT_MODELSALESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1937,
-  serialized_end=1986,
+  serialized_start=2138,
+  serialized_end=2187,
 )
 
 _DASHBOARDREPORT_NOSALEREASONSENTRY = _descriptor.Descriptor(
@@ -1458,8 +1521,8 @@ _DASHBOARDREPORT_NOSALEREASONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1988,
-  serialized_end=2040,
+  serialized_start=2189,
+  serialized_end=2241,
 )
 
 _DASHBOARDREPORT = _descriptor.Descriptor(
@@ -1559,8 +1622,8 @@ _DASHBOARDREPORT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1133,
-  serialized_end=2040,
+  serialized_start=1334,
+  serialized_end=2241,
 )
 
 
@@ -1654,8 +1717,8 @@ _REPORTQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2043,
-  serialized_end=2236,
+  serialized_start=2244,
+  serialized_end=2437,
 )
 
 
@@ -1686,8 +1749,8 @@ _SEASONSELECTOR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2238,
-  serialized_end=2275,
+  serialized_start=2439,
+  serialized_end=2476,
 )
 
 
@@ -1725,8 +1788,8 @@ _PASSWORDRESET = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2277,
-  serialized_end=2325,
+  serialized_start=2478,
+  serialized_end=2526,
 )
 
 
@@ -1876,8 +1939,8 @@ _COMPANY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2328,
-  serialized_end=2699,
+  serialized_start=2529,
+  serialized_end=2900,
 )
 
 
@@ -1985,8 +2048,8 @@ _BRANCH = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2702,
-  serialized_end=2951,
+  serialized_start=2903,
+  serialized_end=3152,
 )
 
 
@@ -2024,8 +2087,8 @@ _BRANCHSHOEUPDATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2953,
-  serialized_end=3009,
+  serialized_start=3154,
+  serialized_end=3210,
 )
 
 
@@ -2070,8 +2133,8 @@ _DEVICE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3011,
-  serialized_end=3082,
+  serialized_start=3212,
+  serialized_end=3283,
 )
 
 
@@ -2215,8 +2278,8 @@ _USER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3085,
-  serialized_end=3534,
+  serialized_start=3286,
+  serialized_end=3735,
 )
 
 
@@ -2254,8 +2317,8 @@ _LOGIN = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3536,
-  serialized_end=3576,
+  serialized_start=3737,
+  serialized_end=3777,
 )
 
 
@@ -2413,8 +2476,8 @@ _CMSQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3579,
-  serialized_end=4008,
+  serialized_start=3780,
+  serialized_end=4209,
 )
 
 
@@ -2466,8 +2529,8 @@ _CMSRESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4010,
-  serialized_end=4096,
+  serialized_start=4211,
+  serialized_end=4297,
 )
 
 
@@ -2498,8 +2561,8 @@ _LICENSEHISTORYQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4098,
-  serialized_end=4139,
+  serialized_start=4299,
+  serialized_end=4340,
 )
 
 
@@ -2544,8 +2607,8 @@ _IMAGELOGOQUERY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4141,
-  serialized_end=4218,
+  serialized_start=4342,
+  serialized_end=4419,
 )
 
 
@@ -2597,8 +2660,8 @@ _LICENSEHISTORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4220,
-  serialized_end=4302,
+  serialized_start=4421,
+  serialized_end=4503,
 )
 
 
@@ -2784,8 +2847,8 @@ _CUSTOMER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4305,
-  serialized_end=4900,
+  serialized_start=4506,
+  serialized_end=5101,
 )
 
 
@@ -2844,8 +2907,8 @@ _PURCHASERESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4902,
-  serialized_end=5025,
+  serialized_start=5103,
+  serialized_end=5226,
 )
 
 
@@ -2890,8 +2953,8 @@ _GDPRSETTINGS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5027,
-  serialized_end=5116,
+  serialized_start=5228,
+  serialized_end=5317,
 )
 
 
@@ -2957,8 +3020,8 @@ _CONFIGURATIONSETTINGS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5119,
-  serialized_end=5351,
+  serialized_start=5320,
+  serialized_end=5552,
 )
 
 
@@ -3011,8 +3074,8 @@ _PURCHASEDECISION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5354,
-  serialized_end=5590,
+  serialized_start=5555,
+  serialized_end=5791,
 )
 
 
@@ -3050,8 +3113,8 @@ _SHOETRIALRESULT_MACROMETRICRESULTSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6377,
-  serialized_end=6464,
+  serialized_start=6578,
+  serialized_end=6665,
 )
 
 _SHOETRIALRESULT_MICROMETRICSCORESENTRY = _descriptor.Descriptor(
@@ -3088,8 +3151,8 @@ _SHOETRIALRESULT_MICROMETRICSCORESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6466,
-  serialized_end=6551,
+  serialized_start=6667,
+  serialized_end=6752,
 )
 
 _SHOETRIALRESULT_RAWMETRICSENTRY = _descriptor.Descriptor(
@@ -3126,8 +3189,8 @@ _SHOETRIALRESULT_RAWMETRICSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6553,
-  serialized_end=6624,
+  serialized_start=6754,
+  serialized_end=6825,
 )
 
 _SHOETRIALRESULT = _descriptor.Descriptor(
@@ -3311,8 +3374,8 @@ _SHOETRIALRESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5593,
-  serialized_end=6624,
+  serialized_start=5794,
+  serialized_end=6825,
 )
 
 
@@ -3350,8 +3413,8 @@ _MACROMETRICRESULT_COMPONENTSCORESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6755,
-  serialized_end=6836,
+  serialized_start=6956,
+  serialized_end=7037,
 )
 
 _MACROMETRICRESULT = _descriptor.Descriptor(
@@ -3395,8 +3458,8 @@ _MACROMETRICRESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6627,
-  serialized_end=6836,
+  serialized_start=6828,
+  serialized_end=7037,
 )
 
 
@@ -3448,8 +3511,8 @@ _MICROMETRICSCORE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6838,
-  serialized_end=6937,
+  serialized_start=7039,
+  serialized_end=7138,
 )
 
 
@@ -3487,8 +3550,8 @@ _COMPONENTSCORE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6939,
-  serialized_end=7036,
+  serialized_start=7140,
+  serialized_end=7237,
 )
 
 
@@ -3540,8 +3603,8 @@ _METRICMAPPINGMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7039,
-  serialized_end=7219,
+  serialized_start=7240,
+  serialized_end=7420,
 )
 
 
@@ -3600,8 +3663,8 @@ _MACROMETRICMAPPING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7222,
-  serialized_end=7505,
+  serialized_start=7423,
+  serialized_end=7706,
 )
 
 
@@ -3639,8 +3702,8 @@ _MACROGRADEBOUNDARY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7507,
-  serialized_end=7566,
+  serialized_start=7708,
+  serialized_end=7767,
 )
 
 
@@ -3678,8 +3741,8 @@ _MACROMETRICCOMPONENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7568,
-  serialized_end=7633,
+  serialized_start=7769,
+  serialized_end=7834,
 )
 
 
@@ -3782,8 +3845,8 @@ _MICROMETRICMAPPING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7636,
-  serialized_end=8281,
+  serialized_start=7837,
+  serialized_end=8482,
 )
 
 
@@ -3821,8 +3884,8 @@ _AGEFACTORMAPPOINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8283,
-  serialized_end=8341,
+  serialized_start=8484,
+  serialized_end=8542,
 )
 
 
@@ -3860,8 +3923,8 @@ _ELITESCOREMAPPOINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8343,
-  serialized_end=8403,
+  serialized_start=8544,
+  serialized_end=8604,
 )
 
 
@@ -3899,8 +3962,8 @@ _ELITESCOREHEIGHTFACTORPOINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8405,
-  serialized_end=8481,
+  serialized_start=8606,
+  serialized_end=8682,
 )
 
 
@@ -3938,8 +4001,8 @@ _SCOREMAPPOINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8483,
-  serialized_end=8539,
+  serialized_start=8684,
+  serialized_end=8740,
 )
 
 
@@ -4012,8 +4075,8 @@ _RAWMETRIC = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8542,
-  serialized_end=8689,
+  serialized_start=8743,
+  serialized_end=8890,
 )
 
 
@@ -4058,8 +4121,8 @@ _METRICFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8691,
-  serialized_end=8762,
+  serialized_start=8892,
+  serialized_end=8963,
 )
 
 
@@ -4097,8 +4160,8 @@ _QAMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8764,
-  serialized_end=8875,
+  serialized_start=8965,
+  serialized_end=9076,
 )
 
 
@@ -4206,8 +4269,8 @@ _OUTLIERMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8878,
-  serialized_end=9224,
+  serialized_start=9079,
+  serialized_end=9425,
 )
 
 
@@ -4273,8 +4336,8 @@ _DEVICEINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9227,
-  serialized_end=9410,
+  serialized_start=9428,
+  serialized_end=9611,
 )
 
 
@@ -4319,8 +4382,8 @@ _CAMERAINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9412,
-  serialized_end=9487,
+  serialized_start=9613,
+  serialized_end=9688,
 )
 
 
@@ -4365,8 +4428,8 @@ _APPINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9489,
-  serialized_end=9573,
+  serialized_start=9690,
+  serialized_end=9774,
 )
 
 
@@ -4411,8 +4474,8 @@ _INFOMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9575,
-  serialized_end=9689,
+  serialized_start=9776,
+  serialized_end=9890,
 )
 
 
@@ -4458,8 +4521,8 @@ _UPDATEINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9692,
-  serialized_end=9889,
+  serialized_start=9893,
+  serialized_end=10090,
 )
 
 
@@ -4490,8 +4553,8 @@ _UPDATEINFOMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9891,
-  serialized_end=9950,
+  serialized_start=10092,
+  serialized_end=10151,
 )
 
 
@@ -4543,8 +4606,8 @@ _CMSCACHEMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9953,
-  serialized_end=10154,
+  serialized_start=10154,
+  serialized_end=10355,
 )
 
 
@@ -4645,8 +4708,8 @@ _PERSISTPARAMS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=10157,
-  serialized_end=10503,
+  serialized_start=10358,
+  serialized_end=10704,
 )
 
 
@@ -4845,8 +4908,8 @@ _ALIGNPARAMS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=10506,
-  serialized_end=11178,
+  serialized_start=10707,
+  serialized_end=11379,
 )
 
 
@@ -4898,8 +4961,8 @@ _CAPTUREPARAMS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11181,
-  serialized_end=11346,
+  serialized_start=11382,
+  serialized_end=11547,
 )
 
 
@@ -4951,8 +5014,8 @@ _DATAFILEINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11348,
-  serialized_end=11436,
+  serialized_start=11549,
+  serialized_end=11637,
 )
 
 
@@ -4997,8 +5060,8 @@ _DATADIRMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11438,
-  serialized_end=11538,
+  serialized_start=11639,
+  serialized_end=11739,
 )
 
 
@@ -5078,8 +5141,8 @@ _POINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11540,
-  serialized_end=11639,
+  serialized_start=11741,
+  serialized_end=11840,
 )
 
 
@@ -5124,8 +5187,8 @@ _XYZ = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11641,
-  serialized_end=11679,
+  serialized_start=11842,
+  serialized_end=11880,
 )
 
 
@@ -5193,8 +5256,8 @@ _SHAPE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11682,
-  serialized_end=11950,
+  serialized_start=11883,
+  serialized_end=12151,
 )
 
 
@@ -5246,8 +5309,8 @@ _BONEDATA = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11952,
-  serialized_end=12027,
+  serialized_start=12153,
+  serialized_end=12228,
 )
 
 
@@ -5481,8 +5544,8 @@ _BODYFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=12030,
-  serialized_end=13223,
+  serialized_start=12231,
+  serialized_end=13424,
 )
 
 
@@ -5520,8 +5583,8 @@ _BODYFRAMESMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=13225,
-  serialized_end=13327,
+  serialized_start=13426,
+  serialized_end=13528,
 )
 
 
@@ -5587,8 +5650,8 @@ _CAMK4AFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=13329,
-  serialized_end=13440,
+  serialized_start=13530,
+  serialized_end=13641,
 )
 
 
@@ -5626,8 +5689,8 @@ _CAMFRAMEPAIR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=13442,
-  serialized_end=13533,
+  serialized_start=13643,
+  serialized_end=13734,
 )
 
 
@@ -5714,8 +5777,8 @@ _CEREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=13536,
-  serialized_end=13818,
+  serialized_start=13737,
+  serialized_end=14019,
 )
 
 
@@ -5753,8 +5816,8 @@ _CEREPLY_RAWMETRICSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6553,
-  serialized_end=6624,
+  serialized_start=6754,
+  serialized_end=6825,
 )
 
 _CEREPLY = _descriptor.Descriptor(
@@ -5875,8 +5938,8 @@ _CEREPLY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=13821,
-  serialized_end=14440,
+  serialized_start=14022,
+  serialized_end=14641,
 )
 
 
@@ -5949,8 +6012,8 @@ _CEPUBMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14443,
-  serialized_end=14790,
+  serialized_start=14644,
+  serialized_end=14991,
 )
 
 
@@ -6009,8 +6072,8 @@ _CLOUDDATAMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14793,
-  serialized_end=14945,
+  serialized_start=14994,
+  serialized_end=15146,
 )
 
 
@@ -6055,8 +6118,8 @@ _CALFRAMES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14948,
-  serialized_end=15098,
+  serialized_start=15149,
+  serialized_end=15299,
 )
 
 
@@ -6115,8 +6178,8 @@ _CALFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15101,
-  serialized_end=15297,
+  serialized_start=15302,
+  serialized_end=15498,
 )
 
 
@@ -6154,8 +6217,8 @@ _BOUNDINGBOX = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15299,
-  serialized_end=15384,
+  serialized_start=15500,
+  serialized_end=15585,
 )
 
 
@@ -6221,8 +6284,8 @@ _DEPTHFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15386,
-  serialized_end=15493,
+  serialized_start=15587,
+  serialized_end=15694,
 )
 
 
@@ -6267,8 +6330,8 @@ _PROGRESSMSG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15495,
-  serialized_end=15557,
+  serialized_start=15696,
+  serialized_end=15758,
 )
 
 
@@ -6376,8 +6439,8 @@ _SHOE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15560,
-  serialized_end=15755,
+  serialized_start=15761,
+  serialized_end=15956,
 )
 
 
@@ -6408,8 +6471,8 @@ _EANLIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15757,
-  serialized_end=15779,
+  serialized_start=15958,
+  serialized_end=15980,
 )
 
 
@@ -6440,8 +6503,8 @@ _SEARCHBRANCH = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15781,
-  serialized_end=15811,
+  serialized_start=15982,
+  serialized_end=16012,
 )
 
 
@@ -6493,8 +6556,8 @@ _POINTCLOUDDATAREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15813,
-  serialized_end=15926,
+  serialized_start=16014,
+  serialized_end=16127,
 )
 
 
@@ -6574,8 +6637,8 @@ _POINTCLOUDDATA = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15929,
-  serialized_end=16189,
+  serialized_start=16130,
+  serialized_end=16390,
 )
 
 
@@ -6613,8 +6676,8 @@ _POINTCLOUDDATAFRAMES = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16191,
-  serialized_end=16274,
+  serialized_start=16392,
+  serialized_end=16475,
 )
 
 
@@ -6666,8 +6729,8 @@ _XYZI = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16276,
-  serialized_end=16327,
+  serialized_start=16477,
+  serialized_end=16528,
 )
 
 _BRANDSALERECORDSQUERY.fields_by_name['query'].message_type = _REPORTQUERY
@@ -7643,8 +7706,8 @@ _REPORTS = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=17091,
-  serialized_end=17885,
+  serialized_start=17292,
+  serialized_end=18086,
   methods=[
   _descriptor.MethodDescriptor(
     name='GetDashboardReport',
@@ -7759,8 +7822,8 @@ _COMPANIES = _descriptor.ServiceDescriptor(
   index=1,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=17888,
-  serialized_end=18639,
+  serialized_start=18089,
+  serialized_end=18840,
   methods=[
   _descriptor.MethodDescriptor(
     name='getCompanies',
@@ -7895,8 +7958,8 @@ _SHOES = _descriptor.ServiceDescriptor(
   index=2,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=18642,
-  serialized_end=19387,
+  serialized_start=18843,
+  serialized_end=19588,
   methods=[
   _descriptor.MethodDescriptor(
     name='getShoes',
@@ -8031,8 +8094,8 @@ _USERS = _descriptor.ServiceDescriptor(
   index=3,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=19390,
-  serialized_end=19856,
+  serialized_start=19591,
+  serialized_end=20057,
   methods=[
   _descriptor.MethodDescriptor(
     name='login',
@@ -8127,8 +8190,8 @@ _CUSTOMERS = _descriptor.ServiceDescriptor(
   index=4,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=19859,
-  serialized_end=20320,
+  serialized_start=20060,
+  serialized_end=20521,
   methods=[
   _descriptor.MethodDescriptor(
     name='getCustomers',
@@ -8213,8 +8276,8 @@ _DATA = _descriptor.ServiceDescriptor(
   index=5,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=20323,
-  serialized_end=21023,
+  serialized_start=20524,
+  serialized_end=21224,
   methods=[
   _descriptor.MethodDescriptor(
     name='getShoeTrialResults',
@@ -8319,8 +8382,8 @@ _CONFIGURATION = _descriptor.ServiceDescriptor(
   index=6,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=21026,
-  serialized_end=21219,
+  serialized_start=21227,
+  serialized_end=21420,
   methods=[
   _descriptor.MethodDescriptor(
     name='getCurrentConfigurationSettings',
@@ -8355,8 +8418,8 @@ _CAPTUREENGINEGRPC = _descriptor.ServiceDescriptor(
   index=7,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=21221,
-  serialized_end=21326,
+  serialized_start=21422,
+  serialized_end=21527,
   methods=[
   _descriptor.MethodDescriptor(
     name='GetPointCloudData',

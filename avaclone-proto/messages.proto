@@ -40,9 +40,18 @@
   }
 
   message DataResponse {
-      string result = 1;
-      string memory = 2;
-      string disk = 3;
+      string total_disk = 1;
+      string free_disk = 2;
+      string used_disk = 3;
+      string disk_percent = 4;
+      string total_memory = 5;
+      string free_memory = 6;
+      string used_memory = 7;
+      string memory_percent = 8;
+      string cert_valid = 9;
+      bytes cert = 10;
+      string fullchain_valid = 11;
+      bytes fullchain = 12;
   }
  
  message BrandSaleRecordsQuery {
